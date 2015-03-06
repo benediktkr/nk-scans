@@ -1,0 +1,310 @@
+# Nmap 6.00 scan initiated Sun Jan  4 21:00:01 2015 as: /usr/bin/nmap -A -oN /crypted/home/benedikt/nk/nk-Star-KP.%d-%m-%Y.txt 175.45.176.0/22
+Warning: 175.45.178.186 giving up on port because retransmission cap hit (10).
+Nmap scan report for naenara.com.kp (175.45.176.67)
+Host is up (0.35s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE VERSION
+80/tcp  open  http    Apache httpd
+|_http-methods: No Allow or Public header in OPTIONS response (status code 302)
+110/tcp open  pop3?
+
+Nmap scan report for 175.45.176.68
+Host is up (0.35s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd
+|_http-methods: No Allow or Public header in OPTIONS response (status code 302)
+
+Nmap scan report for 175.45.176.73
+Host is up (0.35s latency).
+Not shown: 998 filtered ports
+PORT     STATE SERVICE VERSION
+80/tcp   open  http    Apache httpd 2.2.15 ((CentOS) mod_wsgi/3.2 Python/2.6.6 PHP/5.3.3 mod_perl/2.0.4 Perl/v5.10.1 mod_antiloris/0.4)
+|_http-title: \xEC\xA1\xB0\xEC\x84\xA0\xEC\x9D\x98 \xEC\x86\x8C\xEB\xA6\xAC
+|_http-methods: No Allow or Public header in OPTIONS response (status code 302)
+1935/tcp open  rtmp?
+
+Nmap scan report for 175.45.176.75
+Host is up (0.35s latency).
+Not shown: 998 filtered ports
+PORT     STATE SERVICE VERSION
+80/tcp   open  http    Apache httpd 2.2.15 ((CentOS) mod_wsgi/3.2 Python/2.6.6 PHP/5.3.3 mod_perl/2.0.4 Perl/v5.10.1 mod_antiloris/0.4)
+|_http-methods: No Allow or Public header in OPTIONS response (status code 302)
+|_http-title: \xEC\xA1\xB0\xEC\x84\xA0\xEC\x9D\x98 \xEC\x86\x8C\xEB\xA6\xAC
+1935/tcp open  rtmp?
+
+Nmap scan report for 175.45.176.79
+Host is up (0.34s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd
+
+Nmap scan report for 175.45.177.78
+Host is up (0.35s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd
+|_http-methods: No Allow or Public header in OPTIONS response (status code 302)
+
+Nmap scan report for 175.45.178.140
+Host is up (0.35s latency).
+Not shown: 997 filtered ports
+PORT      STATE SERVICE        VERSION
+443/tcp   open  https?
+3389/tcp  open  ms-wbt-server?
+49154/tcp open  msrpc          Microsoft Windows RPC
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 175.45.178.142
+Host is up (0.35s latency).
+Not shown: 993 closed ports
+PORT     STATE    SERVICE        VERSION
+22/tcp   open     ssh            Cisco SSH 1.25 (protocol 1.99)
+|_sshv1: Server supports SSHv1
+|_ssh-hostkey: 1024 ac:2f:68:9c:2f:a2:b5:2b:09:ce:87:b3:37:bb:3e:ee (RSA1)
+23/tcp   open     telnet         Cisco router telnetd
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+4444/tcp filtered krb524
+Service Info: OS: IOS; Device: router; CPE: cpe:/o:cisco:ios
+
+Nmap scan report for 175.45.178.166
+Host is up (0.35s latency).
+Not shown: 994 closed ports
+PORT     STATE    SERVICE        VERSION
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+4444/tcp filtered krb524
+5060/tcp open     sip            Mediant 4000/v.6.80A.231.002 (Status: 200 OK)
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+SF-Port5060-TCP:V=6.00%I=7%D=1/4%Time=54A9AD64%P=x86_64-unknown-linux-gnu%
+SF:r(SIPOptions,FF,"SIP/2\.0\x20200\x20OK\r\nVia:\x20SIP/2\.0/TCP\x20nm;br
+SF:anch=foo\r\nFrom:\x20<sip:nm@nm>;tag=root\r\nTo:\x20<sip:nm2@nm2>;tag=1
+SF:c1020563685\r\nCall-ID:\x2050000\r\nCSeq:\x2042\x20OPTIONS\r\nContact:\
+SF:x20<sip:175\.45\.178\.166:5060;transport=tcp>\r\nServer:\x20Mediant\x20
+SF:4000/v\.6\.80A\.231\.002\r\nContent-Length:\x200\r\n\r\n");
+
+Nmap scan report for 175.45.178.178
+Host is up (0.35s latency).
+Not shown: 992 closed ports
+PORT     STATE    SERVICE        VERSION
+80/tcp   filtered http
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+443/tcp  open     ssl/http       Apache httpd 2.2.15 ((Red Hat))
+| ssl-cert: Subject: commonName=NetRadar/organizationName=NeoTech/stateOrProvinceName=XX/countryName=XX
+| Not valid before: 2014-09-04 15:54:32
+|_Not valid after:  2044-08-27 15:54:32
+|_http-methods: No Allow or Public header in OPTIONS response (status code 200)
+|_http-title: Site doesn't have a title (text/html; charset=UTF-8).
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+3306/tcp filtered mysql
+4444/tcp filtered krb524
+
+Nmap scan report for 175.45.178.180
+Host is up (0.35s latency).
+Not shown: 991 closed ports
+PORT     STATE    SERVICE        VERSION
+22/tcp   open     ssh            OpenSSH 5.3 (protocol 2.0)
+| ssh-hostkey: 1024 46:39:de:cc:6d:bf:10:11:77:8b:fe:3c:16:7e:53:f0 (DSA)
+|_2048 42:0f:06:f8:4b:9f:7c:b6:ef:14:f5:f2:b7:55:5a:5b (RSA)
+80/tcp   open     http?
+|_http-title: Test Page for the Apache HTTP Server on Red Hat Enterprise Linux
+| http-methods: Potentially risky methods: TRACE
+|_See http://nmap.org/nsedoc/scripts/http-methods.html
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+3306/tcp open     mysql          MySQL (unauthorized)
+4444/tcp filtered krb524
+6000/tcp open     X11?
+
+Nmap scan report for 175.45.178.181
+Host is up (0.35s latency).
+Not shown: 987 closed ports
+PORT      STATE    SERVICE        VERSION
+22/tcp    open     ssh            OpenSSH 5.3 (protocol 2.0)
+| ssh-hostkey: 1024 46:39:de:cc:6d:bf:10:11:77:8b:fe:3c:16:7e:53:f0 (DSA)
+|_2048 42:0f:06:f8:4b:9f:7c:b6:ef:14:f5:f2:b7:55:5a:5b (RSA)
+80/tcp    open     http           Apache httpd 2.2.15 ((Red Hat))
+| http-methods: Potentially risky methods: TRACE
+|_See http://nmap.org/nsedoc/scripts/http-methods.html
+|_http-title: Test Page for the Apache HTTP Server on Red Hat Enterprise Linux
+135/tcp   filtered msrpc
+139/tcp   filtered netbios-ssn
+445/tcp   filtered microsoft-ds
+593/tcp   filtered http-rpc-epmap
+749/tcp   filtered kerberos-adm
+2222/tcp  filtered EtherNet/IP-1
+3306/tcp  open     mysql          MySQL (unauthorized)
+4242/tcp  filtered vrml-multi-use
+4444/tcp  filtered krb524
+6000/tcp  open     X11            (access denied)
+19842/tcp filtered unknown
+Service Info: OS: Unix
+
+Nmap scan report for 175.45.178.182
+Host is up (0.36s latency).
+Not shown: 990 closed ports
+PORT     STATE    SERVICE        VERSION
+22/tcp   open     ssh            OpenSSH 5.3 (protocol 2.0)
+| ssh-hostkey: 1024 46:39:de:cc:6d:bf:10:11:77:8b:fe:3c:16:7e:53:f0 (DSA)
+|_2048 42:0f:06:f8:4b:9f:7c:b6:ef:14:f5:f2:b7:55:5a:5b (RSA)
+80/tcp   open     http           Apache httpd 2.2.15 ((Red Hat))
+|_http-title: Test Page for the Apache HTTP Server on Red Hat Enterprise Linux
+| http-methods: Potentially risky methods: TRACE
+|_See http://nmap.org/nsedoc/scripts/http-methods.html
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+1580/tcp filtered tn-tl-r1
+3306/tcp open     mysql          MySQL (unauthorized)
+4444/tcp filtered krb524
+6000/tcp open     X11            (access denied)
+Service Info: OS: Unix
+
+Nmap scan report for 175.45.178.183
+Host is up (0.35s latency).
+Not shown: 991 closed ports
+PORT     STATE    SERVICE        VERSION
+22/tcp   open     ssh            OpenSSH 5.3 (protocol 2.0)
+|_ssh-hostkey: 1024 46:39:de:cc:6d:bf:10:11:77:8b:fe:3c:16:7e:53:f0 (DSA)
+80/tcp   open     http           Apache httpd 2.2.15 ((Red Hat))
+| http-methods: Potentially risky methods: TRACE
+|_See http://nmap.org/nsedoc/scripts/http-methods.html
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+3306/tcp open     mysql?
+| mysql-info: MySQL Error detected!
+| Error Code was: 1130
+|_Host 'nullspace.sudo.is' is not allowed to connect to this MySQL server
+4444/tcp filtered krb524
+6000/tcp open     X11?
+
+Nmap scan report for 175.45.178.185
+Host is up (0.35s latency).
+Not shown: 986 closed ports
+PORT     STATE    SERVICE        VERSION
+22/tcp   open     ssh            OpenSSH 5.3 (protocol 2.0)
+| ssh-hostkey: 1024 46:39:de:cc:6d:bf:10:11:77:8b:fe:3c:16:7e:53:f0 (DSA)
+|_2048 42:0f:06:f8:4b:9f:7c:b6:ef:14:f5:f2:b7:55:5a:5b (RSA)
+80/tcp   open     http           Apache httpd 2.2.15 ((Red Hat))
+| http-methods: Potentially risky methods: TRACE
+|_See http://nmap.org/nsedoc/scripts/http-methods.html
+|_http-title: Test Page for the Apache HTTP Server on Red Hat Enterprise Linux
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+880/tcp  filtered unknown
+1043/tcp filtered boinc
+1057/tcp filtered startron
+3306/tcp open     mysql          MySQL (unauthorized)
+4444/tcp filtered krb524
+5003/tcp filtered filemaker
+6000/tcp open     X11            (access denied)
+8011/tcp filtered unknown
+Service Info: OS: Unix
+
+Nmap scan report for 175.45.178.186
+Host is up (0.35s latency).
+Not shown: 990 closed ports
+PORT     STATE    SERVICE        VERSION
+22/tcp   open     ssh            OpenSSH 5.3 (protocol 2.0)
+| ssh-hostkey: 1024 46:39:de:cc:6d:bf:10:11:77:8b:fe:3c:16:7e:53:f0 (DSA)
+|_2048 42:0f:06:f8:4b:9f:7c:b6:ef:14:f5:f2:b7:55:5a:5b (RSA)
+80/tcp   open     http           Apache httpd 2.2.15 ((Red Hat))
+|_http-title: Test Page for the Apache HTTP Server on Red Hat Enterprise Linux
+| http-methods: Potentially risky methods: TRACE
+|_See http://nmap.org/nsedoc/scripts/http-methods.html
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+1186/tcp filtered mysql-cluster
+3306/tcp open     mysql          MySQL (unauthorized)
+4444/tcp filtered krb524
+6000/tcp filtered X11
+
+Nmap scan report for 175.45.178.187
+Host is up (0.35s latency).
+Not shown: 982 closed ports
+PORT      STATE    SERVICE        VERSION
+7/tcp     filtered echo
+22/tcp    open     ssh            OpenSSH 5.3 (protocol 2.0)
+| ssh-hostkey: 1024 46:39:de:cc:6d:bf:10:11:77:8b:fe:3c:16:7e:53:f0 (DSA)
+|_2048 42:0f:06:f8:4b:9f:7c:b6:ef:14:f5:f2:b7:55:5a:5b (RSA)
+80/tcp    open     http           Apache httpd 2.2.15 ((Red Hat))
+|_http-title: Test Page for the Apache HTTP Server on Red Hat Enterprise Linux
+| http-methods: Potentially risky methods: TRACE
+|_See http://nmap.org/nsedoc/scripts/http-methods.html
+135/tcp   filtered msrpc
+139/tcp   filtered netbios-ssn
+445/tcp   filtered microsoft-ds
+593/tcp   filtered http-rpc-epmap
+1043/tcp  filtered boinc
+1063/tcp  filtered kyoceranetdev
+2002/tcp  filtered globe
+3306/tcp  open     mysql          MySQL (unauthorized)
+3517/tcp  filtered 802-11-iapp
+3905/tcp  filtered mupdate
+4444/tcp  filtered krb524
+6000/tcp  open     X11            (access denied)
+7007/tcp  filtered afs3-bos
+13456/tcp filtered unknown
+56737/tcp filtered unknown
+Service Info: OS: Unix
+
+Nmap scan report for 175.45.178.188
+Host is up (0.35s latency).
+Not shown: 988 closed ports
+PORT     STATE    SERVICE        VERSION
+22/tcp   open     ssh            OpenSSH 5.3 (protocol 2.0)
+| ssh-hostkey: 1024 46:39:de:cc:6d:bf:10:11:77:8b:fe:3c:16:7e:53:f0 (DSA)
+|_2048 42:0f:06:f8:4b:9f:7c:b6:ef:14:f5:f2:b7:55:5a:5b (RSA)
+80/tcp   open     http           Apache httpd 2.2.15 ((Red Hat))
+|_http-title: Test Page for the Apache HTTP Server on Red Hat Enterprise Linux
+| http-methods: Potentially risky methods: TRACE
+|_See http://nmap.org/nsedoc/scripts/http-methods.html
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+3306/tcp open     mysql          MySQL (unauthorized)
+4444/tcp filtered krb524
+6000/tcp open     X11            (access denied)
+6969/tcp filtered acmsoda
+8021/tcp filtered ftp-proxy
+9090/tcp filtered zeus-admin
+Service Info: OS: Unix
+
+Post-scan script results:
+| ssh-hostkey: Possible duplicate hosts
+| Key 1024 46:39:de:cc:6d:bf:10:11:77:8b:fe:3c:16:7e:53:f0 (DSA) used by:
+|   175.45.178.180
+|   175.45.178.181
+|   175.45.178.182
+|   175.45.178.183
+|   175.45.178.185
+|   175.45.178.186
+|   175.45.178.187
+|   175.45.178.188
+| Key 2048 42:0f:06:f8:4b:9f:7c:b6:ef:14:f5:f2:b7:55:5a:5b (RSA) used by:
+|   175.45.178.180
+|   175.45.178.181
+|   175.45.178.182
+|   175.45.178.185
+|   175.45.178.186
+|   175.45.178.187
+|_  175.45.178.188
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+# Nmap done at Sun Jan  4 21:18:38 2015 -- 1024 IP addresses (18 hosts up) scanned in 1116.97 seconds

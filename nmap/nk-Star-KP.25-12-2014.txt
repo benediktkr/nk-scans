@@ -1,0 +1,187 @@
+# Nmap 6.00 scan initiated Thu Dec 25 02:32:45 2014 as: /usr/bin/nmap -A -oN /crypted/home/benedikt/nk/nk-Star-KP.%d-%m-%Y.txt 175.45.176.0/22
+Nmap scan report for smtp.star-co.net.kp (175.45.176.10)
+Host is up (0.29s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE VERSION
+25/tcp open  smtp    Cisco PIX sanitized smtpd
+|_smtp-commands: Couldn't establish connection on port 25
+Service Info: Device: firewall
+
+Nmap scan report for naenara.com.kp (175.45.176.67)
+Host is up (0.35s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE VERSION
+80/tcp  open  http?
+110/tcp open  pop3?
+
+Nmap scan report for 175.45.176.68
+Host is up (0.35s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http?
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+SF-Port80-TCP:V=6.00%I=7%D=12/25%Time=549B8632%P=x86_64-unknown-linux-gnu%
+SF:r(GetRequest,22B,"HTTP/1\.0\x20200\x20OK\r\nConnection:\x20Close\r\nPra
+SF:gma:\x20no-cache\r\ncache-control:\x20no-cache\r\nRefresh:\x200\.1\r\nC
+SF:ontent-Type:\x20text/html;\x20charset=iso-8859-1\r\n\r\n<!DOCTYPE\x20ht
+SF:ml\x20PUBLIC\x20\"-//W3C//DTD\x20HTML\x204\.01//EN\"\x20\"http://www\.w
+SF:3\.org/TR/1999/REC-html401-19991224/strict\.dtd\">\r\n<!--\x20<!DOCTYPE
+SF:\x20HTML\x20PUBLIC\x20\"-//W3C//DTD\x20HTML\x204\.01//EN\"\r\n\"http://
+SF:www\.w3\.org/TR/html4/strict\.dtd\">\x20-->\r\n<HTML>\r\n<HEAD>\r\n<MET
+SF:A\x20HTTP-EQUIV=\"Refresh\"\x20CONTENT=\"0\.1\">\r\n<META\x20HTTP-EQUIV
+SF:=\"Pragma\"\x20CONTENT=\"no-cache\">\r\n<META\x20HTTP-EQUIV=\"Expires\"
+SF:\x20CONTENT=\"-1\">\r\n<TITLE></TITLE>\r\n</HEAD>\r\n<BODY><P></BODY>\r
+SF:\n</HTML>\r\n");
+
+Nmap scan report for 175.45.176.71
+Host is up (0.36s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http?
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+SF-Port80-TCP:V=6.00%I=7%D=12/25%Time=549B8632%P=x86_64-unknown-linux-gnu%
+SF:r(GetRequest,22B,"HTTP/1\.0\x20200\x20OK\r\nConnection:\x20Close\r\nPra
+SF:gma:\x20no-cache\r\ncache-control:\x20no-cache\r\nRefresh:\x200\.1\r\nC
+SF:ontent-Type:\x20text/html;\x20charset=iso-8859-1\r\n\r\n<!DOCTYPE\x20ht
+SF:ml\x20PUBLIC\x20\"-//W3C//DTD\x20HTML\x204\.01//EN\"\x20\"http://www\.w
+SF:3\.org/TR/1999/REC-html401-19991224/strict\.dtd\">\r\n<!--\x20<!DOCTYPE
+SF:\x20HTML\x20PUBLIC\x20\"-//W3C//DTD\x20HTML\x204\.01//EN\"\r\n\"http://
+SF:www\.w3\.org/TR/html4/strict\.dtd\">\x20-->\r\n<HTML>\r\n<HEAD>\r\n<MET
+SF:A\x20HTTP-EQUIV=\"Refresh\"\x20CONTENT=\"0\.1\">\r\n<META\x20HTTP-EQUIV
+SF:=\"Pragma\"\x20CONTENT=\"no-cache\">\r\n<META\x20HTTP-EQUIV=\"Expires\"
+SF:\x20CONTENT=\"-1\">\r\n<TITLE></TITLE>\r\n</HEAD>\r\n<BODY><P></BODY>\r
+SF:\n</HTML>\r\n");
+
+Nmap scan report for 175.45.176.73
+Host is up (0.33s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http?
+
+Nmap scan report for 175.45.176.75
+Host is up (0.35s latency).
+Not shown: 998 filtered ports
+PORT     STATE SERVICE VERSION
+80/tcp   open  http?
+|_http-methods: No Allow or Public header in OPTIONS response (status code 302)
+|_http-title: \xEC\xA1\xB0\xEC\x84\xA0\xEC\x9D\x98 \xEC\x86\x8C\xEB\xA6\xAC
+1935/tcp open  rtmp?
+
+Nmap scan report for 175.45.176.79
+Host is up (0.35s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd
+
+Nmap scan report for 175.45.177.74
+Host is up (0.35s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http?
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+SF-Port80-TCP:V=6.00%I=7%D=12/25%Time=549B8632%P=x86_64-unknown-linux-gnu%
+SF:r(GetRequest,22B,"HTTP/1\.0\x20200\x20OK\r\nConnection:\x20Close\r\nPra
+SF:gma:\x20no-cache\r\ncache-control:\x20no-cache\r\nRefresh:\x200\.1\r\nC
+SF:ontent-Type:\x20text/html;\x20charset=iso-8859-1\r\n\r\n<!DOCTYPE\x20ht
+SF:ml\x20PUBLIC\x20\"-//W3C//DTD\x20HTML\x204\.01//EN\"\x20\"http://www\.w
+SF:3\.org/TR/1999/REC-html401-19991224/strict\.dtd\">\r\n<!--\x20<!DOCTYPE
+SF:\x20HTML\x20PUBLIC\x20\"-//W3C//DTD\x20HTML\x204\.01//EN\"\r\n\"http://
+SF:www\.w3\.org/TR/html4/strict\.dtd\">\x20-->\r\n<HTML>\r\n<HEAD>\r\n<MET
+SF:A\x20HTTP-EQUIV=\"Refresh\"\x20CONTENT=\"0\.1\">\r\n<META\x20HTTP-EQUIV
+SF:=\"Pragma\"\x20CONTENT=\"no-cache\">\r\n<META\x20HTTP-EQUIV=\"Expires\"
+SF:\x20CONTENT=\"-1\">\r\n<TITLE></TITLE>\r\n</HEAD>\r\n<BODY><P></BODY>\r
+SF:\n</HTML>\r\n");
+
+Nmap scan report for 175.45.177.77
+Host is up (0.35s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE VERSION
+80/tcp  open  http?
+110/tcp open  pop3?
+
+Nmap scan report for 175.45.177.78
+Host is up (0.35s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http?
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+SF-Port80-TCP:V=6.00%I=7%D=12/25%Time=549B8632%P=x86_64-unknown-linux-gnu%
+SF:r(GetRequest,22B,"HTTP/1\.0\x20200\x20OK\r\nConnection:\x20Close\r\nPra
+SF:gma:\x20no-cache\r\ncache-control:\x20no-cache\r\nRefresh:\x200\.1\r\nC
+SF:ontent-Type:\x20text/html;\x20charset=iso-8859-1\r\n\r\n<!DOCTYPE\x20ht
+SF:ml\x20PUBLIC\x20\"-//W3C//DTD\x20HTML\x204\.01//EN\"\x20\"http://www\.w
+SF:3\.org/TR/1999/REC-html401-19991224/strict\.dtd\">\r\n<!--\x20<!DOCTYPE
+SF:\x20HTML\x20PUBLIC\x20\"-//W3C//DTD\x20HTML\x204\.01//EN\"\r\n\"http://
+SF:www\.w3\.org/TR/html4/strict\.dtd\">\x20-->\r\n<HTML>\r\n<HEAD>\r\n<MET
+SF:A\x20HTTP-EQUIV=\"Refresh\"\x20CONTENT=\"0\.1\">\r\n<META\x20HTTP-EQUIV
+SF:=\"Pragma\"\x20CONTENT=\"no-cache\">\r\n<META\x20HTTP-EQUIV=\"Expires\"
+SF:\x20CONTENT=\"-1\">\r\n<TITLE></TITLE>\r\n</HEAD>\r\n<BODY><P></BODY>\r
+SF:\n</HTML>\r\n");
+
+Nmap scan report for 175.45.178.140
+Host is up (0.35s latency).
+Not shown: 997 filtered ports
+PORT      STATE SERVICE        VERSION
+443/tcp   open  https?
+3389/tcp  open  ms-wbt-server?
+49154/tcp open  msrpc          Microsoft Windows RPC
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 175.45.178.161
+Host is up (0.35s latency).
+Not shown: 985 closed ports
+PORT      STATE    SERVICE        VERSION
+106/tcp   filtered pop3pw
+135/tcp   filtered msrpc
+139/tcp   filtered netbios-ssn
+445/tcp   filtered microsoft-ds
+593/tcp   filtered http-rpc-epmap
+720/tcp   filtered unknown
+1322/tcp  filtered novation
+2020/tcp  filtered xinupageserver
+2191/tcp  filtered tvbus
+4444/tcp  filtered krb524
+5054/tcp  filtered rlm-admin
+7676/tcp  filtered imqbrokerd
+8652/tcp  filtered unknown
+15004/tcp filtered unknown
+16012/tcp filtered unknown
+
+Nmap scan report for 175.45.178.166
+Host is up (0.35s latency).
+Not shown: 994 closed ports
+PORT     STATE    SERVICE        VERSION
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+4444/tcp filtered krb524
+5060/tcp open     sip            Mediant 4000/v.6.80A.231.002 (Status: 200 OK)
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+SF-Port5060-TCP:V=6.00%I=7%D=12/25%Time=549B863E%P=x86_64-unknown-linux-gn
+SF:u%r(SIPOptions,FF,"SIP/2\.0\x20200\x20OK\r\nVia:\x20SIP/2\.0/TCP\x20nm;
+SF:branch=foo\r\nFrom:\x20<sip:nm@nm>;tag=root\r\nTo:\x20<sip:nm2@nm2>;tag
+SF:=1c1443300346\r\nCall-ID:\x2050000\r\nCSeq:\x2042\x20OPTIONS\r\nContact
+SF::\x20<sip:175\.45\.178\.166:5060;transport=tcp>\r\nServer:\x20Mediant\x
+SF:204000/v\.6\.80A\.231\.002\r\nContent-Length:\x200\r\n\r\n");
+
+Nmap scan report for 175.45.178.169
+Host is up (0.35s latency).
+Not shown: 987 closed ports
+PORT     STATE    SERVICE        VERSION
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+563/tcp  filtered snews
+593/tcp  filtered http-rpc-epmap
+1216/tcp filtered etebac5
+2001/tcp filtered dc
+2041/tcp filtered interbase
+4444/tcp filtered krb524
+5004/tcp filtered avt-profile-1
+5298/tcp filtered presence
+7004/tcp filtered afs3-kaserver
+8010/tcp filtered xmpp
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+# Nmap done at Thu Dec 25 03:41:28 2014 -- 1024 IP addresses (14 hosts up) scanned in 4122.72 seconds

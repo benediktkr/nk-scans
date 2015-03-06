@@ -1,0 +1,67 @@
+# Nmap 6.00 scan initiated Tue Jan  6 21:00:01 2015 as: /usr/bin/nmap -A -oN /crypted/home/benedikt/nk/nk-Star-KP.%d-%m-%Y.txt 175.45.176.0/22
+Nmap scan report for naenara.com.kp (175.45.176.67)
+Host is up (0.33s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE VERSION
+80/tcp  open  http    Apache httpd
+|_http-methods: No Allow or Public header in OPTIONS response (status code 302)
+110/tcp open  pop3?
+
+Nmap scan report for 175.45.176.68
+Host is up (0.34s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd
+|_http-methods: No Allow or Public header in OPTIONS response (status code 302)
+
+Nmap scan report for 175.45.176.73
+Host is up (0.34s latency).
+Not shown: 998 filtered ports
+PORT     STATE SERVICE VERSION
+80/tcp   open  http    Apache httpd 2.2.15 ((CentOS) mod_wsgi/3.2 Python/2.6.6 PHP/5.3.3 mod_perl/2.0.4 Perl/v5.10.1 mod_antiloris/0.4)
+|_http-methods: No Allow or Public header in OPTIONS response (status code 302)
+|_http-title: \xEC\xA1\xB0\xEC\x84\xA0\xEC\x9D\x98 \xEC\x86\x8C\xEB\xA6\xAC
+1935/tcp open  rtmp?
+
+Nmap scan report for 175.45.176.75
+Host is up (0.34s latency).
+Not shown: 998 filtered ports
+PORT     STATE SERVICE VERSION
+80/tcp   open  http    Apache httpd 2.2.15 ((CentOS) mod_wsgi/3.2 Python/2.6.6 PHP/5.3.3 mod_perl/2.0.4 Perl/v5.10.1 mod_antiloris/0.4)
+|_http-methods: No Allow or Public header in OPTIONS response (status code 302)
+|_http-title: \xEC\xA1\xB0\xEC\x84\xA0\xEC\x9D\x98 \xEC\x86\x8C\xEB\xA6\xAC
+1935/tcp open  rtmp?
+
+Nmap scan report for 175.45.176.79
+Host is up (0.33s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd
+
+Nmap scan report for 175.45.177.78
+Host is up (0.32s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd
+|_http-methods: No Allow or Public header in OPTIONS response (status code 302)
+
+Nmap scan report for 175.45.178.166
+Host is up (0.35s latency).
+Not shown: 994 closed ports
+PORT     STATE    SERVICE        VERSION
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+4444/tcp filtered krb524
+5060/tcp open     sip            Mediant 4000/v.6.80A.231.002 (Status: 200 OK)
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+SF-Port5060-TCP:V=6.00%I=7%D=1/6%Time=54AC4D67%P=x86_64-unknown-linux-gnu%
+SF:r(SIPOptions,FE,"SIP/2\.0\x20200\x20OK\r\nVia:\x20SIP/2\.0/TCP\x20nm;br
+SF:anch=foo\r\nFrom:\x20<sip:nm@nm>;tag=root\r\nTo:\x20<sip:nm2@nm2>;tag=1
+SF:c946692383\r\nCall-ID:\x2050000\r\nCSeq:\x2042\x20OPTIONS\r\nContact:\x
+SF:20<sip:175\.45\.178\.166:5060;transport=tcp>\r\nServer:\x20Mediant\x204
+SF:000/v\.6\.80A\.231\.002\r\nContent-Length:\x200\r\n\r\n");
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+# Nmap done at Tue Jan  6 21:04:39 2015 -- 1024 IP addresses (7 hosts up) scanned in 277.64 seconds

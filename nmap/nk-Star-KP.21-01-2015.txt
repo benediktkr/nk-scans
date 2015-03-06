@@ -1,0 +1,11 @@
+# Nmap 6.00 scan initiated Wed Jan 21 21:00:01 2015 as: /usr/bin/nmap -A -oN /crypted/home/benedikt/nk/nk-Star-KP.%d-%m-%Y.txt 175.45.176.0/22
+Nmap scan report for 175.45.176.10
+Host is up (0.71s latency).
+All 1000 scanned ports on 175.45.176.10 are filtered
+
+Nmap scan report for 175.45.176.71
+Host is up (0.98s latency).
+All 1000 scanned ports on 175.45.176.71 are filtered
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+# Nmap done at Wed Jan 21 23:08:23 2015 -- 1024 IP addresses (2 hosts up) scanned in 7701.58 seconds

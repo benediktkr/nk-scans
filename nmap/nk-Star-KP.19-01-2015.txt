@@ -1,0 +1,173 @@
+# Nmap 6.00 scan initiated Mon Jan 19 21:00:01 2015 as: /usr/bin/nmap -A -oN /crypted/home/benedikt/nk/nk-Star-KP.%d-%m-%Y.txt 175.45.176.0/22
+Nmap scan report for smtp.star-co.net.kp (175.45.176.10)
+Host is up (0.29s latency).
+Not shown: 959 filtered ports
+PORT      STATE SERVICE          VERSION
+25/tcp    open  smtp?
+|_smtp-commands: Couldn't establish connection on port 25
+366/tcp   open  odmr?
+543/tcp   open  klogin?
+555/tcp   open  dsf?
+880/tcp   open  unknown
+1026/tcp  open  LSA-or-nterm?
+1048/tcp  open  neod2?
+1068/tcp  open  instl_bootc?
+1071/tcp  open  bsquare-voip?
+1089/tcp  open  ff-annunc?
+1105/tcp  open  ftranhc?
+1322/tcp  open  novation?
+1533/tcp  open  virtual-places?
+1801/tcp  open  msmq?
+1839/tcp  open  netopia-vo1?
+1900/tcp  open  upnp?
+1914/tcp  open  elm-momentum?
+2033/tcp  open  glogger?
+2034/tcp  open  scoremgr?
+2065/tcp  open  dlsrpn?
+2179/tcp  open  vmrdp?
+2998/tcp  open  iss-realsec?
+3006/tcp  open  deslogind?
+3905/tcp  open  mupdate?
+4443/tcp  open  pharos?
+5357/tcp  open  wsdapi?
+5810/tcp  open  unknown
+6009/tcp  open  X11:9?
+7004/tcp  open  afs3-kaserver?
+7201/tcp  open  dlip?
+8084/tcp  open  unknown
+8222/tcp  open  unknown
+9080/tcp  open  glrpc?
+9103/tcp  open  jetdirect?
+9593/tcp  open  cba8?
+10001/tcp open  scp-config?
+10082/tcp open  amandaidx?
+19283/tcp open  keysrvr?
+32780/tcp open  sometimes-rpc23?
+49165/tcp open  unknown
+49999/tcp open  unknown
+
+Nmap scan report for naenara.com.kp (175.45.176.67)
+Host is up (0.33s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE VERSION
+80/tcp  open  http?
+110/tcp open  pop3?
+
+Nmap scan report for 175.45.176.68
+Host is up (0.30s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http?
+
+Nmap scan report for 175.45.176.73
+Host is up (0.30s latency).
+Not shown: 998 filtered ports
+PORT     STATE SERVICE VERSION
+80/tcp   open  http?
+1935/tcp open  rtmp?
+
+Nmap scan report for 175.45.176.75
+Host is up (0.30s latency).
+Not shown: 998 filtered ports
+PORT     STATE SERVICE VERSION
+80/tcp   open  http?
+1935/tcp open  rtmp?
+
+Nmap scan report for 175.45.176.79
+Host is up (0.30s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http?
+
+Nmap scan report for 175.45.177.74
+Host is up (0.77s latency).
+All 1000 scanned ports on 175.45.177.74 are filtered
+
+Nmap scan report for 175.45.177.78
+Host is up (0.32s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http?
+
+Nmap scan report for 175.45.178.140
+Host is up (0.35s latency).
+Not shown: 998 filtered ports
+PORT      STATE SERVICE VERSION
+443/tcp   open  https?
+49154/tcp open  msrpc   Microsoft Windows RPC
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 175.45.178.142
+Host is up (0.35s latency).
+Not shown: 984 closed ports
+PORT      STATE    SERVICE        VERSION
+22/tcp    open     ssh            Cisco SSH 1.25 (protocol 1.99)
+| ssh-hostkey: 1024 ac:2f:68:9c:2f:a2:b5:2b:09:ce:87:b3:37:bb:3e:ee (RSA1)
+|_1024 3e:03:e3:75:20:ba:92:e9:2c:9a:d4:53:95:6b:a1:ea (RSA)
+|_sshv1: Server supports SSHv1
+23/tcp    open     telnet         Cisco router telnetd
+135/tcp   filtered msrpc
+139/tcp   filtered netbios-ssn
+340/tcp   filtered unknown
+445/tcp   filtered microsoft-ds
+497/tcp   filtered retrospect
+544/tcp   filtered kshell
+593/tcp   filtered http-rpc-epmap
+1216/tcp  filtered etebac5
+3325/tcp  filtered active-net
+4444/tcp  filtered krb524
+6059/tcp  filtered X11:59
+8100/tcp  filtered xprint-server
+17877/tcp filtered unknown
+49156/tcp filtered unknown
+Service Info: OS: IOS; Device: router; CPE: cpe:/o:cisco:ios
+
+Nmap scan report for 175.45.178.166
+Host is up (0.35s latency).
+Not shown: 981 closed ports
+PORT      STATE    SERVICE         VERSION
+135/tcp   filtered msrpc
+139/tcp   filtered netbios-ssn
+445/tcp   filtered microsoft-ds
+513/tcp   filtered login
+541/tcp   filtered uucp-rlogin
+593/tcp   filtered http-rpc-epmap
+1021/tcp  filtered exp1
+1038/tcp  filtered mtqp
+1117/tcp  filtered ardus-mtrns
+1244/tcp  filtered isbconference1
+1461/tcp  filtered ibm_wrless_lan
+2106/tcp  filtered ekshell
+2500/tcp  filtered rtsserv
+4444/tcp  filtered krb524
+5060/tcp  open     sip             Mediant 4000/v.6.80A.231.002 (Status: 200 OK)
+7002/tcp  filtered afs3-prserver
+8089/tcp  filtered unknown
+32774/tcp filtered sometimes-rpc11
+61532/tcp filtered unknown
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+SF-Port5060-TCP:V=6.00%I=7%D=1/19%Time=54BD8DDA%P=x86_64-unknown-linux-gnu
+SF:%r(SIPOptions,FE,"SIP/2\.0\x20200\x20OK\r\nVia:\x20SIP/2\.0/TCP\x20nm;b
+SF:ranch=foo\r\nFrom:\x20<sip:nm@nm>;tag=root\r\nTo:\x20<sip:nm2@nm2>;tag=
+SF:1c228568779\r\nCall-ID:\x2050000\r\nCSeq:\x2042\x20OPTIONS\r\nContact:\
+SF:x20<sip:175\.45\.178\.166:5060;transport=tcp>\r\nServer:\x20Mediant\x20
+SF:4000/v\.6\.80A\.231\.002\r\nContent-Length:\x200\r\n\r\n");
+
+Nmap scan report for 175.45.178.169
+Host is up (0.40s latency).
+Not shown: 989 closed ports
+PORT      STATE    SERVICE          VERSION
+135/tcp   filtered msrpc
+139/tcp   filtered netbios-ssn
+445/tcp   filtered microsoft-ds
+593/tcp   filtered http-rpc-epmap
+1130/tcp  filtered casp
+4444/tcp  filtered krb524
+5922/tcp  filtered unknown
+6788/tcp  filtered smc-http
+9418/tcp  filtered git
+10000/tcp filtered snet-sensor-mgmt
+16992/tcp filtered amt-soap-http
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+# Nmap done at Mon Jan 19 23:08:58 2015 -- 1024 IP addresses (12 hosts up) scanned in 7737.32 seconds

@@ -1,0 +1,1 @@
+# Nmap 6.00 scan initiated Wed Dec 24 01:59:15 2014 as: /usr/bin/nmap -A -oN nk-KTPC.%d-%m-%Y.txt 210.52.109.0/24

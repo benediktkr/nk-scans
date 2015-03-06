@@ -1,0 +1,159 @@
+# Nmap 6.00 scan initiated Thu Feb  5 21:00:01 2015 as: /usr/bin/nmap -A -oN /crypted/home/benedikt/nk/nk-Star-KP.%d-%m-%Y.txt 175.45.176.0/22
+Nmap scan report for naenara.com.kp (175.45.176.67)
+Host is up (0.35s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE VERSION
+80/tcp  open  http    Apache httpd 2.2.15 ((RedStar 3.0))
+|_http-methods: No Allow or Public header in OPTIONS response (status code 302)
+110/tcp open  pop3?
+
+Nmap scan report for 175.45.176.68
+Host is up (0.35s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.2.15 ((RedStar 3.0))
+|_http-methods: No Allow or Public header in OPTIONS response (status code 302)
+
+Nmap scan report for 175.45.176.73
+Host is up (0.35s latency).
+Not shown: 998 filtered ports
+PORT     STATE SERVICE VERSION
+80/tcp   open  http    Apache httpd 2.2.15 ((RedStar 3.0))
+|_http-methods: No Allow or Public header in OPTIONS response (status code 302)
+1935/tcp open  rtmp?
+
+Nmap scan report for 175.45.176.75
+Host is up (0.35s latency).
+Not shown: 998 filtered ports
+PORT     STATE SERVICE VERSION
+80/tcp   open  http    Apache httpd 2.2.15 ((RedStar 3.0))
+|_http-methods: No Allow or Public header in OPTIONS response (status code 302)
+1935/tcp open  rtmp?
+
+Nmap scan report for 175.45.176.79
+Host is up (0.35s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd
+
+Nmap scan report for 175.45.177.1
+Host is up (0.29s latency).
+Not shown: 990 closed ports
+PORT     STATE    SERVICE        VERSION
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+211/tcp  filtered 914c-g
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+726/tcp  filtered unknown
+3689/tcp filtered rendezvous
+4444/tcp filtered krb524
+5950/tcp filtered unknown
+6002/tcp filtered X11:2
+
+Nmap scan report for 175.45.177.2
+Host is up (0.36s latency).
+Not shown: 995 closed ports
+PORT     STATE    SERVICE        VERSION
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+4444/tcp filtered krb524
+
+Nmap scan report for 175.45.177.17
+Host is up (0.35s latency).
+Not shown: 991 closed ports
+PORT     STATE    SERVICE        VERSION
+88/tcp   filtered kerberos-sec
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+1060/tcp filtered polestar
+2033/tcp filtered glogger
+4444/tcp filtered krb524
+9944/tcp filtered unknown
+
+Nmap scan report for 175.45.177.78
+Host is up (0.35s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.2.15 ((RedStar 3.0))
+|_http-methods: No Allow or Public header in OPTIONS response (status code 302)
+
+Nmap scan report for 175.45.178.142
+Host is up (0.35s latency).
+Not shown: 991 closed ports
+PORT     STATE    SERVICE        VERSION
+22/tcp   open     ssh            Cisco SSH 1.25 (protocol 1.99)
+|_sshv1: Server supports SSHv1
+|_ssh-hostkey: 1024 ac:2f:68:9c:2f:a2:b5:2b:09:ce:87:b3:37:bb:3e:ee (RSA1)
+23/tcp   open     telnet         Cisco router telnetd
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+987/tcp  filtered unknown
+4444/tcp filtered krb524
+5907/tcp filtered unknown
+Service Info: OS: IOS; Device: router; CPE: cpe:/o:cisco:ios
+
+Nmap scan report for 175.45.178.161
+Host is up (0.35s latency).
+Not shown: 988 closed ports
+PORT     STATE    SERVICE        VERSION
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+211/tcp  filtered 914c-g
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+726/tcp  filtered unknown
+2005/tcp filtered deslogin
+3689/tcp filtered rendezvous
+4444/tcp filtered krb524
+5988/tcp filtered wbem-http
+6002/tcp filtered X11:2
+6510/tcp filtered mcer-port
+
+Nmap scan report for 175.45.178.166
+Host is up (0.35s latency).
+Not shown: 985 closed ports
+PORT      STATE    SERVICE            VERSION
+135/tcp   filtered msrpc
+139/tcp   filtered netbios-ssn
+445/tcp   filtered microsoft-ds
+593/tcp   filtered http-rpc-epmap
+1059/tcp  filtered nimreg
+2701/tcp  filtered sms-rcinfo
+2702/tcp  filtered sms-xfer
+3168/tcp  filtered poweronnud
+4444/tcp  filtered krb524
+5060/tcp  open     sip                Mediant 4000/v.6.80A.231.002 (Status: 200 OK)
+6881/tcp  filtered bittorrent-tracker
+7627/tcp  filtered soap-http
+7777/tcp  filtered cbt
+7778/tcp  filtered interwise
+44442/tcp filtered coldfusion-auth
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+SF-Port5060-TCP:V=6.00%I=7%D=2/5%Time=54D3DB8A%P=x86_64-unknown-linux-gnu%
+SF:r(SIPOptions,FF,"SIP/2\.0\x20200\x20OK\r\nVia:\x20SIP/2\.0/TCP\x20nm;br
+SF:anch=foo\r\nFrom:\x20<sip:nm@nm>;tag=root\r\nTo:\x20<sip:nm2@nm2>;tag=1
+SF:c1724088230\r\nCall-ID:\x2050000\r\nCSeq:\x2042\x20OPTIONS\r\nContact:\
+SF:x20<sip:175\.45\.178\.166:5060;transport=tcp>\r\nServer:\x20Mediant\x20
+SF:4000/v\.6\.80A\.231\.002\r\nContent-Length:\x200\r\n\r\n");
+
+Nmap scan report for 175.45.178.197
+Host is up (0.35s latency).
+Not shown: 993 closed ports
+PORT     STATE    SERVICE          VERSION
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+3269/tcp filtered globalcatLDAPssl
+4444/tcp filtered krb524
+6101/tcp filtered backupexec
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+# Nmap done at Thu Feb  5 21:09:53 2015 -- 1024 IP addresses (13 hosts up) scanned in 591.47 seconds
