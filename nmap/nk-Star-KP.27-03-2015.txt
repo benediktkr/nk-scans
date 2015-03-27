@@ -1,0 +1,1 @@
+# Nmap 6.00 scan initiated Fri Mar 27 21:00:02 2015 as: /usr/bin/nmap -A -oN /crypted/home/benedikt/nk/nmap/nk-Star-KP.%d-%m-%Y.txt 175.45.176.0/22
