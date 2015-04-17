@@ -1,0 +1,68 @@
+# Nmap 6.00 scan initiated Sat Apr 11 21:00:01 2015 as: /usr/bin/nmap -A -oN /home/benedikt/projects/nk-scans/nmap/nk-KTPC.%d-%m-%Y.txt 210.52.109.0/24
+Warning: 210.52.109.36 giving up on port because retransmission cap hit (10).
+Nmap scan report for 210.52.109.1
+Host is up (0.39s latency).
+All 1000 scanned ports on 210.52.109.1 are closed (969) or filtered (31)
+
+Nmap scan report for 210.52.109.36
+Host is up (0.28s latency).
+Not shown: 990 closed ports
+PORT     STATE    SERVICE      VERSION
+22/tcp   filtered ssh
+110/tcp  filtered pop3
+111/tcp  filtered rpcbind
+139/tcp  filtered netbios-ssn
+143/tcp  filtered imap
+443/tcp  open     https?
+445/tcp  filtered microsoft-ds
+901/tcp  filtered samba-swat
+993/tcp  filtered imaps
+2049/tcp filtered nfs
+
+Nmap scan report for 210.52.109.43
+Host is up (0.28s latency).
+Not shown: 990 closed ports
+PORT     STATE    SERVICE      VERSION
+22/tcp   filtered ssh
+110/tcp  filtered pop3
+111/tcp  filtered rpcbind
+139/tcp  filtered netbios-ssn
+143/tcp  filtered imap
+443/tcp  open     https?
+445/tcp  filtered microsoft-ds
+901/tcp  filtered samba-swat
+993/tcp  filtered imaps
+2049/tcp filtered nfs
+
+Nmap scan report for 210.52.109.45
+Host is up (0.28s latency).
+Not shown: 990 closed ports
+PORT     STATE    SERVICE      VERSION
+22/tcp   filtered ssh
+110/tcp  filtered pop3
+111/tcp  filtered rpcbind
+139/tcp  filtered netbios-ssn
+143/tcp  filtered imap
+443/tcp  open     https?
+445/tcp  filtered microsoft-ds
+901/tcp  filtered samba-swat
+993/tcp  filtered imaps
+2049/tcp filtered nfs
+
+Nmap scan report for 210.52.109.51
+Host is up (0.28s latency).
+Not shown: 990 closed ports
+PORT     STATE    SERVICE      VERSION
+22/tcp   filtered ssh
+110/tcp  filtered pop3
+111/tcp  filtered rpcbind
+139/tcp  filtered netbios-ssn
+143/tcp  filtered imap
+443/tcp  open     https?
+445/tcp  filtered microsoft-ds
+901/tcp  filtered samba-swat
+993/tcp  filtered imaps
+2049/tcp filtered nfs
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+# Nmap done at Sat Apr 11 21:38:05 2015 -- 256 IP addresses (5 hosts up) scanned in 2283.65 seconds

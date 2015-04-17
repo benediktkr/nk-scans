@@ -1,0 +1,13 @@
+# Nmap 6.00 scan initiated Thu Apr  9 21:00:02 2015 as: /usr/bin/nmap -A -oN /home/benedikt/projects/nk-scans/nmap/nk-KTPC.%d-%m-%Y.txt 210.52.109.0/24
+Nmap scan report for 210.52.109.1
+Host is up (0.39s latency).
+All 1000 scanned ports on 210.52.109.1 are closed (966) or filtered (34)
+
+Nmap scan report for 210.52.109.58
+Host is up (0.40s latency).
+Not shown: 999 filtered ports
+PORT    STATE  SERVICE VERSION
+443/tcp closed https
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+# Nmap done at Thu Apr  9 21:01:28 2015 -- 256 IP addresses (2 hosts up) scanned in 86.42 seconds
