@@ -1,0 +1,114 @@
+# Nmap 6.47 scan initiated Wed Jun 17 21:00:01 2015 as: /usr/bin/nmap -A -oN /home/benedikt/projects/nk-scans/nmap/nk-Star-KP.%d-%m-%Y.txt -oG /home/benedikt/projects/nk-scans/nmap/nk-Star-KP.%d-%m-%Y.grep 175.45.176.0/22
+Nmap scan report for 175.45.176.67
+Host is up (0.37s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE VERSION
+80/tcp  open  http    Apache httpd 2.2.15 ((RedStar 3.0))
+|_http-generator: ERROR: Script execution failed (use -d to debug)
+|_http-methods: No Allow or Public header in OPTIONS response (status code 302)
+|_http-title: Did not follow redirect to //
+110/tcp open  pop3?
+
+Nmap scan report for 175.45.176.68
+Host is up (0.36s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.2.15 ((RedStar 3.0))
+|_http-methods: No Allow or Public header in OPTIONS response (status code 302)
+| http-title: \xEB\xA1\x9C\xEB\x8F\x99\xEC\x8B\xA0\xEB\xAC\xB8
+|_Requested resource was ko/
+
+Nmap scan report for 175.45.176.73
+Host is up (0.34s latency).
+Not shown: 998 filtered ports
+PORT     STATE SERVICE VERSION
+80/tcp   open  http    Apache httpd 2.2.15 ((RedStar 3.0))
+|_http-methods: No Allow or Public header in OPTIONS response (status code 302)
+1935/tcp open  rtmp?
+
+Nmap scan report for 175.45.176.75
+Host is up (0.36s latency).
+Not shown: 998 filtered ports
+PORT     STATE SERVICE VERSION
+80/tcp   open  http    Apache httpd 2.2.15 ((RedStar 3.0))
+|_http-methods: No Allow or Public header in OPTIONS response (status code 302)
+1935/tcp open  rtmp?
+
+Nmap scan report for 175.45.176.76
+Host is up (0.35s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.2.15 ((RedStar 3.0))
+|_http-methods: No Allow or Public header in OPTIONS response (status code 200)
+|_http-title: \xEC\xA1\xB0\xEC\x84\xA0\xEB\xAF\xBC\xEC\xA3\xBC\xEC\xA3\xBC\xEC\x9D\x98\xEC\x9D\xB8\xEB\xAF\xBC\xEA\xB3\xB5\xED\x99\x94\xEA\xB5\xAD \xEA\xB5\xAD\xEA\xB0\x80\xED\x95\xB4\xEC\x82\xAC\xEA\xB0\x90\xEB\x8F\x85\xEA\xB5\xAD
+
+Nmap scan report for 175.45.176.79
+Host is up (0.33s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd
+
+Nmap scan report for 175.45.177.78
+Host is up (0.36s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.2.15 ((RedStar 3.0))
+|_http-methods: No Allow or Public header in OPTIONS response (status code 302)
+| http-title: \xEB\xA1\x9C\xEB\x8F\x99\xEC\x8B\xA0\xEB\xAC\xB8
+|_Requested resource was ko/
+
+Nmap scan report for 175.45.178.140
+Host is up (0.37s latency).
+Not shown: 998 filtered ports
+PORT      STATE SERVICE VERSION
+80/tcp    open  http?
+49154/tcp open  msrpc   Microsoft Windows RPC
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 175.45.178.142
+Host is up (0.37s latency).
+Not shown: 993 closed ports
+PORT     STATE    SERVICE        VERSION
+22/tcp   open     ssh            Cisco SSH 1.25 (protocol 1.99)
+|_ssh-hostkey: ERROR: Script execution failed (use -d to debug)
+|_sshv1: Server supports SSHv1
+23/tcp   open     telnet         Cisco router telnetd
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+4444/tcp filtered krb524
+Service Info: OS: IOS; Device: router; CPE: cpe:/o:cisco:ios
+
+Nmap scan report for 175.45.178.161
+Host is up (0.37s latency).
+Not shown: 995 closed ports
+PORT     STATE    SERVICE        VERSION
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+4444/tcp filtered krb524
+
+Nmap scan report for 175.45.178.177
+Host is up (0.37s latency).
+Not shown: 995 closed ports
+PORT     STATE    SERVICE        VERSION
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+4444/tcp filtered krb524
+
+Nmap scan report for 175.45.178.197
+Host is up (0.37s latency).
+Not shown: 995 closed ports
+PORT     STATE    SERVICE        VERSION
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+4444/tcp filtered krb524
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+# Nmap done at Wed Jun 17 21:09:26 2015 -- 1024 IP addresses (12 hosts up) scanned in 565.00 seconds

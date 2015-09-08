@@ -1,0 +1,187 @@
+# Nmap 6.47 scan initiated Sun Aug 23 21:00:01 2015 as: /usr/bin/nmap -A -oN /home/benedikt/projects/nk-scans/nmap/nk-Star-KP.%d-%m-%Y.txt -oG /home/benedikt/projects/nk-scans/nmap/nk-Star-KP.%d-%m-%Y.grep 175.45.176.0/22
+Nmap scan report for 175.45.176.71
+Host is up (1.0s latency).
+All 1000 scanned ports on 175.45.176.71 are filtered
+
+Nmap scan report for 175.45.178.131
+Host is up (0.44s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE VERSION
+80/tcp  open  http?
+443/tcp open  https?
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=6.47%I=7%D=8/23%Time=55DA3EB6%P=x86_64-pc-linux-gnu%r(GetR
+SF:equest,1A,"HTTP/1\.0\x20404\x20Not\x20Found\r\n\r\n")%r(HTTPOptions,59,
+SF:"\xe5H}\^\x04\xbaZo\xa8\x12\x9c\x12\x8f\x148=0\xb77\x16\xd5=\$C\x0b\xe7
+SF:\xe6\^~B\xee\xd0{\x17\x16\xde\x13\xd5\xfb\x04\?\xca\xcb2-\tQ\x03a\x1ew\
+SF:xbc\xfd\ns\x88Y\xb6/\x14u\"\xab`QN\xe7l\xed:\xe38I\xe6\x9f\xc4eR\x1b\x1
+SF:0A~W\x1c\xddjS\xe89");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=6.47%I=7%D=8/23%Time=55DA3EBA%P=x86_64-pc-linux-gnu%r(HTT
+SF:POptions,6C,"\x90\x16l\xb2\xd1b\xd8f\xe5\xbf\xf2\x1e\xaa\xd6\xd9\+\xdd\
+SF:$m\x1eL\xfe\xe7\x88\x92l\xca\x88V=iii\x98\xe20\xd0\xad\x8a\xd8\xc6\xbf\
+SF:xe3\x8d\xda\x97\x16u\r\xda\x03\xd8i\x86\xbfd\x85\xf2;\xb0a\x1ew\xbc\xfd
+SF:\ns\x88Y\xb6/\x14u\"\xab`QN\xe7l\xed:\xe38I\xe6\x9f\xc4eR\x1b\x10A~W\x1
+SF:c\xddjS\xe89\x16\x0ftU\x82\x8b\xc0")%r(SSLSessionReq,45,"\x91\xf9}\xf6\
+SF:xdab\xca\x17\xb79L\xa5l\xe1\(\xd0\xaat\xffpM\xf9\[8\$\x04\xaf\x9a\xf2\x
+SF:8cf\xc2n\xa4\xd80\x016\x15\x93\x11\[\xe8\xff\xc2\xd1\xfeA\xe0\xd1\xceg\
+SF:xecm\xbac\xb8\xc9f\x1fD\x13Z\x0c0@O\xaa\xc9");
+
+Nmap scan report for 175.45.178.140
+Host is up (0.44s latency).
+Not shown: 998 filtered ports
+PORT     STATE SERVICE VERSION
+80/tcp   open  http?
+1027/tcp open  msrpc   Microsoft Windows RPC
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 175.45.178.142
+Host is up (0.44s latency).
+Not shown: 993 closed ports
+PORT     STATE    SERVICE        VERSION
+22/tcp   open     ssh            Cisco SSH 1.25 (protocol 1.99)
+|_ssh-hostkey: 
+23/tcp   open     telnet         Cisco router telnetd
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+4444/tcp filtered krb524
+Service Info: OS: IOS; Device: router; CPE: cpe:/o:cisco:ios
+
+Nmap scan report for 175.45.178.161
+Host is up (0.44s latency).
+Not shown: 995 closed ports
+PORT     STATE    SERVICE        VERSION
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+4444/tcp filtered krb524
+
+Nmap scan report for 175.45.178.177
+Host is up (0.44s latency).
+Not shown: 995 closed ports
+PORT     STATE    SERVICE        VERSION
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+4444/tcp filtered krb524
+
+Nmap scan report for 175.45.178.179
+Host is up (0.44s latency).
+Not shown: 992 closed ports
+PORT     STATE    SERVICE        VERSION
+22/tcp   open     ssh            OpenSSH 5.3 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 90:15:48:98:36:a2:f8:08:e9:98:81:e9:f0:90:5b:1d (DSA)
+|_  2048 84:d9:48:f5:01:3a:70:6a:58:e2:5b:c5:d7:83:58:ef (RSA)
+80/tcp   open     http           Apache httpd 2.2.15 ((Red Hat))
+| http-methods: Potentially risky methods: TRACE
+|_See http://nmap.org/nsedoc/scripts/http-methods.html
+|_http-title: Test Page for the Apache HTTP Server on Red Hat Enterprise Linux
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+4444/tcp filtered krb524
+6000/tcp open     X11            (access denied)
+Service Info: OS: Unix
+
+Nmap scan report for 175.45.178.185
+Host is up (0.44s latency).
+Not shown: 991 closed ports
+PORT     STATE    SERVICE        VERSION
+22/tcp   open     ssh            OpenSSH 5.3 (protocol 2.0)
+|_ssh-hostkey: 
+80/tcp   open     http           Apache httpd 2.2.15 ((Red Hat))
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+1032/tcp filtered iad3
+4444/tcp filtered krb524
+6000/tcp open     X11            (access denied)
+|_x11-access: ERROR: Script execution failed (use -d to debug)
+Service Info: OS: Unix
+
+Nmap scan report for 175.45.178.186
+Host is up (0.44s latency).
+Not shown: 992 closed ports
+PORT     STATE    SERVICE        VERSION
+22/tcp   open     ssh            OpenSSH 5.3 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 90:15:48:98:36:a2:f8:08:e9:98:81:e9:f0:90:5b:1d (DSA)
+|_  2048 84:d9:48:f5:01:3a:70:6a:58:e2:5b:c5:d7:83:58:ef (RSA)
+80/tcp   open     http           Apache httpd 2.2.15 ((Red Hat))
+| http-methods: Potentially risky methods: TRACE
+|_See http://nmap.org/nsedoc/scripts/http-methods.html
+|_http-title: Test Page for the Apache HTTP Server on Red Hat Enterprise Linux
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+4444/tcp filtered krb524
+6000/tcp open     X11            (access denied)
+Service Info: OS: Unix
+
+Nmap scan report for 175.45.178.187
+Host is up (0.44s latency).
+Not shown: 992 closed ports
+PORT     STATE    SERVICE        VERSION
+22/tcp   open     ssh            OpenSSH 5.3 (protocol 2.0)
+|_ssh-hostkey: 
+80/tcp   open     http           Apache httpd 2.2.15 ((Red Hat))
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+4444/tcp filtered krb524
+6000/tcp open     X11            (access denied)
+|_x11-access: ERROR: Script execution failed (use -d to debug)
+Service Info: OS: Unix
+
+Nmap scan report for 175.45.178.188
+Host is up (0.44s latency).
+Not shown: 992 closed ports
+PORT     STATE    SERVICE        VERSION
+22/tcp   open     ssh            OpenSSH 5.3 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 90:15:48:98:36:a2:f8:08:e9:98:81:e9:f0:90:5b:1d (DSA)
+|_  2048 84:d9:48:f5:01:3a:70:6a:58:e2:5b:c5:d7:83:58:ef (RSA)
+80/tcp   open     http           Apache httpd 2.2.15 ((Red Hat))
+| http-methods: Potentially risky methods: TRACE
+|_See http://nmap.org/nsedoc/scripts/http-methods.html
+|_http-title: Test Page for the Apache HTTP Server on Red Hat Enterprise Linux
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+4444/tcp filtered krb524
+6000/tcp open     X11            (access denied)
+Service Info: OS: Unix
+
+Nmap scan report for 175.45.178.193
+Host is up (0.44s latency).
+Not shown: 995 closed ports
+PORT     STATE    SERVICE        VERSION
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+4444/tcp filtered krb524
+
+Post-scan script results:
+| ssh-hostkey: Possible duplicate hosts
+| Key 1024 90:15:48:98:36:a2:f8:08:e9:98:81:e9:f0:90:5b:1d (DSA) used by:
+|   175.45.178.179
+|   175.45.178.186
+|   175.45.178.188
+| Key 2048 84:d9:48:f5:01:3a:70:6a:58:e2:5b:c5:d7:83:58:ef (RSA) used by:
+|   175.45.178.179
+|   175.45.178.186
+|_  175.45.178.188
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+# Nmap done at Sun Aug 23 21:48:10 2015 -- 1024 IP addresses (12 hosts up) scanned in 2889.19 seconds

@@ -1,0 +1,21 @@
+# Nmap 6.47 scan initiated Sat Aug 15 21:00:01 2015 as: /usr/bin/nmap -A -oN /home/benedikt/projects/nk-scans/nmap/nk-Star-KP.%d-%m-%Y.txt -oG /home/benedikt/projects/nk-scans/nmap/nk-Star-KP.%d-%m-%Y.grep 175.45.176.0/22
+Nmap scan report for 175.45.176.67
+Host is up (1.0s latency).
+All 1000 scanned ports on 175.45.176.67 are filtered
+
+Nmap scan report for 175.45.176.71
+Host is up (0.38s latency).
+All 1000 scanned ports on 175.45.176.71 are filtered
+
+Nmap scan report for 175.45.178.161
+Host is up (0.45s latency).
+Not shown: 995 closed ports
+PORT     STATE    SERVICE        VERSION
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+4444/tcp filtered krb524
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+# Nmap done at Sat Aug 15 21:38:22 2015 -- 1024 IP addresses (3 hosts up) scanned in 2300.45 seconds

@@ -1,0 +1,8 @@
+# Nmap 6.47 scan initiated Sat Aug 15 21:00:01 2015 as: /usr/bin/nmap -A -oN /home/benedikt/projects/nk-scans/nmap/nk-Star-KP.%d-%m-%Y.txt -oG /home/benedikt/projects/nk-scans/nmap/nk-Star-KP.%d-%m-%Y.grep 175.45.176.0/22
+Host: 175.45.176.67 ()	Status: Up
+Host: 175.45.176.67 ()	Status: Up
+Host: 175.45.176.71 ()	Status: Up
+Host: 175.45.176.71 ()	Status: Up
+Host: 175.45.178.161 ()	Status: Up
+Host: 175.45.178.161 ()	Ports: 135/filtered/tcp//msrpc///, 139/filtered/tcp//netbios-ssn///, 445/filtered/tcp//microsoft-ds///, 593/filtered/tcp//http-rpc-epmap///, 4444/filtered/tcp//krb524///	Ignored State: closed (995)
+# Nmap done at Sat Aug 15 21:38:22 2015 -- 1024 IP addresses (3 hosts up) scanned in 2300.45 seconds

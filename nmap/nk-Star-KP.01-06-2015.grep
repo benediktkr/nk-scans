@@ -1,0 +1,30 @@
+# Nmap 6.47 scan initiated Mon Jun  1 21:00:01 2015 as: /usr/bin/nmap -A -oN /home/benedikt/projects/nk-scans/nmap/nk-Star-KP.%d-%m-%Y.txt -oG /home/benedikt/projects/nk-scans/nmap/nk-Star-KP.%d-%m-%Y.grep 175.45.176.0/22
+Host: 175.45.176.67 ()	Status: Up
+Host: 175.45.176.67 ()	Ports: 80/open/tcp//http//Apache httpd 2.2.15 ((RedStar 3.0))/, 110/open/tcp//pop3?///	Ignored State: filtered (998)
+Host: 175.45.176.68 ()	Status: Up
+Host: 175.45.176.68 ()	Ports: 80/open/tcp//http//Apache httpd 2.2.15 ((RedStar 3.0))/	Ignored State: filtered (999)
+Host: 175.45.176.73 ()	Status: Up
+Host: 175.45.176.73 ()	Ports: 80/open/tcp//http//Apache httpd 2.2.15 ((RedStar 3.0))/, 1935/open/tcp//rtmp?///	Ignored State: filtered (998)
+Host: 175.45.176.75 ()	Status: Up
+Host: 175.45.176.75 ()	Ports: 80/open/tcp//http//Apache httpd 2.2.15 ((RedStar 3.0))/, 1935/open/tcp//rtmp?///	Ignored State: filtered (998)
+Host: 175.45.176.76 ()	Status: Up
+Host: 175.45.176.76 ()	Ports: 80/open/tcp//http//Apache httpd 2.2.15 ((RedStar 3.0))/	Ignored State: filtered (999)
+Host: 175.45.176.79 ()	Status: Up
+Host: 175.45.176.79 ()	Ports: 80/open/tcp//http//Apache httpd/	Ignored State: filtered (999)
+Host: 175.45.177.74 ()	Status: Up
+Host: 175.45.177.74 ()	Status: Up
+Host: 175.45.177.78 ()	Status: Up
+Host: 175.45.177.78 ()	Ports: 80/open/tcp//http//Apache httpd 2.2.15 ((RedStar 3.0))/	Ignored State: filtered (999)
+Host: 175.45.178.102 ()	Status: Up
+Host: 175.45.178.102 ()	Ports: 80/open/tcp//http//Apache httpd 2.4.10 ((Unix) OpenSSL|1.0.1i PHP|5.4.31 mod_perl|2.0.8-dev Perl|v5.16.3)/	Ignored State: filtered (999)
+Host: 175.45.178.140 ()	Status: Up
+Host: 175.45.178.140 ()	Ports: 80/open/tcp//http?///, 49154/open/tcp//msrpc//Microsoft Windows RPC/	Ignored State: filtered (998)
+Host: 175.45.178.142 ()	Status: Up
+Host: 175.45.178.142 ()	Ports: 19/filtered/tcp//chargen///, 22/open/tcp//ssh//Cisco SSH 1.25 (protocol 1.99)/, 23/open/tcp//telnet//Cisco router telnetd/, 135/filtered/tcp//msrpc///, 139/filtered/tcp//netbios-ssn///, 445/filtered/tcp//microsoft-ds///, 593/filtered/tcp//http-rpc-epmap///, 687/filtered/tcp//asipregistry///, 1126/filtered/tcp//hpvmmdata///, 1131/filtered/tcp//caspssl///, 1417/filtered/tcp//timbuktu-srv1///, 4444/filtered/tcp//krb524///, 5102/filtered/tcp//admeng///, 5822/filtered/tcp//unknown///, 8007/filtered/tcp//ajp12///, 8042/filtered/tcp//fs-agent///, 41511/filtered/tcp//unknown///	Ignored State: closed (983)
+Host: 175.45.178.161 ()	Status: Up
+Host: 175.45.178.161 ()	Ports: 135/filtered/tcp//msrpc///, 139/filtered/tcp//netbios-ssn///, 445/filtered/tcp//microsoft-ds///, 593/filtered/tcp//http-rpc-epmap///, 4444/filtered/tcp//krb524///	Ignored State: closed (995)
+Host: 175.45.178.177 ()	Status: Up
+Host: 175.45.178.177 ()	Ports: 135/filtered/tcp//msrpc///, 139/filtered/tcp//netbios-ssn///, 445/filtered/tcp//microsoft-ds///, 593/filtered/tcp//http-rpc-epmap///, 3809/filtered/tcp//apocd///, 4444/filtered/tcp//krb524///, 4848/filtered/tcp//appserv-http///, 7435/filtered/tcp//unknown///, 9001/filtered/tcp//tor-orport///, 10082/filtered/tcp//amandaidx///	Ignored State: closed (990)
+Host: 175.45.178.197 ()	Status: Up
+Host: 175.45.178.197 ()	Ports: 135/filtered/tcp//msrpc///, 139/filtered/tcp//netbios-ssn///, 445/filtered/tcp//microsoft-ds///, 593/filtered/tcp//http-rpc-epmap///, 1580/filtered/tcp//tn-tl-r1///, 4004/filtered/tcp//pxc-roid///, 4444/filtered/tcp//krb524///, 5904/filtered/tcp//unknown///	Ignored State: closed (992)
+# Nmap done at Mon Jun  1 21:27:37 2015 -- 1024 IP addresses (14 hosts up) scanned in 1655.36 seconds

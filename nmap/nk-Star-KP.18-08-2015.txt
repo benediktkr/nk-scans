@@ -1,0 +1,84 @@
+# Nmap 6.47 scan initiated Tue Aug 18 21:00:01 2015 as: /usr/bin/nmap -A -oN /home/benedikt/projects/nk-scans/nmap/nk-Star-KP.%d-%m-%Y.txt -oG /home/benedikt/projects/nk-scans/nmap/nk-Star-KP.%d-%m-%Y.grep 175.45.176.0/22
+Nmap scan report for 175.45.177.1
+Host is up (0.45s latency).
+All 1000 scanned ports on 175.45.177.1 are closed (906) or filtered (94)
+
+Nmap scan report for 175.45.177.17
+Host is up (0.45s latency).
+All 1000 scanned ports on 175.45.177.17 are closed (965) or filtered (35)
+
+Nmap scan report for 175.45.178.102
+Host is up (0.45s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.10 ((Unix) OpenSSL/1.0.1i PHP/5.4.31 mod_perl/2.0.8-dev Perl/v5.16.3)
+|_http-methods: No Allow or Public header in OPTIONS response (status code 200)
+|_http-title: Site doesn't have a title (text/html).
+
+Nmap scan report for 175.45.178.140
+Host is up (0.45s latency).
+Not shown: 998 filtered ports
+PORT     STATE SERVICE VERSION
+80/tcp   open  http?
+1027/tcp open  msrpc   Microsoft Windows RPC
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 175.45.178.142
+Host is up (0.45s latency).
+Not shown: 990 closed ports
+PORT      STATE    SERVICE        VERSION
+22/tcp    open     ssh            Cisco SSH 1.25 (protocol 1.99)
+|_ssh-hostkey: ERROR: Script execution failed (use -d to debug)
+|_sshv1: Server supports SSHv1
+23/tcp    open     telnet         Cisco router telnetd
+135/tcp   filtered msrpc
+139/tcp   filtered netbios-ssn
+445/tcp   filtered microsoft-ds
+593/tcp   filtered http-rpc-epmap
+726/tcp   filtered unknown
+4444/tcp  filtered krb524
+7007/tcp  filtered afs3-bos
+32772/tcp filtered sometimes-rpc7
+Service Info: OS: IOS; Device: router; CPE: cpe:/o:cisco:ios
+
+Nmap scan report for 175.45.178.161
+Host is up (0.45s latency).
+Not shown: 990 closed ports
+PORT     STATE    SERVICE        VERSION
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+800/tcp  filtered mdbs_daemon
+1455/tcp filtered esl-lm
+4006/tcp filtered pxc-spvr
+4444/tcp filtered krb524
+5902/tcp filtered vnc-2
+6002/tcp filtered X11:2
+
+Nmap scan report for 175.45.178.177
+Host is up (0.45s latency).
+Not shown: 993 closed ports
+PORT      STATE    SERVICE        VERSION
+135/tcp   filtered msrpc
+139/tcp   filtered netbios-ssn
+445/tcp   filtered microsoft-ds
+593/tcp   filtered http-rpc-epmap
+683/tcp   filtered corba-iiop
+4444/tcp  filtered krb524
+17988/tcp filtered unknown
+
+Nmap scan report for 175.45.178.193
+Host is up (0.45s latency).
+Not shown: 993 closed ports
+PORT     STATE    SERVICE        VERSION
+82/tcp   filtered xfer
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+3351/tcp filtered btrieve
+4444/tcp filtered krb524
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+# Nmap done at Tue Aug 18 21:14:30 2015 -- 1024 IP addresses (8 hosts up) scanned in 869.53 seconds
