@@ -1,0 +1,47 @@
+# Nmap 6.47 scan initiated Thu Oct  8 21:00:02 2015 as: /usr/bin/nmap -A -oN /home/benedikt/projects/nk-scans/nmap/nk-Star-KP.%d-%m-%Y.txt -oG /home/benedikt/projects/nk-scans/nmap/nk-Star-KP.%d-%m-%Y.grep 175.45.176.0/22
+Nmap scan report for 175.45.176.71
+Host is up (0.74s latency).
+All 1000 scanned ports on 175.45.176.71 are filtered
+
+Nmap scan report for 175.45.176.79
+Host is up (0.34s latency).
+All 1000 scanned ports on 175.45.176.79 are filtered
+
+Nmap scan report for 175.45.177.74
+Host is up (0.35s latency).
+All 1000 scanned ports on 175.45.177.74 are filtered
+
+Nmap scan report for 175.45.178.142
+Host is up (0.41s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     Cisco SSH 1.25 (protocol 1.99)
+|_ssh-hostkey: ERROR: Script execution failed (use -d to debug)
+|_sshv1: Server supports SSHv1
+23/tcp open  telnet  Cisco router telnetd
+Service Info: OS: IOS; Device: router; CPE: cpe:/o:cisco:ios
+
+Nmap scan report for 175.45.178.179
+Host is up (0.42s latency).
+Not shown: 997 closed ports
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 5.3 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 90:15:48:98:36:a2:f8:08:e9:98:81:e9:f0:90:5b:1d (DSA)
+|_  2048 84:d9:48:f5:01:3a:70:6a:58:e2:5b:c5:d7:83:58:ef (RSA)
+80/tcp   open  http    Apache httpd 2.2.15 ((Red Hat))
+| http-methods: Potentially risky methods: TRACE
+|_See http://nmap.org/nsedoc/scripts/http-methods.html
+|_http-title: Test Page for the Apache HTTP Server on Red Hat Enterprise Linux
+6000/tcp open  X11     (access denied)
+Service Info: OS: Unix
+
+Nmap scan report for 175.45.178.198
+Host is up (0.41s latency).
+Not shown: 998 filtered ports
+PORT    STATE  SERVICE VERSION
+80/tcp  closed http
+443/tcp closed https
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+# Nmap done at Thu Oct  8 22:43:43 2015 -- 1024 IP addresses (6 hosts up) scanned in 6221.65 seconds

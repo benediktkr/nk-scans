@@ -1,0 +1,34 @@
+# Nmap 6.47 scan initiated Sun Nov 29 21:00:01 2015 as: /usr/bin/nmap -A -oN /home/benedikt/projects/nk-scans/nmap/nk-Star-KP.%d-%m-%Y.txt -oG /home/benedikt/projects/nk-scans/nmap/nk-Star-KP.%d-%m-%Y.grep 175.45.176.0/22
+Host: 175.45.176.68 ()	Status: Up
+Host: 175.45.176.68 ()	Status: Up
+Host: 175.45.176.71 ()	Status: Up
+Host: 175.45.176.71 ()	Ports: 80/open/tcp//http?///	Ignored State: filtered (999)
+Host: 175.45.177.74 ()	Status: Up
+Host: 175.45.177.74 ()	Ports: 80/open/tcp//http?///	Ignored State: filtered (999)
+Host: 175.45.178.102 ()	Status: Up
+Host: 175.45.178.102 ()	Ports: 80/open/tcp//http//Apache httpd 2.4.10 ((Unix) OpenSSL|1.0.1i PHP|5.4.31 mod_perl|2.0.8-dev Perl|v5.16.3)/	Ignored State: filtered (999)
+Host: 175.45.178.138 ()	Status: Up
+Host: 175.45.178.138 ()	Status: Up
+Host: 175.45.178.140 ()	Status: Up
+Host: 175.45.178.140 ()	Ports: 443/open/tcp//https?///, 1028/open/tcp//msrpc//Microsoft Windows RPC/	Ignored State: filtered (998)
+Host: 175.45.178.142 ()	Status: Up
+Host: 175.45.178.142 ()	Ports: 22/open/tcp//ssh//Cisco SSH 1.25 (protocol 1.99)/, 23/open/tcp//telnet//Cisco router telnetd/, 83/filtered/tcp//mit-ml-dev///, 1076/filtered/tcp//sns_credit///, 1138/filtered/tcp//encrypted_admin///, 2160/filtered/tcp//apc-2160///, 3221/filtered/tcp//xnm-clear-text///, 3367/filtered/tcp//satvid-datalnk///, 4443/filtered/tcp//pharos///, 6123/filtered/tcp//backup-express///, 8042/filtered/tcp//fs-agent///, 11110/filtered/tcp//unknown///, 21571/filtered/tcp//unknown///, 32769/filtered/tcp//filenet-rpc///, 34572/filtered/tcp//unknown///, 50800/filtered/tcp//unknown///	Ignored State: closed (984)
+Host: 175.45.178.178 ()	Status: Up
+Host: 175.45.178.178 ()	Ports: 80/filtered/tcp//http///, 135/filtered/tcp//msrpc///, 139/filtered/tcp//netbios-ssn///, 443/open/tcp//ssl|http//Apache httpd/, 445/filtered/tcp//microsoft-ds///, 593/filtered/tcp//http-rpc-epmap///, 3306/filtered/tcp//mysql///, 4443/filtered/tcp//pharos///, 4444/filtered/tcp//krb524///	Ignored State: closed (991)
+Host: 175.45.178.179 ()	Status: Up
+Host: 175.45.178.179 ()	Ports: 22/open/tcp//ssh//OpenSSH 5.3 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.2.15 ((Red Hat))/, 1071/filtered/tcp//bsquare-voip///, 3889/filtered/tcp//dandv-tester///, 5221/filtered/tcp//3exmp///, 5544/filtered/tcp//unknown///, 6000/open/tcp//X11//(access denied)/, 8093/filtered/tcp//unknown///	Ignored State: closed (992)
+Host: 175.45.178.181 ()	Status: Up
+Host: 175.45.178.181 ()	Ports: 22/open/tcp//ssh//OpenSSH 5.3 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.2.15 ((Red Hat))/, 135/filtered/tcp//msrpc///, 139/filtered/tcp//netbios-ssn///, 445/filtered/tcp//microsoft-ds///, 593/filtered/tcp//http-rpc-epmap///, 1021/filtered/tcp//exp1///, 2010/filtered/tcp//search///, 2602/filtered/tcp//ripd///, 3001/filtered/tcp//nessus///, 4444/filtered/tcp//krb524///, 5060/filtered/tcp//sip///, 6000/open/tcp//X11//(access denied)/, 6001/filtered/tcp//X11:1///, 8500/filtered/tcp//fmtp///, 9080/filtered/tcp//glrpc///, 9877/filtered/tcp//unknown///, 22939/filtered/tcp//unknown///, 49167/filtered/tcp//unknown///	Ignored State: closed (981)
+Host: 175.45.178.182 ()	Status: Up
+Host: 175.45.178.182 ()	Ports: 22/open/tcp//ssh//OpenSSH 5.3 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.2.15 ((Red Hat))/, 135/filtered/tcp//msrpc///, 139/filtered/tcp//netbios-ssn///, 445/filtered/tcp//microsoft-ds///, 593/filtered/tcp//http-rpc-epmap///, 3011/filtered/tcp//trusted-web///, 4444/filtered/tcp//krb524///, 5666/filtered/tcp//nrpe///, 6000/open/tcp//X11//(access denied)/, 34573/filtered/tcp//unknown///	Ignored State: closed (989)
+Host: 175.45.178.184 ()	Status: Up
+Host: 175.45.178.184 ()	Ports: 22/open/tcp//ssh//OpenSSH 5.3 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.2.15 ((Red Hat))/, 135/filtered/tcp//msrpc///, 139/filtered/tcp//netbios-ssn///, 425/filtered/tcp//icad-el///, 445/filtered/tcp//microsoft-ds///, 593/filtered/tcp//http-rpc-epmap///, 1217/filtered/tcp//hpss-ndapi///, 4444/filtered/tcp//krb524///, 5950/filtered/tcp//unknown///, 6000/open/tcp//X11//(access denied)/, 6123/filtered/tcp//backup-express///, 6667/filtered/tcp//irc///, 8443/filtered/tcp//https-alt///, 9618/filtered/tcp//condor///, 10243/filtered/tcp//unknown///	Ignored State: closed (984)
+Host: 175.45.178.185 ()	Status: Up
+Host: 175.45.178.185 ()	Ports: 22/open/tcp//ssh//OpenSSH 5.3 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.2.15 ((Red Hat))/, 987/filtered/tcp//unknown///, 1100/filtered/tcp//mctp///, 1138/filtered/tcp//encrypted_admin///, 1875/filtered/tcp//westell-stats///, 2040/filtered/tcp//lam///, 2042/filtered/tcp//isis///, 2045/filtered/tcp//cdfunc///, 2099/filtered/tcp//h2250-annex-g///, 2160/filtered/tcp//apc-2160///, 3367/filtered/tcp//satvid-datalnk///, 4002/filtered/tcp//mlchat-proxy///, 4899/filtered/tcp//radmin///, 5009/filtered/tcp//airport-admin///, 6000/open/tcp//X11//(access denied)/, 6543/filtered/tcp//mythtv///, 8099/filtered/tcp//unknown///, 8100/filtered/tcp//xprint-server///, 10004/filtered/tcp//emcrmirccd///, 10628/filtered/tcp//unknown///, 11111/filtered/tcp//vce///, 21571/filtered/tcp//unknown///, 32777/filtered/tcp//sometimes-rpc17///, 32782/filtered/tcp//unknown///, 34572/filtered/tcp//unknown///	Ignored State: closed (974)
+Host: 175.45.178.186 ()	Status: Up
+Host: 175.45.178.186 ()	Ports: 13/filtered/tcp//daytime///, 22/open/tcp//ssh//OpenSSH 5.3 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.2.15 ((Red Hat))/, 6000/open/tcp//X11//(access denied)/	Ignored State: closed (996)
+Host: 175.45.178.187 ()	Status: Up
+Host: 175.45.178.187 ()	Ports: 22/open/tcp//ssh//OpenSSH 5.3 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.2.15 ((Red Hat))/, 6000/open/tcp//X11//(access denied)/	Ignored State: closed (997)
+Host: 175.45.178.188 ()	Status: Up
+Host: 175.45.178.188 ()	Ports: 6/filtered/tcp//unknown///, 22/open/tcp//ssh//OpenSSH 5.3 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.2.15 ((Red Hat))/, 1169/filtered/tcp//tripwire///, 1186/filtered/tcp//mysql-cluster///, 2008/filtered/tcp//conf///, 5002/filtered/tcp//rfe///, 6000/open/tcp//X11//(access denied)/, 6389/filtered/tcp//clariion-evr01///, 7911/filtered/tcp//unknown///, 10001/filtered/tcp//scp-config///	Ignored State: closed (989)
+# Nmap done at Sun Nov 29 21:34:16 2015 -- 1024 IP addresses (16 hosts up) scanned in 2054.81 seconds

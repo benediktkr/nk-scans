@@ -1,0 +1,415 @@
+# Nmap 6.47 scan initiated Thu Oct  1 21:00:01 2015 as: /usr/bin/nmap -A -oN /home/benedikt/projects/nk-scans/nmap/nk-Star-KP.%d-%m-%Y.txt -oG /home/benedikt/projects/nk-scans/nmap/nk-Star-KP.%d-%m-%Y.grep 175.45.176.0/22
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+Nmap scan report for 175.45.177.74
+Host is up (0.35s latency).
+All 1000 scanned ports on 175.45.177.74 are filtered
+
+Nmap scan report for 175.45.177.78
+Host is up (0.89s latency).
+All 1000 scanned ports on 175.45.177.78 are filtered
+
+Nmap scan report for 175.45.178.142
+Host is up (0.41s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     Cisco SSH 1.25 (protocol 1.99)
+|_ssh-hostkey: ERROR: Script execution failed (use -d to debug)
+|_sshv1: Server supports SSHv1
+23/tcp open  telnet  Cisco router telnetd
+Service Info: OS: IOS; Device: router; CPE: cpe:/o:cisco:ios
+
+Nmap scan report for 175.45.178.179
+Host is up (0.42s latency).
+Not shown: 994 closed ports
+PORT     STATE SERVICE       VERSION
+80/tcp   open  http?
+135/tcp  open  msrpc?
+139/tcp  open  netbios-ssn?
+443/tcp  open  https?
+445/tcp  open  microsoft-ds?
+3306/tcp open  mysql?
+
+Nmap scan report for 175.45.178.181
+Host is up (0.40s latency).
+Not shown: 992 closed ports
+PORT     STATE    SERVICE        VERSION
+80/tcp   open     http           Apache httpd 2.2.4 ((Win32) DAV/2 mod_ssl/2.2.4 OpenSSL/0.9.8e mod_autoindex_color PHP/5.2.1)
+|_http-methods: No Allow or Public header in OPTIONS response (status code 302)
+| http-title: XAMPP Version 1.6.1
+|_Requested resource was http://175.45.178.181/xampp/
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+443/tcp  open     ssl/http       Apache httpd 2.2.4 ((Win32) DAV/2 mod_ssl/2.2.4 OpenSSL/0.9.8e mod_autoindex_color PHP/5.2.1)
+|_http-methods: No Allow or Public header in OPTIONS response (status code 302)
+| http-title: XAMPP Version 1.6.1
+|_Requested resource was https://175.45.178.181/xampp/
+| ssl-cert: Subject: commonName=localhost/organizationName=Apache Friends
+| Not valid before: 2005-12-04T15:11:04+00:00
+|_Not valid after:  2006-12-04T15:11:04+00:00
+|_ssl-date: 2015-10-01T23:46:35+00:00; -27m18s from local time.
+| sslv2: 
+|   SSLv2 supported
+|   ciphers: 
+|     SSL2_DES_192_EDE3_CBC_WITH_MD5
+|     SSL2_IDEA_128_CBC_WITH_MD5
+|     SSL2_RC2_CBC_128_CBC_WITH_MD5
+|     SSL2_RC4_128_WITH_MD5
+|     SSL2_DES_64_CBC_WITH_MD5
+|     SSL2_RC2_CBC_128_CBC_WITH_MD5
+|_    SSL2_RC4_128_EXPORT40_WITH_MD5
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+3306/tcp open     mysql          MySQL (unauthorized)
+4444/tcp filtered krb524
+
+Nmap scan report for 175.45.178.182
+Host is up (0.42s latency).
+Not shown: 986 closed ports
+PORT      STATE    SERVICE        VERSION
+80/tcp    open     http           Apache httpd 2.2.4 ((Win32) DAV/2 mod_ssl/2.2.4 OpenSSL/0.9.8e mod_autoindex_color PHP/5.2.1)
+|_http-methods: No Allow or Public header in OPTIONS response (status code 302)
+| http-title: XAMPP Version 1.6.1
+|_Requested resource was http://175.45.178.182/xampp/
+135/tcp   filtered msrpc
+139/tcp   filtered netbios-ssn
+443/tcp   open     ssl/http       Apache httpd 2.2.4 ((Win32) DAV/2 mod_ssl/2.2.4 OpenSSL/0.9.8e mod_autoindex_color PHP/5.2.1)
+|_http-methods: No Allow or Public header in OPTIONS response (status code 302)
+| http-title: XAMPP Version 1.6.1
+|_Requested resource was https://175.45.178.182/xampp/
+| ssl-cert: Subject: commonName=localhost/organizationName=Apache Friends
+| Not valid before: 2005-12-04T15:11:04+00:00
+|_Not valid after:  2006-12-04T15:11:04+00:00
+|_ssl-date: 2015-10-01T23:46:25+00:00; -27m19s from local time.
+| sslv2: 
+|   SSLv2 supported
+|   ciphers: 
+|     SSL2_DES_192_EDE3_CBC_WITH_MD5
+|     SSL2_IDEA_128_CBC_WITH_MD5
+|     SSL2_RC2_CBC_128_CBC_WITH_MD5
+|     SSL2_RC4_128_WITH_MD5
+|     SSL2_DES_64_CBC_WITH_MD5
+|     SSL2_RC2_CBC_128_CBC_WITH_MD5
+|_    SSL2_RC4_128_EXPORT40_WITH_MD5
+445/tcp   filtered microsoft-ds
+593/tcp   filtered http-rpc-epmap
+1010/tcp  filtered surf
+3013/tcp  filtered gilatskysurfer
+3306/tcp  open     mysql          MySQL (unauthorized)
+4444/tcp  filtered krb524
+5298/tcp  filtered presence
+5961/tcp  filtered unknown
+7512/tcp  filtered unknown
+64680/tcp filtered unknown
+
+Nmap scan report for 175.45.178.183
+Host is up (0.42s latency).
+Not shown: 992 closed ports
+PORT     STATE    SERVICE        VERSION
+80/tcp   open     http           Apache httpd 2.2.4 ((Win32) DAV/2 mod_ssl/2.2.4 OpenSSL/0.9.8e mod_autoindex_color PHP/5.2.1)
+|_http-methods: No Allow or Public header in OPTIONS response (status code 302)
+| http-title: XAMPP Version 1.6.1
+|_Requested resource was http://175.45.178.183/xampp/
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+443/tcp  open     ssl/http       Apache httpd 2.2.4 ((Win32) DAV/2 mod_ssl/2.2.4 OpenSSL/0.9.8e mod_autoindex_color PHP/5.2.1)
+|_http-methods: No Allow or Public header in OPTIONS response (status code 302)
+| http-title: XAMPP Version 1.6.1
+|_Requested resource was https://175.45.178.183/xampp/
+| ssl-cert: Subject: commonName=localhost/organizationName=Apache Friends
+| Not valid before: 2005-12-04T15:11:04+00:00
+|_Not valid after:  2006-12-04T15:11:04+00:00
+|_ssl-date: 2015-10-01T23:47:15+00:00; -27m18s from local time.
+| sslv2: 
+|   SSLv2 supported
+|   ciphers: 
+|     SSL2_DES_192_EDE3_CBC_WITH_MD5
+|     SSL2_IDEA_128_CBC_WITH_MD5
+|     SSL2_RC2_CBC_128_CBC_WITH_MD5
+|     SSL2_RC4_128_WITH_MD5
+|     SSL2_DES_64_CBC_WITH_MD5
+|     SSL2_RC2_CBC_128_CBC_WITH_MD5
+|_    SSL2_RC4_128_EXPORT40_WITH_MD5
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+3306/tcp open     mysql          MySQL (unauthorized)
+4444/tcp filtered krb524
+
+Nmap scan report for 175.45.178.184
+Host is up (0.41s latency).
+Not shown: 992 closed ports
+PORT     STATE    SERVICE        VERSION
+80/tcp   open     http           Apache httpd 2.2.4 ((Win32) DAV/2 mod_ssl/2.2.4 OpenSSL/0.9.8e mod_autoindex_color PHP/5.2.1)
+|_http-methods: No Allow or Public header in OPTIONS response (status code 302)
+| http-title: XAMPP Version 1.6.1
+|_Requested resource was http://175.45.178.184/xampp/
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+443/tcp  open     ssl/http       Apache httpd 2.2.4 ((Win32) DAV/2 mod_ssl/2.2.4 OpenSSL/0.9.8e mod_autoindex_color PHP/5.2.1)
+|_http-methods: No Allow or Public header in OPTIONS response (status code 302)
+| http-title: XAMPP Version 1.6.1
+|_Requested resource was https://175.45.178.184/xampp/
+| ssl-cert: Subject: commonName=localhost/organizationName=Apache Friends
+| Not valid before: 2005-12-04T15:11:04+00:00
+|_Not valid after:  2006-12-04T15:11:04+00:00
+|_ssl-date: 2015-10-01T23:46:26+00:00; -27m19s from local time.
+| sslv2: 
+|   SSLv2 supported
+|   ciphers: 
+|     SSL2_DES_192_EDE3_CBC_WITH_MD5
+|     SSL2_IDEA_128_CBC_WITH_MD5
+|     SSL2_RC2_CBC_128_CBC_WITH_MD5
+|     SSL2_RC4_128_WITH_MD5
+|     SSL2_DES_64_CBC_WITH_MD5
+|     SSL2_RC2_CBC_128_CBC_WITH_MD5
+|_    SSL2_RC4_128_EXPORT40_WITH_MD5
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+3306/tcp open     mysql          MySQL (unauthorized)
+4444/tcp filtered krb524
+
+Nmap scan report for 175.45.178.185
+Host is up (0.42s latency).
+Not shown: 994 closed ports
+PORT     STATE SERVICE      VERSION
+80/tcp   open  http         Apache httpd 2.2.4 ((Win32) DAV/2 mod_ssl/2.2.4 OpenSSL/0.9.8e mod_autoindex_color PHP/5.2.1)
+|_http-methods: No Allow or Public header in OPTIONS response (status code 302)
+| http-title: XAMPP Version 1.6.1
+|_Requested resource was http://175.45.178.185/xampp/
+135/tcp  open  msrpc        Microsoft Windows RPC
+139/tcp  open  netbios-ssn
+443/tcp  open  ssl/http     Apache httpd 2.2.4 ((Win32) DAV/2 mod_ssl/2.2.4 OpenSSL/0.9.8e mod_autoindex_color PHP/5.2.1)
+|_http-methods: No Allow or Public header in OPTIONS response (status code 302)
+| http-title: XAMPP Version 1.6.1
+|_Requested resource was https://175.45.178.185/xampp/
+| ssl-cert: Subject: commonName=localhost/organizationName=Apache Friends
+| Not valid before: 2005-12-04T15:11:04+00:00
+|_Not valid after:  2006-12-04T15:11:04+00:00
+|_ssl-date: 2015-10-01T23:46:06+00:00; -27m18s from local time.
+| sslv2: 
+|   SSLv2 supported
+|   ciphers: 
+|     SSL2_DES_192_EDE3_CBC_WITH_MD5
+|     SSL2_IDEA_128_CBC_WITH_MD5
+|     SSL2_RC2_CBC_128_CBC_WITH_MD5
+|     SSL2_RC4_128_WITH_MD5
+|     SSL2_DES_64_CBC_WITH_MD5
+|     SSL2_RC2_CBC_128_CBC_WITH_MD5
+|_    SSL2_RC4_128_EXPORT40_WITH_MD5
+445/tcp  open  microsoft-ds Microsoft Windows XP microsoft-ds
+3306/tcp open  mysql        MySQL (unauthorized)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_nbstat: NetBIOS name: 7A25-00004C00, NetBIOS user: <unknown>, NetBIOS MAC: 00:e0:4c:00:4c:00 (Realtek Semiconductor)
+| smb-os-discovery: 
+|   OS: Windows XP (Windows 2000 LAN Manager)
+|   OS CPE: cpe:/o:microsoft:windows_xp::-
+|   Computer name: 7A25-00004C00
+|   NetBIOS computer name: 7A25-00004C00
+|   Workgroup: WORKGROUP
+|_  System time: 2015-10-01T16:46:11-07:00
+| smb-security-mode: 
+|   Account that was used for smb scripts: guest
+|   User-level authentication
+|   SMB Security: Challenge/response passwords supported
+|_  Message signing disabled (dangerous, but default)
+|_smbv2-enabled: Server doesn't support SMBv2 protocol
+
+Nmap scan report for 175.45.178.186
+Host is up (0.42s latency).
+Not shown: 994 closed ports
+PORT     STATE SERVICE      VERSION
+80/tcp   open  http         Apache httpd 2.2.4 ((Win32) DAV/2 mod_ssl/2.2.4 OpenSSL/0.9.8e mod_autoindex_color PHP/5.2.1)
+|_http-methods: No Allow or Public header in OPTIONS response (status code 302)
+| http-title: XAMPP Version 1.6.1
+|_Requested resource was http://175.45.178.186/xampp/
+135/tcp  open  msrpc        Microsoft Windows RPC
+139/tcp  open  netbios-ssn
+443/tcp  open  ssl/http     Apache httpd 2.2.4 ((Win32) DAV/2 mod_ssl/2.2.4 OpenSSL/0.9.8e mod_autoindex_color PHP/5.2.1)
+|_http-methods: No Allow or Public header in OPTIONS response (status code 302)
+| http-title: XAMPP Version 1.6.1
+|_Requested resource was https://175.45.178.186/xampp/
+| ssl-cert: Subject: commonName=localhost/organizationName=Apache Friends
+| Not valid before: 2005-12-04T15:11:04+00:00
+|_Not valid after:  2006-12-04T15:11:04+00:00
+|_ssl-date: 2015-10-01T23:46:23+00:00; -27m19s from local time.
+| sslv2: 
+|   SSLv2 supported
+|   ciphers: 
+|     SSL2_DES_192_EDE3_CBC_WITH_MD5
+|     SSL2_IDEA_128_CBC_WITH_MD5
+|     SSL2_RC2_CBC_128_CBC_WITH_MD5
+|     SSL2_RC4_128_WITH_MD5
+|     SSL2_DES_64_CBC_WITH_MD5
+|     SSL2_RC2_CBC_128_CBC_WITH_MD5
+|_    SSL2_RC4_128_EXPORT40_WITH_MD5
+445/tcp  open  microsoft-ds Microsoft Windows XP microsoft-ds
+3306/tcp open  mysql        MySQL (unauthorized)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_nbstat: NetBIOS name: 3D20-00004EBE, NetBIOS user: <unknown>, NetBIOS MAC: 00:e0:4c:00:4e:be (Realtek Semiconductor)
+| smb-os-discovery: 
+|   OS: Windows XP (Windows 2000 LAN Manager)
+|   OS CPE: cpe:/o:microsoft:windows_xp::-
+|   Computer name: 3D20-00004EBE
+|   NetBIOS computer name: 3D20-00004EBE
+|   Workgroup: WORKGROUP
+|_  System time: 2015-10-01T16:47:13-07:00
+| smb-security-mode: 
+|   Account that was used for smb scripts: guest
+|   User-level authentication
+|   SMB Security: Challenge/response passwords supported
+|_  Message signing disabled (dangerous, but default)
+|_smbv2-enabled: Server doesn't support SMBv2 protocol
+
+Nmap scan report for 175.45.178.187
+Host is up (0.42s latency).
+Not shown: 992 closed ports
+PORT     STATE    SERVICE        VERSION
+80/tcp   open     http           Apache httpd 2.2.4 ((Win32) DAV/2 mod_ssl/2.2.4 OpenSSL/0.9.8e mod_autoindex_color PHP/5.2.1)
+|_http-methods: No Allow or Public header in OPTIONS response (status code 302)
+| http-title: XAMPP Version 1.6.1
+|_Requested resource was http://175.45.178.187/xampp/
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+443/tcp  open     ssl/http       Apache httpd 2.2.4 ((Win32) DAV/2 mod_ssl/2.2.4 OpenSSL/0.9.8e mod_autoindex_color PHP/5.2.1)
+|_http-methods: No Allow or Public header in OPTIONS response (status code 302)
+| http-title: XAMPP Version 1.6.1
+|_Requested resource was https://175.45.178.187/xampp/
+| ssl-cert: Subject: commonName=localhost/organizationName=Apache Friends
+| Not valid before: 2005-12-04T15:11:04+00:00
+|_Not valid after:  2006-12-04T15:11:04+00:00
+|_ssl-date: 2015-10-01T23:46:22+00:00; -27m19s from local time.
+| sslv2: 
+|   SSLv2 supported
+|   ciphers: 
+|     SSL2_DES_192_EDE3_CBC_WITH_MD5
+|     SSL2_IDEA_128_CBC_WITH_MD5
+|     SSL2_RC2_CBC_128_CBC_WITH_MD5
+|     SSL2_RC4_128_WITH_MD5
+|     SSL2_DES_64_CBC_WITH_MD5
+|     SSL2_RC2_CBC_128_CBC_WITH_MD5
+|_    SSL2_RC4_128_EXPORT40_WITH_MD5
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+3306/tcp open     mysql          MySQL (unauthorized)
+4444/tcp filtered krb524
+
+Nmap scan report for 175.45.178.188
+Host is up (0.42s latency).
+Not shown: 992 closed ports
+PORT     STATE    SERVICE        VERSION
+80/tcp   open     http           Apache httpd 2.2.4 ((Win32) DAV/2 mod_ssl/2.2.4 OpenSSL/0.9.8e mod_autoindex_color PHP/5.2.1)
+| http-methods: Potentially risky methods: TRACE
+|_See http://nmap.org/nsedoc/scripts/http-methods.html
+|_http-title: Index of /
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+443/tcp  open     ssl/http       Apache httpd 2.2.4 ((Win32) DAV/2 mod_ssl/2.2.4 OpenSSL/0.9.8e mod_autoindex_color PHP/5.2.1)
+| http-methods: Potentially risky methods: TRACE
+|_See http://nmap.org/nsedoc/scripts/http-methods.html
+|_http-title: Index of /
+| ssl-cert: Subject: commonName=localhost/organizationName=Apache Friends
+| Not valid before: 2005-12-04T15:11:04+00:00
+|_Not valid after:  2006-12-04T15:11:04+00:00
+|_ssl-date: 2015-10-01T23:46:40+00:00; -27m19s from local time.
+| sslv2: 
+|   SSLv2 supported
+|   ciphers: 
+|     SSL2_DES_192_EDE3_CBC_WITH_MD5
+|     SSL2_IDEA_128_CBC_WITH_MD5
+|     SSL2_RC2_CBC_128_CBC_WITH_MD5
+|     SSL2_RC4_128_WITH_MD5
+|     SSL2_DES_64_CBC_WITH_MD5
+|     SSL2_RC2_CBC_128_CBC_WITH_MD5
+|_    SSL2_RC4_128_EXPORT40_WITH_MD5
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+3306/tcp open     mysql          MySQL (unauthorized)
+4444/tcp filtered krb524
+
+Nmap scan report for 175.45.178.198
+Host is up (0.40s latency).
+Not shown: 998 filtered ports
+PORT    STATE  SERVICE VERSION
+80/tcp  closed http
+443/tcp closed https
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+# Nmap done at Fri Oct  2 00:19:53 2015 -- 1024 IP addresses (13 hosts up) scanned in 11991.49 seconds

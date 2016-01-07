@@ -1,0 +1,26 @@
+# Nmap 6.47 scan initiated Sun Oct 25 21:00:01 2015 as: /usr/bin/nmap -A -oN /home/benedikt/projects/nk-scans/nmap/nk-Star-KP.%d-%m-%Y.txt -oG /home/benedikt/projects/nk-scans/nmap/nk-Star-KP.%d-%m-%Y.grep 175.45.176.0/22
+Host: 175.45.178.140 ()	Status: Up
+Host: 175.45.178.140 ()	Ports: 443/open/tcp//https?///, 1027/open/tcp//msrpc//Microsoft Windows RPC/	Ignored State: filtered (998)
+Host: 175.45.178.142 ()	Status: Up
+Host: 175.45.178.142 ()	Ports: 22/open/tcp//ssh//Cisco SSH 1.25 (protocol 1.99)/, 23/open/tcp//telnet//Cisco router telnetd/	Ignored State: closed (998)
+Host: 175.45.178.178 ()	Status: Up
+Host: 175.45.178.178 ()	Ports: 80/filtered/tcp//http///, 135/filtered/tcp//msrpc///, 139/filtered/tcp//netbios-ssn///, 443/open/tcp//ssl|http//Apache httpd/, 445/filtered/tcp//microsoft-ds///, 593/filtered/tcp//http-rpc-epmap///, 3306/filtered/tcp//mysql///, 4444/filtered/tcp//krb524///	Ignored State: closed (992)
+Host: 175.45.178.179 ()	Status: Up
+Host: 175.45.178.179 ()	Ports: 22/open/tcp//ssh//OpenSSH 5.3 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.2.15 ((Red Hat))/, 6000/open/tcp//X11//(access denied)/	Ignored State: closed (997)
+Host: 175.45.178.180 ()	Status: Up
+Host: 175.45.178.180 ()	Ports: 22/open/tcp//ssh//OpenSSH 5.3 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.2.15 ((Red Hat))/, 135/filtered/tcp//msrpc///, 139/filtered/tcp//netbios-ssn///, 445/filtered/tcp//microsoft-ds///, 593/filtered/tcp//http-rpc-epmap///, 4444/filtered/tcp//krb524///, 6000/open/tcp//X11//(access denied)/	Ignored State: closed (992)
+Host: 175.45.178.182 ()	Status: Up
+Host: 175.45.178.182 ()	Ports: 22/open/tcp//ssh//OpenSSH 5.3 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.2.15 ((Red Hat))/, 135/filtered/tcp//msrpc///, 139/filtered/tcp//netbios-ssn///, 445/filtered/tcp//microsoft-ds///, 593/filtered/tcp//http-rpc-epmap///, 4444/filtered/tcp//krb524///, 6000/open/tcp//X11//(access denied)/	Ignored State: closed (992)
+Host: 175.45.178.183 ()	Status: Up
+Host: 175.45.178.183 ()	Ports: 22/open/tcp//ssh//OpenSSH 5.3 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.2.15 ((Red Hat))/, 135/filtered/tcp//msrpc///, 139/filtered/tcp//netbios-ssn///, 445/filtered/tcp//microsoft-ds///, 593/filtered/tcp//http-rpc-epmap///, 4444/filtered/tcp//krb524///, 6000/open/tcp//X11//(access denied)/	Ignored State: closed (992)
+Host: 175.45.178.184 ()	Status: Up
+Host: 175.45.178.184 ()	Ports: 22/open/tcp//ssh//OpenSSH 5.3 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.2.15 ((Red Hat))/, 135/filtered/tcp//msrpc///, 139/filtered/tcp//netbios-ssn///, 445/filtered/tcp//microsoft-ds///, 593/filtered/tcp//http-rpc-epmap///, 4444/filtered/tcp//krb524///, 6000/open/tcp//X11//(access denied)/	Ignored State: closed (992)
+Host: 175.45.178.185 ()	Status: Up
+Host: 175.45.178.185 ()	Ports: 22/open/tcp//ssh//OpenSSH 5.3 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.2.15 ((Red Hat))/, 6000/open/tcp//X11//(access denied)/	Ignored State: closed (997)
+Host: 175.45.178.186 ()	Status: Up
+Host: 175.45.178.186 ()	Ports: 22/open/tcp//ssh//OpenSSH 5.3 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.2.15 ((Red Hat))/, 6000/open/tcp//X11//(access denied)/	Ignored State: closed (997)
+Host: 175.45.178.187 ()	Status: Up
+Host: 175.45.178.187 ()	Ports: 22/open/tcp//ssh//OpenSSH 5.3 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.2.15 ((Red Hat))/, 135/filtered/tcp//msrpc///, 139/filtered/tcp//netbios-ssn///, 445/filtered/tcp//microsoft-ds///, 593/filtered/tcp//http-rpc-epmap///, 4444/filtered/tcp//krb524///, 6000/open/tcp//X11//(access denied)/	Ignored State: closed (992)
+Host: 175.45.178.188 ()	Status: Up
+Host: 175.45.178.188 ()	Ports: 22/open/tcp//ssh//OpenSSH 5.3 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.2.15 ((Red Hat))/, 135/filtered/tcp//msrpc///, 139/filtered/tcp//netbios-ssn///, 445/filtered/tcp//microsoft-ds///, 593/filtered/tcp//http-rpc-epmap///, 4444/filtered/tcp//krb524///, 6000/open/tcp//X11//(access denied)/	Ignored State: closed (992)
+# Nmap done at Sun Oct 25 21:09:19 2015 -- 1024 IP addresses (12 hosts up) scanned in 557.60 seconds

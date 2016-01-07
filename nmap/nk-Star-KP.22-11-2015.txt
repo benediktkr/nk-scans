@@ -1,0 +1,347 @@
+# Nmap 6.47 scan initiated Sun Nov 22 21:00:01 2015 as: /usr/bin/nmap -A -oN /home/benedikt/projects/nk-scans/nmap/nk-Star-KP.%d-%m-%Y.txt -oG /home/benedikt/projects/nk-scans/nmap/nk-Star-KP.%d-%m-%Y.grep 175.45.176.0/22
+Nmap scan report for 175.45.176.67
+Host is up (0.33s latency).
+All 1000 scanned ports on 175.45.176.67 are filtered
+
+Nmap scan report for 175.45.176.68
+Host is up (0.32s latency).
+All 1000 scanned ports on 175.45.176.68 are filtered
+
+Nmap scan report for 175.45.176.71
+Host is up (0.32s latency).
+All 1000 scanned ports on 175.45.176.71 are filtered
+
+Nmap scan report for 175.45.178.102
+Host is up (0.38s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.10 ((Unix) OpenSSL/1.0.1i PHP/5.4.31 mod_perl/2.0.8-dev Perl/v5.16.3)
+|_http-methods: No Allow or Public header in OPTIONS response (status code 200)
+|_http-title: Site doesn't have a title (text/html).
+
+Nmap scan report for 175.45.178.131
+Host is up (0.38s latency).
+Not shown: 997 filtered ports
+PORT      STATE SERVICE           VERSION
+80/tcp    open  http?
+443/tcp   open  https?
+10000/tcp open  snet-sensor-mgmt?
+| ndmp-version: 
+|_  ERROR: Failed to connect to server
+3 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=6.47%I=7%D=11/22%Time=5652350E%P=x86_64-pc-linux-gnu%r(Get
+SF:Request,1A,"HTTP/1\.0\x20404\x20Not\x20Found\r\n\r\n")%r(HTTPOptions,66
+SF:,"\"\xc0\x91\xeb\xe2\xd46\x11/f\x88\x8d\)d\xc6_o\xee\xd1\xa6\xb1\xae#\x
+SF:9f\xbb\x87\xc4\x1f\x88\xd0J\xa8\xd8\xea\x9e\xb6\xec\xb8D\x1b\x9a\xda\xd
+SF:d\xab\xac\.5\xf4\xfbp!\xde7\|\xbd\xca3H\x19v\xef\xd45\xe2k\x20\x11\x0e\
+SF:xa7,\xad\xfa\xa3\xf8\t\xa6_\x84%\x12\xdb\xd0\x01>\x17\xdc\x9d\*\x13\xa8
+SF:\xf9\xd6\xcf4\x15BK\x80\xf1n\x87\x8c");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=6.47%I=7%D=11/22%Time=56523513%P=x86_64-pc-linux-gnu%r(HT
+SF:TPOptions,68,"\xde\x9e\xae\xb2\x17\xb8\|\x12J\xa82\xd9\",\xe5\x92\xd1\$
+SF:2\xbb\\E\xc2\xd3>\xb8\x8a\xaa#\x8f\x1dvK\x91c\xf6\"\xebQ\x0f\x9b\xea6N\
+SF:xe8\x20\xdc\xb8\xc52{\xf0\xa1\^\xb7\xfc=J\xb3\xc8\x99\xf6oT\xb5b\xeb\xa
+SF:0\x91\x8e'\xac-z#x\x89&\xdf\x04\xa5\x92\[P\x81\xbe\x97\\\x1d\xaa\x93\(y
+SF:VO\xb4\x95\xc2\xcb\0q\xee\x07\x0c")%r(SSLSessionReq,65,"H\x9d\xbdT\+\xd
+SF:1\xdd1\xb2\x8f\xfc\x96\xb8\xf2\xbf\x0f\xf4\x10\x03!\xff\xc1D\xa5D;\xe2\
+SF:xcd\xb9\xd6\x86<\x11\x0b\x84Wv\.Y\x80\xe1\x90\+u\0\x9cl\x9f\x04\xa5\x92
+SF:\[P\x81\xbe\x97\\\x1d\xaa\x93\(yVO\xb4\x95\xc2\xcb\0q\xee\x07\x0c\r\xda
+SF:\x03\xd8i\x86\xbfd\x85\xf2;\xb0a\x1ew\xbc\xfd\ns\x881a8#\x02\x98\xd5\x1
+SF:8");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port10000-TCP:V=6.47%I=7%D=11/22%Time=5652350E%P=x86_64-pc-linux-gnu%r(
+SF:GetRequest,ED,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20clo
+SF:se\r\ncontent-type:\x20application/json\r\nAccess-Control-Allow-Methods
+SF::\x20POST,GET\r\nAccess-Control-Allow-Credentials:\x20true\r\nAccess-Co
+SF:ntrol-Allow-Origin:\x20\r\nContent-Length:\x2027\r\n\r\n{\"info\":\"Inv
+SF:alid\x20request!\"}")%r(HTTPOptions,ED,"HTTP/1\.1\x20400\x20Bad\x20Requ
+SF:est\r\nConnection:\x20close\r\ncontent-type:\x20application/json\r\nAcc
+SF:ess-Control-Allow-Methods:\x20POST,GET\r\nAccess-Control-Allow-Credenti
+SF:als:\x20true\r\nAccess-Control-Allow-Origin:\x20\r\nContent-Length:\x20
+SF:27\r\n\r\n{\"info\":\"Invalid\x20request!\"}")%r(RTSPRequest,69,"HTTP/1
+SF:\.0\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\nContent-Type:\x
+SF:20text/plain\r\nContent-Length:\x2012\r\n\r\nBad\x20Request\.")%r(Gener
+SF:icLines,69,"HTTP/1\.0\x20400\x20Bad\x20Request\r\nConnection:\x20close\
+SF:r\nContent-Type:\x20text/plain\r\nContent-Length:\x2012\r\n\r\nBad\x20R
+SF:equest\.")%r(RPCCheck,69,"HTTP/1\.0\x20400\x20Bad\x20Request\r\nConnect
+SF:ion:\x20close\r\nContent-Type:\x20text/plain\r\nContent-Length:\x2012\r
+SF:\n\r\nBad\x20Request\.")%r(DNSVersionBindReq,69,"HTTP/1\.0\x20400\x20Ba
+SF:d\x20Request\r\nConnection:\x20close\r\nContent-Type:\x20text/plain\r\n
+SF:Content-Length:\x2012\r\n\r\nBad\x20Request\.")%r(DNSStatusRequest,69,"
+SF:HTTP/1\.0\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\nContent-T
+SF:ype:\x20text/plain\r\nContent-Length:\x2012\r\n\r\nBad\x20Request\.")%r
+SF:(Help,69,"HTTP/1\.0\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\
+SF:nContent-Type:\x20text/plain\r\nContent-Length:\x2012\r\n\r\nBad\x20Req
+SF:uest\.");
+
+Nmap scan report for 175.45.178.142
+Host is up (0.37s latency).
+Not shown: 983 closed ports
+PORT      STATE    SERVICE        VERSION
+22/tcp    open     ssh            Cisco SSH 1.25 (protocol 1.99)
+|_ssh-hostkey: 
+23/tcp    open     telnet         Cisco router telnetd
+714/tcp   filtered iris-xpcs
+808/tcp   filtered ccproxy-http
+1000/tcp  filtered cadlock
+1051/tcp  filtered optima-vnet
+1111/tcp  filtered lmsocialserver
+1192/tcp  filtered caids-sensor
+1218/tcp  filtered aeroflight-ads
+1494/tcp  filtered citrix-ica
+1718/tcp  filtered h323gatedisc
+5101/tcp  filtered admdog
+5550/tcp  filtered sdadmind
+8292/tcp  filtered blp3
+9485/tcp  filtered unknown
+49157/tcp filtered unknown
+55055/tcp filtered unknown
+Service Info: OS: IOS; Device: router; CPE: cpe:/o:cisco:ios
+
+Nmap scan report for 175.45.178.178
+Host is up (0.37s latency).
+Not shown: 988 closed ports
+PORT     STATE    SERVICE        VERSION
+80/tcp   filtered http
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+443/tcp  open     ssl/http       Apache httpd
+|_http-methods: No Allow or Public header in OPTIONS response (status code 200)
+|_http-title: Site doesn't have a title (text/html; charset=UTF-8).
+| ssl-cert: Subject: commonName=NetRadar/organizationName=NeoTech/stateOrProvinceName=XX/countryName=XX
+| Not valid before: 2014-09-04T15:54:32+00:00
+|_Not valid after:  2044-08-27T15:54:32+00:00
+|_ssl-date: 2015-11-22T21:06:21+00:00; -29m07s from local time.
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+1090/tcp filtered ff-fms
+1863/tcp filtered msnp
+3306/tcp filtered mysql
+3325/tcp filtered active-net
+4444/tcp filtered krb524
+5877/tcp filtered unknown
+
+Nmap scan report for 175.45.178.179
+Host is up (0.38s latency).
+Not shown: 997 closed ports
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 5.3 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 90:15:48:98:36:a2:f8:08:e9:98:81:e9:f0:90:5b:1d (DSA)
+|_  2048 84:d9:48:f5:01:3a:70:6a:58:e2:5b:c5:d7:83:58:ef (RSA)
+80/tcp   open  http    Apache httpd 2.2.15 ((Red Hat))
+| http-methods: Potentially risky methods: TRACE
+|_See http://nmap.org/nsedoc/scripts/http-methods.html
+|_http-title: Test Page for the Apache HTTP Server on Red Hat Enterprise Linux
+6000/tcp open  X11     (access denied)
+Service Info: OS: Unix
+
+Nmap scan report for 175.45.178.180
+Host is up (0.37s latency).
+Not shown: 990 closed ports
+PORT      STATE    SERVICE    VERSION
+22/tcp    open     ssh        OpenSSH 5.3 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 90:15:48:98:36:a2:f8:08:e9:98:81:e9:f0:90:5b:1d (DSA)
+|_  2048 84:d9:48:f5:01:3a:70:6a:58:e2:5b:c5:d7:83:58:ef (RSA)
+37/tcp    filtered time
+80/tcp    open     http       Apache httpd 2.2.15 ((Red Hat))
+| http-methods: Potentially risky methods: TRACE
+|_See http://nmap.org/nsedoc/scripts/http-methods.html
+|_http-title: Test Page for the Apache HTTP Server on Red Hat Enterprise Linux
+1021/tcp  filtered exp1
+1322/tcp  filtered novation
+2065/tcp  filtered dlsrpn
+3737/tcp  filtered xpanel
+5989/tcp  filtered wbem-https
+6000/tcp  open     X11        (access denied)
+56737/tcp filtered unknown
+Service Info: OS: Unix
+
+Nmap scan report for 175.45.178.181
+Host is up (0.37s latency).
+Not shown: 984 closed ports
+PORT      STATE    SERVICE        VERSION
+22/tcp    open     ssh            OpenSSH 5.3 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 90:15:48:98:36:a2:f8:08:e9:98:81:e9:f0:90:5b:1d (DSA)
+|_  2048 84:d9:48:f5:01:3a:70:6a:58:e2:5b:c5:d7:83:58:ef (RSA)
+80/tcp    open     http           Apache httpd 2.2.15 ((Red Hat))
+| http-methods: Potentially risky methods: TRACE
+|_See http://nmap.org/nsedoc/scripts/http-methods.html
+|_http-title: Test Page for the Apache HTTP Server on Red Hat Enterprise Linux
+135/tcp   filtered msrpc
+139/tcp   filtered netbios-ssn
+445/tcp   filtered microsoft-ds
+593/tcp   filtered http-rpc-epmap
+1875/tcp  filtered westell-stats
+4444/tcp  filtered krb524
+5030/tcp  filtered surfpass
+5120/tcp  filtered unknown
+5910/tcp  filtered cm
+6000/tcp  open     X11            (access denied)
+8180/tcp  filtered unknown
+19801/tcp filtered unknown
+20031/tcp filtered unknown
+27356/tcp filtered unknown
+Service Info: OS: Unix
+
+Nmap scan report for 175.45.178.182
+Host is up (0.38s latency).
+Not shown: 984 closed ports
+PORT     STATE    SERVICE        VERSION
+22/tcp   open     ssh            OpenSSH 5.3 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 90:15:48:98:36:a2:f8:08:e9:98:81:e9:f0:90:5b:1d (DSA)
+|_  2048 84:d9:48:f5:01:3a:70:6a:58:e2:5b:c5:d7:83:58:ef (RSA)
+80/tcp   open     http           Apache httpd 2.2.15 ((Red Hat))
+| http-methods: Potentially risky methods: TRACE
+|_See http://nmap.org/nsedoc/scripts/http-methods.html
+|_http-title: Test Page for the Apache HTTP Server on Red Hat Enterprise Linux
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+912/tcp  filtered apex-mesh
+1039/tcp filtered sbl
+2005/tcp filtered deslogin
+4444/tcp filtered krb524
+5033/tcp filtered unknown
+5952/tcp filtered unknown
+6000/tcp open     X11            (access denied)
+8292/tcp filtered blp3
+9071/tcp filtered unknown
+9485/tcp filtered unknown
+Service Info: OS: Unix
+
+Nmap scan report for 175.45.178.184
+Host is up (0.37s latency).
+Not shown: 983 closed ports
+PORT      STATE    SERVICE        VERSION
+22/tcp    open     ssh            OpenSSH 5.3 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 90:15:48:98:36:a2:f8:08:e9:98:81:e9:f0:90:5b:1d (DSA)
+|_  2048 84:d9:48:f5:01:3a:70:6a:58:e2:5b:c5:d7:83:58:ef (RSA)
+80/tcp    open     http           Apache httpd 2.2.15 ((Red Hat))
+| http-methods: Potentially risky methods: TRACE
+|_See http://nmap.org/nsedoc/scripts/http-methods.html
+|_http-title: Test Page for the Apache HTTP Server on Red Hat Enterprise Linux
+135/tcp   filtered msrpc
+139/tcp   filtered netbios-ssn
+445/tcp   filtered microsoft-ds
+593/tcp   filtered http-rpc-epmap
+714/tcp   filtered iris-xpcs
+808/tcp   filtered ccproxy-http
+1000/tcp  filtered cadlock
+1051/tcp  filtered optima-vnet
+1111/tcp  filtered lmsocialserver
+1192/tcp  filtered caids-sensor
+4444/tcp  filtered krb524
+5101/tcp  filtered admdog
+5550/tcp  filtered sdadmind
+6000/tcp  open     X11            (access denied)
+55055/tcp filtered unknown
+Service Info: OS: Unix
+
+Nmap scan report for 175.45.178.185
+Host is up (0.37s latency).
+Not shown: 997 closed ports
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 5.3 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 90:15:48:98:36:a2:f8:08:e9:98:81:e9:f0:90:5b:1d (DSA)
+|_  2048 84:d9:48:f5:01:3a:70:6a:58:e2:5b:c5:d7:83:58:ef (RSA)
+80/tcp   open  http    Apache httpd 2.2.15 ((Red Hat))
+| http-methods: Potentially risky methods: TRACE
+|_See http://nmap.org/nsedoc/scripts/http-methods.html
+|_http-title: Test Page for the Apache HTTP Server on Red Hat Enterprise Linux
+6000/tcp open  X11     (access denied)
+Service Info: OS: Unix
+
+Nmap scan report for 175.45.178.186
+Host is up (0.37s latency).
+Not shown: 991 closed ports
+PORT     STATE    SERVICE      VERSION
+22/tcp   open     ssh          OpenSSH 5.3 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 90:15:48:98:36:a2:f8:08:e9:98:81:e9:f0:90:5b:1d (DSA)
+|_  2048 84:d9:48:f5:01:3a:70:6a:58:e2:5b:c5:d7:83:58:ef (RSA)
+80/tcp   open     http         Apache httpd 2.2.15 ((Red Hat))
+| http-methods: Potentially risky methods: TRACE
+|_See http://nmap.org/nsedoc/scripts/http-methods.html
+|_http-title: Test Page for the Apache HTTP Server on Red Hat Enterprise Linux
+161/tcp  filtered snmp
+464/tcp  filtered kpasswd5
+636/tcp  filtered ldapssl
+1026/tcp filtered LSA-or-nterm
+1091/tcp filtered ff-sm
+1287/tcp filtered routematch
+6000/tcp open     X11          (access denied)
+Service Info: OS: Unix
+
+Nmap scan report for 175.45.178.187
+Host is up (0.38s latency).
+Not shown: 979 closed ports
+PORT      STATE    SERVICE       VERSION
+22/tcp    open     ssh           OpenSSH 5.3 (protocol 2.0)
+|_ssh-hostkey: 
+80/tcp    open     http          Apache httpd 2.2.15 ((Red Hat))
+541/tcp   filtered uucp-rlogin
+1078/tcp  filtered avocent-proxy
+1084/tcp  filtered ansoft-lm-2
+1900/tcp  filtered upnp
+2033/tcp  filtered glogger
+2725/tcp  filtered msolap-ptp2
+2910/tcp  filtered tdaccess
+4899/tcp  filtered radmin
+5080/tcp  filtered onscreen
+5431/tcp  filtered park-agent
+6000/tcp  open     X11?
+|_x11-access: ERROR: Script execution failed (use -d to debug)
+8031/tcp  filtered unknown
+8089/tcp  filtered unknown
+8099/tcp  filtered unknown
+8254/tcp  filtered unknown
+8649/tcp  filtered unknown
+9103/tcp  filtered jetdirect
+9943/tcp  filtered unknown
+28201/tcp filtered unknown
+
+Nmap scan report for 175.45.178.188
+Host is up (0.37s latency).
+Not shown: 997 closed ports
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 5.3 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 90:15:48:98:36:a2:f8:08:e9:98:81:e9:f0:90:5b:1d (DSA)
+|_  2048 84:d9:48:f5:01:3a:70:6a:58:e2:5b:c5:d7:83:58:ef (RSA)
+80/tcp   open  http    Apache httpd 2.2.15 ((Red Hat))
+| http-methods: Potentially risky methods: TRACE
+|_See http://nmap.org/nsedoc/scripts/http-methods.html
+|_http-title: Test Page for the Apache HTTP Server on Red Hat Enterprise Linux
+6000/tcp open  X11     (access denied)
+Service Info: OS: Unix
+
+Post-scan script results:
+| ssh-hostkey: Possible duplicate hosts
+| Key 2048 84:d9:48:f5:01:3a:70:6a:58:e2:5b:c5:d7:83:58:ef (RSA) used by:
+|   175.45.178.179
+|   175.45.178.180
+|   175.45.178.181
+|   175.45.178.182
+|   175.45.178.184
+|   175.45.178.185
+|   175.45.178.186
+|   175.45.178.188
+| Key 1024 90:15:48:98:36:a2:f8:08:e9:98:81:e9:f0:90:5b:1d (DSA) used by:
+|   175.45.178.179
+|   175.45.178.180
+|   175.45.178.181
+|   175.45.178.182
+|   175.45.178.184
+|   175.45.178.185
+|   175.45.178.186
+|_  175.45.178.188
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+# Nmap done at Sun Nov 22 21:39:10 2015 -- 1024 IP addresses (16 hosts up) scanned in 2349.14 seconds

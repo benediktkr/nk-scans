@@ -1,0 +1,29 @@
+# Nmap 6.47 scan initiated Sat Oct  3 21:00:01 2015 as: /usr/bin/nmap -A -oN /home/benedikt/projects/nk-scans/nmap/nk-Star-KP.%d-%m-%Y.txt -oG /home/benedikt/projects/nk-scans/nmap/nk-Star-KP.%d-%m-%Y.grep 175.45.176.0/22
+Nmap scan report for 175.45.176.79
+Host is up (1.1s latency).
+All 1000 scanned ports on 175.45.176.79 are filtered
+
+Nmap scan report for 175.45.177.74
+Host is up (0.35s latency).
+All 1000 scanned ports on 175.45.177.74 are filtered
+
+Nmap scan report for 175.45.178.137
+Host is up (0.41s latency).
+Not shown: 999 closed ports
+PORT     STATE SERVICE    VERSION
+3128/tcp open  http-proxy Squid http proxy 3.3.8
+|_http-methods: No Allow or Public header in OPTIONS response (status code 400)
+|_http-title: ERROR: The requested URL could not be retrieved
+
+Nmap scan report for 175.45.178.142
+Host is up (0.41s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     Cisco SSH 1.25 (protocol 1.99)
+|_ssh-hostkey: ERROR: Script execution failed (use -d to debug)
+|_sshv1: Server supports SSHv1
+23/tcp open  telnet  Cisco router telnetd
+Service Info: OS: IOS; Device: router; CPE: cpe:/o:cisco:ios
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+# Nmap done at Sat Oct  3 21:30:32 2015 -- 1024 IP addresses (4 hosts up) scanned in 1831.25 seconds

@@ -1,0 +1,231 @@
+# Nmap 6.47 scan initiated Thu Nov 12 21:00:01 2015 as: /usr/bin/nmap -A -oN /home/benedikt/projects/nk-scans/nmap/nk-Star-KP.%d-%m-%Y.txt -oG /home/benedikt/projects/nk-scans/nmap/nk-Star-KP.%d-%m-%Y.grep 175.45.176.0/22
+Nmap scan report for 175.45.176.71
+Host is up (0.72s latency).
+All 1000 scanned ports on 175.45.176.71 are filtered
+
+Nmap scan report for 175.45.178.102
+Host is up (0.38s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.10 ((Unix) OpenSSL/1.0.1i PHP/5.4.31 mod_perl/2.0.8-dev Perl/v5.16.3)
+|_http-methods: No Allow or Public header in OPTIONS response (status code 200)
+|_http-title: Site doesn't have a title (text/html).
+
+Nmap scan report for 175.45.178.131
+Host is up (0.38s latency).
+Not shown: 997 filtered ports
+PORT      STATE SERVICE           VERSION
+80/tcp    open  http?
+443/tcp   open  https?
+10000/tcp open  snet-sensor-mgmt?
+| ndmp-version: 
+|_  ERROR: Failed to connect to server
+3 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=6.47%I=7%D=11/12%Time=5645124B%P=x86_64-pc-linux-gnu%r(Get
+SF:Request,1A,"HTTP/1\.0\x20404\x20Not\x20Found\r\n\r\n")%r(HTTPOptions,53
+SF:,"K\x8a\xe9\x96\x13n\x19\x02v\x8b5\xaeF\x90\xc9\xdd\xdc\xb12\xec\xc4-\x
+SF:e5\xa1\xd3\xa2E\xab\x0f\xc8\xb1\xe4\*\x98u7\xb2\x0b<\xefMd\x1d\xd5\x82\
+SF:xc9\xc7\x17\x82\x8b\xc01\xae\xc7\xcc\xcd\x9a\xc3\x98\)F\x7f\$E\xb2\xfbp
+SF:!\xde7\|\xbd\xca3H\x19v\xef\xd45\xe2k\x20");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=6.47%I=7%D=11/12%Time=56451250%P=x86_64-pc-linux-gnu%r(HT
+SF:TPOptions,49,"t\xaa\x8f\x96Y\x12f\x8f\xc9\xe3mP\x93\xc0\x9b\x10\x9d\xeb
+SF:yx\xd0\x91\x96\+H\x81\xe5\xc8\x07h\x1d\xba\x06\xf6\xa9\xbd\)K\xd0\xb6\x
+SF:93\xdd\x98\x93\x07\xa9\xc4\xb1\(yVO\xb4\x95\xc2\xcb\0q\xee\x07\x0c\r\xd
+SF:a\x03\xd8i\x86\xbfd\x85\xf2;\xb0")%r(SSLSessionReq,5A,"\xbb\x18\xe9\x08
+SF:\x03c\x96\x0fLW\xb5s\xee\xf5\x8b\x83\x90\x0eE\x97v\x95\x99\xa4\x84\xc1\
+SF:xe3\xbaoY\xad\x9f\r\)':L\xf3X\xcf\x91\xdf\xf1\x1a\xd8H\x03\xd9\x89&\xdf
+SF:\x04\xa5\x92\[P\x81\xbe\x97\\\x1d\xaa\x93\(yVO\xb4\x95\xc2\xcb\0q\xee\x
+SF:07\x0c\r\xda\x03\xd8i\x86\xcb\]sn\x84\|\xfcO");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port10000-TCP:V=6.47%I=7%D=11/12%Time=5645124B%P=x86_64-pc-linux-gnu%r(
+SF:GetRequest,ED,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20clo
+SF:se\r\ncontent-type:\x20application/json\r\nAccess-Control-Allow-Methods
+SF::\x20POST,GET\r\nAccess-Control-Allow-Credentials:\x20true\r\nAccess-Co
+SF:ntrol-Allow-Origin:\x20\r\nContent-Length:\x2027\r\n\r\n{\"info\":\"Inv
+SF:alid\x20request!\"}")%r(HTTPOptions,ED,"HTTP/1\.1\x20400\x20Bad\x20Requ
+SF:est\r\nConnection:\x20close\r\ncontent-type:\x20application/json\r\nAcc
+SF:ess-Control-Allow-Methods:\x20POST,GET\r\nAccess-Control-Allow-Credenti
+SF:als:\x20true\r\nAccess-Control-Allow-Origin:\x20\r\nContent-Length:\x20
+SF:27\r\n\r\n{\"info\":\"Invalid\x20request!\"}")%r(RTSPRequest,69,"HTTP/1
+SF:\.0\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\nContent-Type:\x
+SF:20text/plain\r\nContent-Length:\x2012\r\n\r\nBad\x20Request\.")%r(Gener
+SF:icLines,69,"HTTP/1\.0\x20400\x20Bad\x20Request\r\nConnection:\x20close\
+SF:r\nContent-Type:\x20text/plain\r\nContent-Length:\x2012\r\n\r\nBad\x20R
+SF:equest\.")%r(RPCCheck,69,"HTTP/1\.0\x20400\x20Bad\x20Request\r\nConnect
+SF:ion:\x20close\r\nContent-Type:\x20text/plain\r\nContent-Length:\x2012\r
+SF:\n\r\nBad\x20Request\.")%r(DNSVersionBindReq,69,"HTTP/1\.0\x20400\x20Ba
+SF:d\x20Request\r\nConnection:\x20close\r\nContent-Type:\x20text/plain\r\n
+SF:Content-Length:\x2012\r\n\r\nBad\x20Request\.")%r(DNSStatusRequest,69,"
+SF:HTTP/1\.0\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\nContent-T
+SF:ype:\x20text/plain\r\nContent-Length:\x2012\r\n\r\nBad\x20Request\.")%r
+SF:(Help,69,"HTTP/1\.0\x20400\x20Bad\x20Request\r\nConnection:\x20close\r\
+SF:nContent-Type:\x20text/plain\r\nContent-Length:\x2012\r\n\r\nBad\x20Req
+SF:uest\.");
+
+Nmap scan report for 175.45.178.138
+Host is up (0.49s latency).
+Not shown: 998 closed ports
+PORT     STATE    SERVICE     VERSION
+1046/tcp filtered wfremotertm
+1076/tcp filtered sns_credit
+
+Nmap scan report for 175.45.178.142
+Host is up (0.38s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     Cisco SSH 1.25 (protocol 1.99)
+|_ssh-hostkey: 
+23/tcp open  telnet  Cisco router telnetd
+Service Info: OS: IOS; Device: router; CPE: cpe:/o:cisco:ios
+
+Nmap scan report for 175.45.178.178
+Host is up (0.37s latency).
+Not shown: 992 closed ports
+PORT     STATE    SERVICE        VERSION
+80/tcp   filtered http
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+443/tcp  open     ssl/http       Apache httpd
+|_http-methods: No Allow or Public header in OPTIONS response (status code 200)
+|_http-title: Site doesn't have a title (text/html; charset=UTF-8).
+| ssl-cert: Subject: commonName=NetRadar/organizationName=NeoTech/stateOrProvinceName=XX/countryName=XX
+| Not valid before: 2014-09-04T15:54:32+00:00
+|_Not valid after:  2044-08-27T15:54:32+00:00
+|_ssl-date: 2015-11-12T21:58:49+00:00; -28m52s from local time.
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+3306/tcp filtered mysql
+4444/tcp filtered krb524
+
+Nmap scan report for 175.45.178.179
+Host is up (0.38s latency).
+Not shown: 997 closed ports
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 5.3 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 90:15:48:98:36:a2:f8:08:e9:98:81:e9:f0:90:5b:1d (DSA)
+|_  2048 84:d9:48:f5:01:3a:70:6a:58:e2:5b:c5:d7:83:58:ef (RSA)
+80/tcp   open  http    Apache httpd 2.2.15 ((Red Hat))
+| http-methods: Potentially risky methods: TRACE
+|_See http://nmap.org/nsedoc/scripts/http-methods.html
+|_http-title: Test Page for the Apache HTTP Server on Red Hat Enterprise Linux
+6000/tcp open  X11     (access denied)
+Service Info: OS: Unix
+
+Nmap scan report for 175.45.178.180
+Host is up (0.38s latency).
+Not shown: 997 closed ports
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 5.3 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 90:15:48:98:36:a2:f8:08:e9:98:81:e9:f0:90:5b:1d (DSA)
+|_  2048 84:d9:48:f5:01:3a:70:6a:58:e2:5b:c5:d7:83:58:ef (RSA)
+80/tcp   open  http    Apache httpd 2.2.15 ((Red Hat))
+| http-methods: Potentially risky methods: TRACE
+|_See http://nmap.org/nsedoc/scripts/http-methods.html
+|_http-title: Test Page for the Apache HTTP Server on Red Hat Enterprise Linux
+6000/tcp open  X11     (access denied)
+Service Info: OS: Unix
+
+Nmap scan report for 175.45.178.183
+Host is up (0.38s latency).
+Not shown: 992 closed ports
+PORT     STATE    SERVICE        VERSION
+22/tcp   open     ssh            OpenSSH 5.3 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 90:15:48:98:36:a2:f8:08:e9:98:81:e9:f0:90:5b:1d (DSA)
+|_  2048 84:d9:48:f5:01:3a:70:6a:58:e2:5b:c5:d7:83:58:ef (RSA)
+80/tcp   open     http           Apache httpd 2.2.15 ((Red Hat))
+| http-methods: Potentially risky methods: TRACE
+|_See http://nmap.org/nsedoc/scripts/http-methods.html
+|_http-title: Test Page for the Apache HTTP Server on Red Hat Enterprise Linux
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+4444/tcp filtered krb524
+6000/tcp open     X11            (access denied)
+Service Info: OS: Unix
+
+Nmap scan report for 175.45.178.184
+Host is up (0.37s latency).
+Not shown: 992 closed ports
+PORT     STATE    SERVICE        VERSION
+22/tcp   open     ssh            OpenSSH 5.3 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 90:15:48:98:36:a2:f8:08:e9:98:81:e9:f0:90:5b:1d (DSA)
+|_  2048 84:d9:48:f5:01:3a:70:6a:58:e2:5b:c5:d7:83:58:ef (RSA)
+80/tcp   open     http           Apache httpd 2.2.15 ((Red Hat))
+| http-methods: Potentially risky methods: TRACE
+|_See http://nmap.org/nsedoc/scripts/http-methods.html
+|_http-title: Test Page for the Apache HTTP Server on Red Hat Enterprise Linux
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+4444/tcp filtered krb524
+6000/tcp open     X11            (access denied)
+Service Info: OS: Unix
+
+Nmap scan report for 175.45.178.185
+Host is up (0.37s latency).
+Not shown: 997 closed ports
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 5.3 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 90:15:48:98:36:a2:f8:08:e9:98:81:e9:f0:90:5b:1d (DSA)
+|_  2048 84:d9:48:f5:01:3a:70:6a:58:e2:5b:c5:d7:83:58:ef (RSA)
+80/tcp   open  http    Apache httpd 2.2.15 ((Red Hat))
+| http-methods: Potentially risky methods: TRACE
+|_See http://nmap.org/nsedoc/scripts/http-methods.html
+|_http-title: Test Page for the Apache HTTP Server on Red Hat Enterprise Linux
+6000/tcp open  X11     (access denied)
+Service Info: OS: Unix
+
+Nmap scan report for 175.45.178.187
+Host is up (0.39s latency).
+Not shown: 997 closed ports
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 5.3 (protocol 2.0)
+|_ssh-hostkey: 
+80/tcp   open  http    Apache httpd 2.2.15 ((Red Hat))
+6000/tcp open  X11     (access denied)
+|_x11-access: ERROR: Script execution failed (use -d to debug)
+Service Info: OS: Unix
+
+Nmap scan report for 175.45.178.188
+Host is up (0.37s latency).
+Not shown: 996 closed ports
+PORT     STATE    SERVICE     VERSION
+22/tcp   open     ssh         OpenSSH 5.3 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 90:15:48:98:36:a2:f8:08:e9:98:81:e9:f0:90:5b:1d (DSA)
+|_  2048 84:d9:48:f5:01:3a:70:6a:58:e2:5b:c5:d7:83:58:ef (RSA)
+80/tcp   open     http        Apache httpd 2.2.15 ((Red Hat))
+| http-methods: Potentially risky methods: TRACE
+|_See http://nmap.org/nsedoc/scripts/http-methods.html
+|_http-title: Test Page for the Apache HTTP Server on Red Hat Enterprise Linux
+139/tcp  filtered netbios-ssn
+6000/tcp open     X11         (access denied)
+Service Info: OS: Unix
+
+Post-scan script results:
+| ssh-hostkey: Possible duplicate hosts
+| Key 2048 84:d9:48:f5:01:3a:70:6a:58:e2:5b:c5:d7:83:58:ef (RSA) used by:
+|   175.45.178.179
+|   175.45.178.180
+|   175.45.178.183
+|   175.45.178.184
+|   175.45.178.185
+|   175.45.178.188
+| Key 1024 90:15:48:98:36:a2:f8:08:e9:98:81:e9:f0:90:5b:1d (DSA) used by:
+|   175.45.178.179
+|   175.45.178.180
+|   175.45.178.183
+|   175.45.178.184
+|   175.45.178.185
+|_  175.45.178.188
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+# Nmap done at Thu Nov 12 22:31:03 2015 -- 1024 IP addresses (13 hosts up) scanned in 5462.06 seconds

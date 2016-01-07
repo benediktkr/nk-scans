@@ -1,0 +1,21 @@
+# Nmap 6.47 scan initiated Tue Dec 15 21:00:01 2015 as: /usr/bin/nmap -A -oN /home/benedikt/projects/nk-scans/nmap/nk-Star-KP.%d-%m-%Y.txt -oG /home/benedikt/projects/nk-scans/nmap/nk-Star-KP.%d-%m-%Y.grep 175.45.176.0/22
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+Nmap scan report for 175.45.176.67
+Host is up (2.1s latency).
+All 1000 scanned ports on 175.45.176.67 are filtered
+
+Nmap scan report for 175.45.176.71
+Host is up (0.61s latency).
+All 1000 scanned ports on 175.45.176.71 are filtered
+
+Nmap scan report for 175.45.176.79
+Host is up (0.34s latency).
+All 1000 scanned ports on 175.45.176.79 are filtered
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+# Nmap done at Tue Dec 15 21:35:11 2015 -- 1024 IP addresses (3 hosts up) scanned in 2109.96 seconds
