@@ -1,0 +1,4 @@
+0 21 * * * /usr/bin/nmap -A 175.45.176.0/22 -oN "$PROJECTS/nmap/nk-Star-KP.\%d-\%m-\%Y.txt" -oG "/home/benedikt/projects/nk-scans/nmap/nk-Star-KP.\%d-\%m-\%Y.grep"  > /dev/null
+0 21 * * * /usr/bin/nmap -A 210.52.109.0/24 -oN "$PROJECTS/nk-scans/nmap/nk-KTPC.\%d-\%m-\%Y.txt" -oG "/home/benedikt/projects/nk-scans/nmap/nk-KTPC.\%d-\%m-\%Y.grep" > /dev/null
+0 21 * * * /usr/bin/nmap -A 77.94.35.0/24 -oN "$PROJECTS/nk-scans/nmap/nk-SatGate.\%d-\%m-\%Y.txt" -oG "/home/benedikt/projects/nk-scans/nmap/nk-SatGate.\%d-\%m-\%Y.grep" > /dev/null
+
