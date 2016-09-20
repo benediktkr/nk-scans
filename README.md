@@ -4,11 +4,13 @@ Daily port scans of the three North Korean IP networks. Not really sure what to 
 
 https://en.wikipedia.org/wiki/Internet_in_North_Korea
 
+A lot of this looks like honey pots. 
+
 ## Networks
 
- * Star KP: 175.45.176.0/22
- * KTPC: 210.52.109.0/24 
- * StarGate: 77.94.35.0/24
+ * Star KP: `175.45.176.0/22`
+ * KTPC: `210.52.109.0/24`
+ * StarGate: `77.94.35.0/24`
 
 
 ## Changes
