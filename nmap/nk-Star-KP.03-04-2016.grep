@@ -1,0 +1,28 @@
+# Nmap 6.47 scan initiated Sun Apr  3 21:00:02 2016 as: /usr/bin/nmap -A -oN /home/benedikt/projects/nk-scans/nmap/nk-Star-KP.%d-%m-%Y.txt -oG /home/benedikt/projects/nk-scans/nmap/nk-Star-KP.%d-%m-%Y.grep 175.45.176.0/22
+Host: 175.45.178.9 ()	Status: Up
+Host: 175.45.178.9 ()	Ports: 22/open/tcp//ssh//OpenSSH 4.3 (protocol 2.0)/, 80/open/tcp//http?///, 82/open/tcp//xfer?///, 111/open/tcp//rpcbind?///, 1076/filtered/tcp//sns_credit///, 3052/filtered/tcp//powerchute///, 3306/open/tcp//mysql//MySQL (unauthorized)/, 5801/open/tcp//vnc-http-1?///, 5901/open/tcp//vnc//VNC (protocol 3.8)/, 5989/open/tcp//wbem-https?///, 6001/open/tcp//X11:1?///, 8081/open/tcp//blackice-icecap?///, 8443/open/tcp//https-alt?///	Ignored State: closed (987)
+Host: 175.45.178.10 ()	Status: Up
+Host: 175.45.178.10 ()	Ports: 22/open/tcp//ssh//OpenSSH 5.3 (protocol 2.0)/, 80/open/tcp//http?///, 111/open/tcp//rpcbind?///, 443/open/tcp//https?///, 631/open/tcp//ipp?///, 3306/open/tcp//mysql?///	Ignored State: closed (994)
+Host: 175.45.178.65 ()	Status: Up
+Host: 175.45.178.65 ()	Ports: 80/open/tcp//http//Apache httpd 2.2.4 ((Win32) DAV|2 mod_ssl|2.2.4 OpenSSL|0.9.8e mod_autoindex_color PHP|5.2.1)/, 135/filtered/tcp//msrpc///, 139/filtered/tcp//netbios-ssn///, 443/open/tcp//ssl|http//Apache httpd 2.2.4 ((Win32) DAV|2 mod_ssl|2.2.4 OpenSSL|0.9.8e mod_autoindex_color PHP|5.2.1)/, 445/filtered/tcp//microsoft-ds///, 593/filtered/tcp//http-rpc-epmap///, 3306/open/tcp//mysql//MySQL (unauthorized)/, 4444/filtered/tcp//krb524///	Ignored State: closed (992)
+Host: 175.45.178.66 ()	Status: Up
+Host: 175.45.178.66 ()	Ports: 80/open/tcp//http//Apache httpd 2.2.4 ((Win32) DAV|2 mod_ssl|2.2.4 OpenSSL|0.9.8e mod_autoindex_color PHP|5.2.1)/, 135/filtered/tcp//msrpc///, 139/filtered/tcp//netbios-ssn///, 443/open/tcp//ssl|http//Apache httpd 2.2.4 ((Win32) DAV|2 mod_ssl|2.2.4 OpenSSL|0.9.8e mod_autoindex_color PHP|5.2.1)/, 445/filtered/tcp//microsoft-ds///, 593/filtered/tcp//http-rpc-epmap///, 3306/open/tcp//mysql//MySQL (unauthorized)/, 4444/filtered/tcp//krb524///	Ignored State: closed (992)
+Host: 175.45.178.67 ()	Status: Up
+Host: 175.45.178.67 ()	Ports: 23/open/tcp//telnet//Microsoft Windows XP telnetd/, 80/open/tcp//http//Apache httpd 2.2.4 ((Win32) DAV|2 mod_ssl|2.2.4 OpenSSL|0.9.8e mod_autoindex_color PHP|5.2.1)/, 135/open/tcp//msrpc?///, 139/open/tcp//netbios-ssn?///, 443/open/tcp//ssl|http//Apache httpd 2.2.4 ((Win32) DAV|2 mod_ssl|2.2.4 OpenSSL|0.9.8e mod_autoindex_color PHP|5.2.1)/, 3306/open/tcp//mysql//MySQL (unauthorized)/, 3389/open/tcp//ms-wbt-server//Microsoft Terminal Service/	Ignored State: closed (993)
+Host: 175.45.178.68 ()	Status: Up
+Host: 175.45.178.68 ()	Ports: 22/filtered/tcp//ssh///, 80/open/tcp//http-proxy//Squid http proxy 3.3.8/, 3128/open/tcp//http-proxy//Squid http proxy 3.3.8/, 10621/filtered/tcp//unknown///	Ignored State: closed (996)
+Host: 175.45.178.69 ()	Status: Up
+Host: 175.45.178.69 ()	Ports: 80/open/tcp//tcpwrapped///, 1099/filtered/tcp//rmiregistry///, 1524/filtered/tcp//ingreslock///, 2009/filtered/tcp//news///	Ignored State: closed (996)
+Host: 175.45.178.71 ()	Status: Up
+Host: 175.45.178.71 ()	Ports: 22/filtered/tcp//ssh///, 25/open/tcp//tcpwrapped///, 110/open/tcp//tcpwrapped///, 143/open/tcp//tcpwrapped///, 465/open/tcp//ssl|tcpwrapped///, 587/open/tcp//tcpwrapped///, 993/open/tcp//ssl|tcpwrapped///, 995/open/tcp//ssl|tcpwrapped///, 1863/open/tcp//tcpwrapped///, 5050/open/tcp//tcpwrapped///, 5190/open/tcp//tcpwrapped///, 5222/open/tcp//tcpwrapped///	Ignored State: closed (988)
+Host: 175.45.178.75 ()	Status: Up
+Host: 175.45.178.75 ()	Ports: 80/open/tcp//http//Apache httpd 2.2.4 ((Win32) DAV|2 mod_ssl|2.2.4 OpenSSL|0.9.8e mod_autoindex_color PHP|5.2.1)/, 135/filtered/tcp//msrpc///, 139/filtered/tcp//netbios-ssn///, 443/open/tcp//ssl|http//Apache httpd 2.2.4 ((Win32) DAV|2 mod_ssl|2.2.4 OpenSSL|0.9.8e mod_autoindex_color PHP|5.2.1)/, 445/filtered/tcp//microsoft-ds///, 593/filtered/tcp//http-rpc-epmap///, 3306/open/tcp//mysql//MySQL (unauthorized)/, 4444/filtered/tcp//krb524///	Ignored State: closed (992)
+Host: 175.45.178.76 ()	Status: Up
+Host: 175.45.178.76 ()	Ports: 80/open/tcp//http//Apache httpd 2.2.4 ((Win32) DAV|2 mod_ssl|2.2.4 OpenSSL|0.9.8e mod_autoindex_color PHP|5.2.1)/, 135/filtered/tcp//msrpc///, 139/open/tcp//netbios-ssn?///, 443/open/tcp//ssl|http//Apache httpd 2.2.4 ((Win32) DAV|2 mod_ssl|2.2.4 OpenSSL|0.9.8e mod_autoindex_color PHP|5.2.1)/, 3306/open/tcp//mysql//MySQL (unauthorized)/	Ignored State: closed (995)
+Host: 175.45.178.77 ()	Status: Up
+Host: 175.45.178.77 ()	Ports: 22/filtered/tcp//ssh///, 25/open/tcp//smtp//Postfix smtpd/, 80/open/tcp//http//Apache httpd 2.4.7 ((Ubuntu))/, 2005/filtered/tcp//deslogin///, 3128/open/tcp//http-proxy//Squid http proxy 3.3.8/	Ignored State: closed (995)
+Host: 175.45.178.127 ()	Status: Up
+Host: 175.45.178.127 ()	Ports: 21/open/tcp//ftp//vsftpd 2.0.5/	Ignored State: closed (999)
+Host: 175.45.178.202 ()	Status: Up
+Host: 175.45.178.202 ()	Ports: 80/open/tcp//http//Apache httpd 2.4.17 ((Unix) OpenSSL|1.0.1q PHP|5.6.15 mod_perl|2.0.8-dev Perl|v5.16.3)/	Ignored State: filtered (999)
+# Nmap done at Sun Apr  3 21:16:25 2016 -- 1024 IP addresses (13 hosts up) scanned in 983.21 seconds

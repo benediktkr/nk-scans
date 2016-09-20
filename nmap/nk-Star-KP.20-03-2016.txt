@@ -1,0 +1,244 @@
+# Nmap 6.47 scan initiated Sun Mar 20 21:00:02 2016 as: /usr/bin/nmap -A -oN /home/benedikt/projects/nk-scans/nmap/nk-Star-KP.%d-%m-%Y.txt -oG /home/benedikt/projects/nk-scans/nmap/nk-Star-KP.%d-%m-%Y.grep 175.45.176.0/22
+Nmap scan report for 175.45.176.71
+Host is up (0.34s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http?
+
+Nmap scan report for 175.45.178.5
+Host is up (0.37s latency).
+Not shown: 990 closed ports
+PORT    STATE    SERVICE     VERSION
+22/tcp  filtered ssh
+79/tcp  open     finger?
+|_finger: ERROR: Script execution failed (use -d to debug)
+80/tcp  open     http?
+81/tcp  open     hosts2-ns?
+82/tcp  open     xfer?
+83/tcp  open     mit-ml-dev?
+84/tcp  open     ctf?
+85/tcp  open     mit-ml-dev?
+88/tcp  open     tcpwrapped
+179/tcp open     bgp?
+
+Nmap scan report for 175.45.178.6
+Host is up (0.37s latency).
+Not shown: 989 closed ports
+PORT    STATE    SERVICE     VERSION
+22/tcp  open     ssh         OpenSSH 4.3 (protocol 2.0)
+|_ssh-hostkey: 
+79/tcp  open     finger?
+|_finger: ERROR: Script execution failed (use -d to debug)
+80/tcp  open     http?
+81/tcp  open     hosts2-ns?
+82/tcp  open     xfer?
+83/tcp  open     mit-ml-dev?
+84/tcp  open     ctf?
+85/tcp  open     mit-ml-dev?
+88/tcp  open     tcpwrapped
+135/tcp filtered msrpc
+179/tcp open     bgp?
+
+Nmap scan report for 175.45.178.66
+Host is up (0.37s latency).
+Not shown: 979 closed ports
+PORT     STATE    SERVICE        VERSION
+22/tcp   filtered ssh
+25/tcp   open     tcpwrapped
+|_smtp-commands: Couldn't establish connection on port 25
+53/tcp   open     domain
+80/tcp   filtered http
+110/tcp  open     tcpwrapped
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+143/tcp  open     tcpwrapped
+| imap-capabilities: 
+|_  ERROR: Failed to connect to server
+445/tcp  filtered microsoft-ds
+465/tcp  open     smtps?
+|_smtp-commands: Couldn't establish connection on port 465
+587/tcp  open     tcpwrapped
+|_smtp-commands: Couldn't establish connection on port 587
+593/tcp  filtered http-rpc-epmap
+993/tcp  open     ssl/tcpwrapped
+995/tcp  open     pop3s?
+1863/tcp open     tcpwrapped
+3128/tcp open     squid-http?
+3306/tcp filtered mysql
+4444/tcp filtered krb524
+5050/tcp open     mmcc?
+5190/tcp open     aol?
+5222/tcp open     xmpp-client?
+|_xmpp-info: ERROR: Script execution failed (use -d to debug)
+
+Nmap scan report for 175.45.178.68
+Host is up (0.37s latency).
+Not shown: 995 closed ports
+PORT     STATE SERVICE     VERSION
+80/tcp   open  http        Apache httpd 2.2.4 ((Win32) DAV/2 mod_ssl/2.2.4 OpenSSL/0.9.8e mod_autoindex_color PHP/5.2.1)
+|_http-methods: No Allow or Public header in OPTIONS response (status code 302)
+| http-title: XAMPP Version 1.6.1
+|_Requested resource was http://175.45.178.68/xampp/
+135/tcp  open  msrpc?
+139/tcp  open  netbios-ssn
+443/tcp  open  ssl/http    Apache httpd 2.2.4 ((Win32) DAV/2 mod_ssl/2.2.4 OpenSSL/0.9.8e mod_autoindex_color PHP/5.2.1)
+|_http-methods: No Allow or Public header in OPTIONS response (status code 302)
+| http-title: XAMPP Version 1.6.1
+|_Requested resource was https://175.45.178.68/xampp/
+| ssl-cert: Subject: commonName=localhost/organizationName=Apache Friends
+| Not valid before: 2005-12-04T15:11:04+00:00
+|_Not valid after:  2006-12-04T15:11:04+00:00
+|_ssl-date: 2016-03-20T20:36:54+00:00; -33m33s from local time.
+| sslv2: 
+|   SSLv2 supported
+|   ciphers: 
+|     SSL2_DES_192_EDE3_CBC_WITH_MD5
+|     SSL2_IDEA_128_CBC_WITH_MD5
+|     SSL2_RC2_CBC_128_CBC_WITH_MD5
+|     SSL2_RC4_128_WITH_MD5
+|     SSL2_DES_64_CBC_WITH_MD5
+|     SSL2_RC2_CBC_128_CBC_WITH_MD5
+|_    SSL2_RC4_128_EXPORT40_WITH_MD5
+3306/tcp open  mysql       MySQL (unauthorized)
+
+Nmap scan report for 175.45.178.70
+Host is up (0.37s latency).
+All 1000 scanned ports on 175.45.178.70 are closed
+
+Nmap scan report for 175.45.178.73
+Host is up (0.38s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE    VERSION
+22/tcp   filtered ssh
+80/tcp   open     http-proxy Squid http proxy 3.3.8
+|_http-methods: No Allow or Public header in OPTIONS response (status code 403)
+|_http-title: ERROR: The requested URL could not be retrieved
+3128/tcp open     http-proxy Squid http proxy 3.3.8
+|_http-methods: No Allow or Public header in OPTIONS response (status code 403)
+|_http-title: ERROR: The requested URL could not be retrieved
+
+Nmap scan report for 175.45.178.75
+Host is up (0.37s latency).
+Not shown: 991 closed ports
+PORT     STATE    SERVICE        VERSION
+22/tcp   filtered ssh
+25/tcp   open     smtp?
+|_smtp-commands: Couldn't establish connection on port 25
+80/tcp   open     http?
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+3128/tcp open     squid-http?
+4444/tcp filtered krb524
+
+Nmap scan report for 175.45.178.76
+Host is up (0.38s latency).
+Not shown: 986 closed ports
+PORT     STATE    SERVICE        VERSION
+22/tcp   filtered ssh
+25/tcp   open     tcpwrapped
+|_smtp-commands: Couldn't establish connection on port 25
+80/tcp   open     http           Apache httpd 2.4.7 ((Ubuntu))
+|_http-title: ERROR
+110/tcp  open     tcpwrapped
+143/tcp  open     tcpwrapped
+| imap-capabilities: 
+|_  ERROR: Failed to connect to server
+465/tcp  open     ssl/tcpwrapped
+|_smtp-commands: Couldn't establish connection on port 465
+| ssl-cert: Subject: commonName=cbsg Email proxy CA/organizationName=kcc/countryName=KP
+| Not valid before: 2013-07-19T06:45:07+00:00
+|_Not valid after:  2023-07-17T06:45:07+00:00
+|_ssl-date: 2016-12-10T14:22:46+00:00; +264d17h10m39s from local time.
+587/tcp  open     tcpwrapped
+|_smtp-commands: Couldn't establish connection on port 587
+993/tcp  open     ssl/tcpwrapped
+| ssl-cert: Subject: commonName=cbsg Email proxy CA/organizationName=kcc/countryName=KP
+| Not valid before: 2013-07-19T06:45:07+00:00
+|_Not valid after:  2023-07-17T06:45:07+00:00
+|_ssl-date: 2038-07-19T11:30:38+00:00; +22y120d14h17m32s from local time.
+995/tcp  open     ssl/tcpwrapped
+| ssl-cert: Subject: commonName=cbsg Email proxy CA/organizationName=kcc/countryName=KP
+| Not valid before: 2013-07-19T06:45:07+00:00
+|_Not valid after:  2023-07-17T06:45:07+00:00
+|_ssl-date: 2018-01-13T04:23:59+00:00; +1y298d7h12m45s from local time.
+1863/tcp open     tcpwrapped
+3128/tcp open     http-proxy     Squid http proxy 3.3.9
+5050/tcp open     tcpwrapped
+5190/tcp open     tcpwrapped
+5222/tcp open     tcpwrapped
+| xmpp-info: 
+|   STARTTLS Failed
+|   info: 
+|     auth_mechanisms: 
+| 
+|     compression_methods: 
+| 
+|     capabilities: 
+| 
+|     features: 
+| 
+|     xmpp: 
+| 
+|     unknown: 
+| 
+|     errors: 
+|_      (timeout)
+
+Nmap scan report for 175.45.178.77
+Host is up (0.37s latency).
+Not shown: 994 closed ports
+PORT     STATE SERVICE       VERSION
+80/tcp   open  http          Apache httpd 2.2.4 ((Win32) DAV/2 mod_ssl/2.2.4 OpenSSL/0.9.8e mod_autoindex_color PHP/5.2.1)
+|_http-methods: No Allow or Public header in OPTIONS response (status code 302)
+| http-title: XAMPP Version 1.6.1
+|_Requested resource was http://175.45.178.77/xampp/
+135/tcp  open  msrpc?
+139/tcp  open  netbios-ssn
+443/tcp  open  ssl/http      Apache httpd 2.2.4 ((Win32) DAV/2 mod_ssl/2.2.4 OpenSSL/0.9.8e mod_autoindex_color PHP/5.2.1)
+|_http-methods: No Allow or Public header in OPTIONS response (status code 302)
+| http-title: XAMPP Version 1.6.1
+|_Requested resource was https://175.45.178.77/xampp/
+| ssl-cert: Subject: commonName=localhost/organizationName=Apache Friends
+| Not valid before: 2005-12-04T15:11:04+00:00
+|_Not valid after:  2006-12-04T15:11:04+00:00
+|_ssl-date: 2016-03-20T20:38:37+00:00; -33m33s from local time.
+| sslv2: 
+|   SSLv2 supported
+|   ciphers: 
+|     SSL2_DES_192_EDE3_CBC_WITH_MD5
+|     SSL2_IDEA_128_CBC_WITH_MD5
+|     SSL2_RC2_CBC_128_CBC_WITH_MD5
+|     SSL2_RC4_128_WITH_MD5
+|     SSL2_DES_64_CBC_WITH_MD5
+|     SSL2_RC2_CBC_128_CBC_WITH_MD5
+|_    SSL2_RC4_128_EXPORT40_WITH_MD5
+445/tcp  open  microsoft-ds?
+3306/tcp open  mysql         MySQL (unauthorized)
+
+Host script results:
+|_nbstat: NetBIOS name: 00DF-00004FCA, NetBIOS user: <unknown>, NetBIOS MAC: 00:e0:4c:00:4f:ca (Realtek Semiconductor)
+| smb-security-mode: 
+|   Account that was used for smb scripts: guest
+|   User-level authentication
+|   SMB Security: Challenge/response passwords supported
+|_  Message signing disabled (dangerous, but default)
+|_smbv2-enabled: Server doesn't support SMBv2 protocol
+
+Nmap scan report for 175.45.178.127
+Host is up (0.37s latency).
+All 1000 scanned ports on 175.45.178.127 are closed
+
+Nmap scan report for 175.45.178.173
+Host is up (0.37s latency).
+Not shown: 995 closed ports
+PORT     STATE    SERVICE        VERSION
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+4444/tcp filtered krb524
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+# Nmap done at Sun Mar 20 21:15:36 2016 -- 1024 IP addresses (12 hosts up) scanned in 934.54 seconds

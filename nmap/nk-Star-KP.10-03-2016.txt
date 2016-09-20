@@ -1,0 +1,242 @@
+# Nmap 6.47 scan initiated Thu Mar 10 21:00:02 2016 as: /usr/bin/nmap -A -oN /home/benedikt/projects/nk-scans/nmap/nk-Star-KP.%d-%m-%Y.txt -oG /home/benedikt/projects/nk-scans/nmap/nk-Star-KP.%d-%m-%Y.grep 175.45.176.0/22
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+Nmap scan report for 175.45.176.71
+Host is up (0.33s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http?
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+SF-Port80-TCP:V=6.47%I=7%D=3/10%Time=56E1F1C0%P=x86_64-pc-linux-gnu%r(GetR
+SF:equest,22B,"HTTP/1\.0\x20200\x20OK\r\nConnection:\x20Close\r\nPragma:\x
+SF:20no-cache\r\ncache-control:\x20no-cache\r\nRefresh:\x200\.1\r\nContent
+SF:-Type:\x20text/html;\x20charset=iso-8859-1\r\n\r\n<!DOCTYPE\x20html\x20
+SF:PUBLIC\x20\"-//W3C//DTD\x20HTML\x204\.01//EN\"\x20\"http://www\.w3\.org
+SF:/TR/1999/REC-html401-19991224/strict\.dtd\">\r\n<!--\x20<!DOCTYPE\x20HT
+SF:ML\x20PUBLIC\x20\"-//W3C//DTD\x20HTML\x204\.01//EN\"\r\n\"http://www\.w
+SF:3\.org/TR/html4/strict\.dtd\">\x20-->\r\n<HTML>\r\n<HEAD>\r\n<META\x20H
+SF:TTP-EQUIV=\"Refresh\"\x20CONTENT=\"0\.1\">\r\n<META\x20HTTP-EQUIV=\"Pra
+SF:gma\"\x20CONTENT=\"no-cache\">\r\n<META\x20HTTP-EQUIV=\"Expires\"\x20CO
+SF:NTENT=\"-1\">\r\n<TITLE></TITLE>\r\n</HEAD>\r\n<BODY><P></BODY>\r\n</HT
+SF:ML>\r\n");
+
+Nmap scan report for 175.45.176.79
+Host is up (0.96s latency).
+All 1000 scanned ports on 175.45.176.79 are filtered
+
+Nmap scan report for 175.45.177.74
+Host is up (0.34s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http?
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at http://www.insecure.org/cgi-bin/servicefp-submit.cgi :
+SF-Port80-TCP:V=6.47%I=7%D=3/10%Time=56E1F1C0%P=x86_64-pc-linux-gnu%r(GetR
+SF:equest,22B,"HTTP/1\.0\x20200\x20OK\r\nConnection:\x20Close\r\nPragma:\x
+SF:20no-cache\r\ncache-control:\x20no-cache\r\nRefresh:\x200\.1\r\nContent
+SF:-Type:\x20text/html;\x20charset=iso-8859-1\r\n\r\n<!DOCTYPE\x20html\x20
+SF:PUBLIC\x20\"-//W3C//DTD\x20HTML\x204\.01//EN\"\x20\"http://www\.w3\.org
+SF:/TR/1999/REC-html401-19991224/strict\.dtd\">\r\n<!--\x20<!DOCTYPE\x20HT
+SF:ML\x20PUBLIC\x20\"-//W3C//DTD\x20HTML\x204\.01//EN\"\r\n\"http://www\.w
+SF:3\.org/TR/html4/strict\.dtd\">\x20-->\r\n<HTML>\r\n<HEAD>\r\n<META\x20H
+SF:TTP-EQUIV=\"Refresh\"\x20CONTENT=\"0\.1\">\r\n<META\x20HTTP-EQUIV=\"Pra
+SF:gma\"\x20CONTENT=\"no-cache\">\r\n<META\x20HTTP-EQUIV=\"Expires\"\x20CO
+SF:NTENT=\"-1\">\r\n<TITLE></TITLE>\r\n</HEAD>\r\n<BODY><P></BODY>\r\n</HT
+SF:ML>\r\n");
+
+Nmap scan report for 175.45.177.77
+Host is up (3.7s latency).
+All 1000 scanned ports on 175.45.177.77 are filtered
+
+Nmap scan report for 175.45.178.102
+Host is up (0.38s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.17 ((Unix) OpenSSL/1.0.1q PHP/5.6.15 mod_perl/2.0.8-dev Perl/v5.16.3)
+|_http-methods: No Allow or Public header in OPTIONS response (status code 200)
+|_http-title: Site doesn't have a title (text/html; charset=UTF-8).
+
+Nmap scan report for 175.45.178.180
+Host is up (0.37s latency).
+Not shown: 997 closed ports
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 5.3 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 90:15:48:98:36:a2:f8:08:e9:98:81:e9:f0:90:5b:1d (DSA)
+|_  2048 84:d9:48:f5:01:3a:70:6a:58:e2:5b:c5:d7:83:58:ef (RSA)
+80/tcp   open  http    Apache httpd 2.2.15 ((Red Hat))
+| http-methods: Potentially risky methods: TRACE
+|_See http://nmap.org/nsedoc/scripts/http-methods.html
+|_http-title: Test Page for the Apache HTTP Server on Red Hat Enterprise Linux
+6000/tcp open  X11     (access denied)
+Service Info: OS: Unix
+
+Nmap scan report for 175.45.178.182
+Host is up (0.38s latency).
+Not shown: 992 closed ports
+PORT     STATE    SERVICE        VERSION
+22/tcp   open     ssh            OpenSSH 5.3 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 90:15:48:98:36:a2:f8:08:e9:98:81:e9:f0:90:5b:1d (DSA)
+|_  2048 84:d9:48:f5:01:3a:70:6a:58:e2:5b:c5:d7:83:58:ef (RSA)
+80/tcp   open     http           Apache httpd 2.2.15 ((Red Hat))
+| http-methods: Potentially risky methods: TRACE
+|_See http://nmap.org/nsedoc/scripts/http-methods.html
+|_http-title: Test Page for the Apache HTTP Server on Red Hat Enterprise Linux
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+4444/tcp filtered krb524
+6000/tcp open     X11            (access denied)
+Service Info: OS: Unix
+
+Nmap scan report for 175.45.178.183
+Host is up (0.37s latency).
+Not shown: 992 closed ports
+PORT     STATE    SERVICE        VERSION
+22/tcp   open     ssh            OpenSSH 5.3 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 90:15:48:98:36:a2:f8:08:e9:98:81:e9:f0:90:5b:1d (DSA)
+|_  2048 84:d9:48:f5:01:3a:70:6a:58:e2:5b:c5:d7:83:58:ef (RSA)
+80/tcp   open     http           Apache httpd 2.2.15 ((Red Hat))
+| http-methods: Potentially risky methods: TRACE
+|_See http://nmap.org/nsedoc/scripts/http-methods.html
+|_http-title: Test Page for the Apache HTTP Server on Red Hat Enterprise Linux
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+4444/tcp filtered krb524
+6000/tcp open     X11            (access denied)
+Service Info: OS: Unix
+
+Nmap scan report for 175.45.178.184
+Host is up (0.37s latency).
+Not shown: 992 closed ports
+PORT     STATE    SERVICE        VERSION
+22/tcp   open     ssh            OpenSSH 5.3 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 90:15:48:98:36:a2:f8:08:e9:98:81:e9:f0:90:5b:1d (DSA)
+|_  2048 84:d9:48:f5:01:3a:70:6a:58:e2:5b:c5:d7:83:58:ef (RSA)
+80/tcp   open     http           Apache httpd 2.2.15 ((Red Hat))
+| http-methods: Potentially risky methods: TRACE
+|_See http://nmap.org/nsedoc/scripts/http-methods.html
+|_http-title: Test Page for the Apache HTTP Server on Red Hat Enterprise Linux
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+4444/tcp filtered krb524
+6000/tcp open     X11            (access denied)
+Service Info: OS: Unix
+
+Nmap scan report for 175.45.178.185
+Host is up (0.37s latency).
+Not shown: 996 closed ports
+PORT      STATE    SERVICE VERSION
+22/tcp    open     ssh     OpenSSH 5.3 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 90:15:48:98:36:a2:f8:08:e9:98:81:e9:f0:90:5b:1d (DSA)
+|_  2048 84:d9:48:f5:01:3a:70:6a:58:e2:5b:c5:d7:83:58:ef (RSA)
+80/tcp    open     http    Apache httpd 2.2.15 ((Red Hat))
+| http-methods: Potentially risky methods: TRACE
+|_See http://nmap.org/nsedoc/scripts/http-methods.html
+|_http-title: Test Page for the Apache HTTP Server on Red Hat Enterprise Linux
+6000/tcp  open     X11     (access denied)
+60443/tcp filtered unknown
+Service Info: OS: Unix
+
+Nmap scan report for 175.45.178.187
+Host is up (0.40s latency).
+Not shown: 997 closed ports
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 5.3 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 90:15:48:98:36:a2:f8:08:e9:98:81:e9:f0:90:5b:1d (DSA)
+|_  2048 84:d9:48:f5:01:3a:70:6a:58:e2:5b:c5:d7:83:58:ef (RSA)
+80/tcp   open  http    Apache httpd 2.2.15 ((Red Hat))
+| http-methods: Potentially risky methods: TRACE
+|_See http://nmap.org/nsedoc/scripts/http-methods.html
+|_http-title: Test Page for the Apache HTTP Server on Red Hat Enterprise Linux
+6000/tcp open  X11     (access denied)
+Service Info: OS: Unix
+
+Nmap scan report for 175.45.178.188
+Host is up (0.37s latency).
+Not shown: 997 closed ports
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 5.3 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 90:15:48:98:36:a2:f8:08:e9:98:81:e9:f0:90:5b:1d (DSA)
+|_  2048 84:d9:48:f5:01:3a:70:6a:58:e2:5b:c5:d7:83:58:ef (RSA)
+80/tcp   open  http    Apache httpd 2.2.15 ((Red Hat))
+| http-methods: Potentially risky methods: TRACE
+|_See http://nmap.org/nsedoc/scripts/http-methods.html
+|_http-title: Test Page for the Apache HTTP Server on Red Hat Enterprise Linux
+6000/tcp open  X11     (access denied)
+Service Info: OS: Unix
+
+Post-scan script results:
+| ssh-hostkey: Possible duplicate hosts
+| Key 1024 90:15:48:98:36:a2:f8:08:e9:98:81:e9:f0:90:5b:1d (DSA) used by:
+|   175.45.178.180
+|   175.45.178.182
+|   175.45.178.183
+|   175.45.178.184
+|   175.45.178.185
+|   175.45.178.187
+|   175.45.178.188
+| Key 2048 84:d9:48:f5:01:3a:70:6a:58:e2:5b:c5:d7:83:58:ef (RSA) used by:
+|   175.45.178.180
+|   175.45.178.182
+|   175.45.178.183
+|   175.45.178.184
+|   175.45.178.185
+|   175.45.178.187
+|_  175.45.178.188
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+# Nmap done at Thu Mar 10 22:17:03 2016 -- 1024 IP addresses (12 hosts up) scanned in 4620.99 seconds

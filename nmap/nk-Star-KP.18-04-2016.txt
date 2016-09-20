@@ -1,0 +1,42 @@
+# Nmap 6.47 scan initiated Mon Apr 18 21:00:02 2016 as: /usr/bin/nmap -A -oN /home/benedikt/projects/nk-scans/nmap/nk-Star-KP.%d-%m-%Y.txt -oG /home/benedikt/projects/nk-scans/nmap/nk-Star-KP.%d-%m-%Y.grep 175.45.176.0/22
+Warning: 175.45.178.129 giving up on port because retransmission cap hit (10).
+Nmap scan report for 175.45.176.19
+Host is up (0.38s latency).
+Not shown: 998 filtered ports
+PORT    STATE  SERVICE VERSION
+80/tcp  open   http    Apache httpd 2.4.7 ((Ubuntu))
+443/tcp closed https
+
+Nmap scan report for 175.45.176.71
+Host is up (0.39s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http?
+
+Nmap scan report for 175.45.178.129
+Host is up (0.37s latency).
+Not shown: 928 closed ports, 70 filtered ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     Cisco SSH 1.25 (protocol 1.99)
+|_ssh-hostkey: ERROR: Script execution failed (use -d to debug)
+|_sshv1: Server supports SSHv1
+23/tcp open  telnet  Cisco IOS telnetd
+Service Info: OS: IOS; Device: switch; CPE: cpe:/o:cisco:ios
+
+Nmap scan report for 175.45.178.170
+Host is up (0.39s latency).
+Not shown: 955 closed ports, 39 filtered ports
+PORT     STATE SERVICE     VERSION
+22/tcp   open  ssh         OpenSSH 5.3 (protocol 2.0)
+| ssh-hostkey: 
+|_  1024 7a:cf:f8:3e:27:75:cc:38:a2:c5:cf:a7:54:9d:91:cf (DSA)
+80/tcp   open  http?
+111/tcp  open  rpcbind
+5800/tcp open  vnc-http    RealVNC E4
+5900/tcp open  vnc         RealVNC Enterprise (protocol 4.1)
+| vnc-info:   
+|_  ERROR: ERROR: VNC:handshake failed to receive protocol version
+5989/tcp open  wbem-https?
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+# Nmap done at Mon Apr 18 22:05:22 2016 -- 1024 IP addresses (4 hosts up) scanned in 3920.43 seconds

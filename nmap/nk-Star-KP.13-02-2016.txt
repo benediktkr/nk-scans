@@ -1,0 +1,257 @@
+# Nmap 6.47 scan initiated Sat Feb 13 21:00:02 2016 as: /usr/bin/nmap -A -oN /home/benedikt/projects/nk-scans/nmap/nk-Star-KP.%d-%m-%Y.txt -oG /home/benedikt/projects/nk-scans/nmap/nk-Star-KP.%d-%m-%Y.grep 175.45.176.0/22
+Nmap scan report for 175.45.176.71
+Host is up (0.34s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http?
+
+Nmap scan report for 175.45.177.74
+Host is up (0.31s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http?
+
+Nmap scan report for 175.45.178.102
+Host is up (0.38s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.17 ((Unix) OpenSSL/1.0.1q PHP/5.6.15 mod_perl/2.0.8-dev Perl/v5.16.3)
+|_http-methods: No Allow or Public header in OPTIONS response (status code 200)
+|_http-title: Site doesn't have a title (text/html; charset=UTF-8).
+
+Nmap scan report for 175.45.178.129
+Host is up (0.38s latency).
+Not shown: 517 filtered ports, 481 closed ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     Cisco SSH 1.25 (protocol 1.99)
+|_ssh-hostkey: ERROR: Script execution failed (use -d to debug)
+|_sshv1: Server supports SSHv1
+23/tcp open  telnet  Cisco router telnetd
+Service Info: OS: IOS; Device: router; CPE: cpe:/o:cisco:ios
+
+Nmap scan report for 175.45.178.170
+Host is up (0.45s latency).
+Not shown: 996 closed ports
+PORT    STATE SERVICE VERSION
+22/tcp  open  ssh     OpenSSH 4.3 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 89:67:b2:7c:b7:db:02:1b:6f:b8:ca:f0:a0:9e:2c:5d (DSA)
+|_  2048 84:78:73:b6:ee:b0:c3:74:c8:be:a9:7b:ca:d3:b0:a2 (RSA)
+25/tcp  open  smtp    Postfix smtpd
+|_smtp-commands: smtp.star.net.kp, PIPELINING, SIZE 10240000, VRFY, ETRN, ENHANCEDSTATUSCODES, 8BITMIME, DSN, 
+110/tcp open  pop3    Dovecot pop3d
+|_pop3-capabilities: RESP-CODES PIPELINING TOP UIDL USER SASL(PLAIN) CAPA
+111/tcp open  rpcbind 2 (RPC #100000)
+| rpcinfo: 
+|   program version   port/proto  service
+|   100000  2            111/tcp  rpcbind
+|   100000  2            111/udp  rpcbind
+|   100024  1            695/udp  status
+|_  100024  1            698/tcp  status
+Service Info: Host:  smtp.star.net.kp
+
+Nmap scan report for 175.45.178.180
+Host is up (0.38s latency).
+Not shown: 994 closed ports
+PORT     STATE    SERVICE    VERSION
+22/tcp   open     ssh        OpenSSH 5.3 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 90:15:48:98:36:a2:f8:08:e9:98:81:e9:f0:90:5b:1d (DSA)
+|_  2048 84:d9:48:f5:01:3a:70:6a:58:e2:5b:c5:d7:83:58:ef (RSA)
+80/tcp   open     http       Apache httpd 2.2.15 ((Red Hat))
+| http-methods: Potentially risky methods: TRACE
+|_See http://nmap.org/nsedoc/scripts/http-methods.html
+|_http-title: Test Page for the Apache HTTP Server on Red Hat Enterprise Linux
+616/tcp  filtered sco-sysmgr
+2042/tcp filtered isis
+3003/tcp filtered cgms
+6000/tcp open     X11        (access denied)
+Service Info: OS: Unix
+
+Nmap scan report for 175.45.178.181
+Host is up (0.41s latency).
+Not shown: 987 closed ports
+PORT      STATE    SERVICE        VERSION
+22/tcp    open     ssh            OpenSSH 5.3 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 90:15:48:98:36:a2:f8:08:e9:98:81:e9:f0:90:5b:1d (DSA)
+|_  2048 84:d9:48:f5:01:3a:70:6a:58:e2:5b:c5:d7:83:58:ef (RSA)
+80/tcp    open     http           Apache httpd 2.2.15 ((Red Hat))
+| http-methods: Potentially risky methods: TRACE
+|_See http://nmap.org/nsedoc/scripts/http-methods.html
+|_http-title: Test Page for the Apache HTTP Server on Red Hat Enterprise Linux
+135/tcp   filtered msrpc
+139/tcp   filtered netbios-ssn
+445/tcp   filtered microsoft-ds
+593/tcp   filtered http-rpc-epmap
+1000/tcp  filtered cadlock
+3371/tcp  filtered satvid-datalnk
+3527/tcp  filtered beserver-msg-q
+4444/tcp  filtered krb524
+6000/tcp  open     X11            (access denied)
+6566/tcp  filtered sane-port
+12345/tcp filtered netbus
+Service Info: OS: Unix
+
+Nmap scan report for 175.45.178.182
+Host is up (0.38s latency).
+Not shown: 990 closed ports
+PORT      STATE    SERVICE        VERSION
+22/tcp    open     ssh            OpenSSH 5.3 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 90:15:48:98:36:a2:f8:08:e9:98:81:e9:f0:90:5b:1d (DSA)
+|_  2048 84:d9:48:f5:01:3a:70:6a:58:e2:5b:c5:d7:83:58:ef (RSA)
+80/tcp    open     http           Apache httpd 2.2.15 ((Red Hat))
+| http-methods: Potentially risky methods: TRACE
+|_See http://nmap.org/nsedoc/scripts/http-methods.html
+|_http-title: Test Page for the Apache HTTP Server on Red Hat Enterprise Linux
+135/tcp   filtered msrpc
+139/tcp   filtered netbios-ssn
+445/tcp   filtered microsoft-ds
+593/tcp   filtered http-rpc-epmap
+4444/tcp  filtered krb524
+6000/tcp  open     X11            (access denied)
+6005/tcp  filtered X11:5
+19350/tcp filtered unknown
+Service Info: OS: Unix
+
+Nmap scan report for 175.45.178.183
+Host is up (0.37s latency).
+Not shown: 987 closed ports
+PORT      STATE    SERVICE        VERSION
+22/tcp    open     ssh            OpenSSH 5.3 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 90:15:48:98:36:a2:f8:08:e9:98:81:e9:f0:90:5b:1d (DSA)
+|_  2048 84:d9:48:f5:01:3a:70:6a:58:e2:5b:c5:d7:83:58:ef (RSA)
+80/tcp    open     http           Apache httpd 2.2.15 ((Red Hat))
+| http-methods: Potentially risky methods: TRACE
+|_See http://nmap.org/nsedoc/scripts/http-methods.html
+|_http-title: Test Page for the Apache HTTP Server on Red Hat Enterprise Linux
+135/tcp   filtered msrpc
+139/tcp   filtered netbios-ssn
+445/tcp   filtered microsoft-ds
+593/tcp   filtered http-rpc-epmap
+1077/tcp  filtered imgames
+2022/tcp  filtered down
+2034/tcp  filtered scoremgr
+4444/tcp  filtered krb524
+6000/tcp  open     X11            (access denied)
+6839/tcp  filtered unknown
+10778/tcp filtered unknown
+Service Info: OS: Unix
+
+Nmap scan report for 175.45.178.184
+Host is up (0.37s latency).
+Not shown: 991 closed ports
+PORT     STATE    SERVICE        VERSION
+22/tcp   open     ssh            OpenSSH 5.3 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 90:15:48:98:36:a2:f8:08:e9:98:81:e9:f0:90:5b:1d (DSA)
+|_  2048 84:d9:48:f5:01:3a:70:6a:58:e2:5b:c5:d7:83:58:ef (RSA)
+80/tcp   open     http           Apache httpd 2.2.15 ((Red Hat))
+| http-methods: Potentially risky methods: TRACE
+|_See http://nmap.org/nsedoc/scripts/http-methods.html
+|_http-title: Test Page for the Apache HTTP Server on Red Hat Enterprise Linux
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+4444/tcp filtered krb524
+5200/tcp filtered targus-getdata
+6000/tcp open     X11            (access denied)
+Service Info: OS: Unix
+
+Nmap scan report for 175.45.178.185
+Host is up (0.37s latency).
+Not shown: 992 closed ports
+PORT      STATE    SERVICE         VERSION
+22/tcp    open     ssh             OpenSSH 5.3 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 90:15:48:98:36:a2:f8:08:e9:98:81:e9:f0:90:5b:1d (DSA)
+|_  2048 84:d9:48:f5:01:3a:70:6a:58:e2:5b:c5:d7:83:58:ef (RSA)
+80/tcp    open     http            Apache httpd 2.2.15 ((Red Hat))
+| http-methods: Potentially risky methods: TRACE
+|_See http://nmap.org/nsedoc/scripts/http-methods.html
+|_http-title: Test Page for the Apache HTTP Server on Red Hat Enterprise Linux
+406/tcp   filtered imsp
+6000/tcp  open     X11             (access denied)
+8084/tcp  filtered unknown
+10778/tcp filtered unknown
+32776/tcp filtered sometimes-rpc15
+52673/tcp filtered unknown
+Service Info: OS: Unix
+
+Nmap scan report for 175.45.178.186
+Host is up (0.37s latency).
+Not shown: 997 closed ports
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 5.3 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 90:15:48:98:36:a2:f8:08:e9:98:81:e9:f0:90:5b:1d (DSA)
+|_  2048 84:d9:48:f5:01:3a:70:6a:58:e2:5b:c5:d7:83:58:ef (RSA)
+80/tcp   open  http    Apache httpd 2.2.15 ((Red Hat))
+| http-methods: Potentially risky methods: TRACE
+|_See http://nmap.org/nsedoc/scripts/http-methods.html
+|_http-title: Test Page for the Apache HTTP Server on Red Hat Enterprise Linux
+6000/tcp open  X11     (access denied)
+Service Info: OS: Unix
+
+Nmap scan report for 175.45.178.187
+Host is up (0.38s latency).
+Not shown: 994 closed ports
+PORT      STATE    SERVICE          VERSION
+22/tcp    open     ssh              OpenSSH 5.3 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 90:15:48:98:36:a2:f8:08:e9:98:81:e9:f0:90:5b:1d (DSA)
+|_  2048 84:d9:48:f5:01:3a:70:6a:58:e2:5b:c5:d7:83:58:ef (RSA)
+80/tcp    open     http             Apache httpd 2.2.15 ((Red Hat))
+| http-methods: Potentially risky methods: TRACE
+|_See http://nmap.org/nsedoc/scripts/http-methods.html
+|_http-title: Test Page for the Apache HTTP Server on Red Hat Enterprise Linux
+1236/tcp  filtered bvcontrol
+6000/tcp  open     X11              (access denied)
+9111/tcp  filtered DragonIDSConsole
+27000/tcp filtered flexlm0
+Service Info: OS: Unix
+
+Nmap scan report for 175.45.178.188
+Host is up (0.37s latency).
+Not shown: 995 closed ports
+PORT     STATE    SERVICE       VERSION
+22/tcp   open     ssh           OpenSSH 5.3 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 90:15:48:98:36:a2:f8:08:e9:98:81:e9:f0:90:5b:1d (DSA)
+|_  2048 84:d9:48:f5:01:3a:70:6a:58:e2:5b:c5:d7:83:58:ef (RSA)
+80/tcp   open     http          Apache httpd 2.2.15 ((Red Hat))
+| http-methods: Potentially risky methods: TRACE
+|_See http://nmap.org/nsedoc/scripts/http-methods.html
+|_http-title: Test Page for the Apache HTTP Server on Red Hat Enterprise Linux
+1070/tcp filtered gmrupdateserv
+5500/tcp filtered hotline
+6000/tcp open     X11           (access denied)
+Service Info: OS: Unix
+
+Post-scan script results:
+| ssh-hostkey: Possible duplicate hosts
+| Key 1024 90:15:48:98:36:a2:f8:08:e9:98:81:e9:f0:90:5b:1d (DSA) used by:
+|   175.45.178.180
+|   175.45.178.181
+|   175.45.178.182
+|   175.45.178.183
+|   175.45.178.184
+|   175.45.178.185
+|   175.45.178.186
+|   175.45.178.187
+|   175.45.178.188
+| Key 2048 84:d9:48:f5:01:3a:70:6a:58:e2:5b:c5:d7:83:58:ef (RSA) used by:
+|   175.45.178.180
+|   175.45.178.181
+|   175.45.178.182
+|   175.45.178.183
+|   175.45.178.184
+|   175.45.178.185
+|   175.45.178.186
+|   175.45.178.187
+|_  175.45.178.188
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+# Nmap done at Sat Feb 13 21:26:36 2016 -- 1024 IP addresses (14 hosts up) scanned in 1594.49 seconds

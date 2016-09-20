@@ -1,0 +1,371 @@
+# Nmap 6.47 scan initiated Tue Apr  5 21:00:01 2016 as: /usr/bin/nmap -A -oN /home/benedikt/projects/nk-scans/nmap/nk-Star-KP.%d-%m-%Y.txt -oG /home/benedikt/projects/nk-scans/nmap/nk-Star-KP.%d-%m-%Y.grep 175.45.176.0/22
+Nmap scan report for 175.45.176.71
+Host is up (0.42s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http?
+
+Nmap scan report for 175.45.177.77
+Host is up (0.83s latency).
+All 1000 scanned ports on 175.45.177.77 are filtered
+
+Nmap scan report for 175.45.178.13
+Host is up (0.38s latency).
+Not shown: 997 closed ports
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 6.4 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 c5:9e:d5:8e:a8:55:25:1d:ab:60:22:e0:76:f8:bb:27 (RSA)
+|_  256 47:41:fc:7a:6f:4a:9b:b0:00:10:1e:29:e5:e9:dd:6d (ECDSA)
+111/tcp  open  rpcbind 2-4 (RPC #100000)
+| rpcinfo: 
+|   program version   port/proto  service
+|   100000  2,3,4        111/tcp  rpcbind
+|   100000  2,3,4        111/udp  rpcbind
+|   100024  1          38862/udp  status
+|_  100024  1          57815/tcp  status
+8649/tcp open  ganglia Ganglia XML Grid monitor
+| ganglia-info: 
+|   Service: Ganglia Monitoring Daemon
+|   Version: 3.6.1
+|   Cluster Name: crawl cluster
+|_  	Owner: Ops
+
+Nmap scan report for 175.45.178.65
+Host is up (0.38s latency).
+Not shown: 989 closed ports
+PORT     STATE    SERVICE        VERSION
+80/tcp   open     http           Apache httpd 2.2.4 ((Win32) DAV/2 mod_ssl/2.2.4 OpenSSL/0.9.8e mod_autoindex_color PHP/5.2.1)
+|_http-methods: No Allow or Public header in OPTIONS response (status code 302)
+| http-title: XAMPP Version 1.6.1
+|_Requested resource was http://175.45.178.65/xampp/
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+443/tcp  open     ssl/http       Apache httpd 2.2.4 ((Win32) DAV/2 mod_ssl/2.2.4 OpenSSL/0.9.8e mod_autoindex_color PHP/5.2.1)
+|_http-methods: No Allow or Public header in OPTIONS response (status code 302)
+| http-title: XAMPP Version 1.6.1
+|_Requested resource was https://175.45.178.65/xampp/
+| ssl-cert: Subject: commonName=localhost/organizationName=Apache Friends
+| Not valid before: 2005-12-04T15:11:04+00:00
+|_Not valid after:  2006-12-04T15:11:04+00:00
+|_ssl-date: 2016-04-05T22:21:45+00:00; -33m58s from local time.
+| sslv2: 
+|   SSLv2 supported
+|   ciphers: 
+|     SSL2_DES_192_EDE3_CBC_WITH_MD5
+|     SSL2_IDEA_128_CBC_WITH_MD5
+|     SSL2_RC2_CBC_128_CBC_WITH_MD5
+|     SSL2_RC4_128_WITH_MD5
+|     SSL2_DES_64_CBC_WITH_MD5
+|     SSL2_RC2_CBC_128_CBC_WITH_MD5
+|_    SSL2_RC4_128_EXPORT40_WITH_MD5
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+1064/tcp filtered jstel
+3306/tcp open     mysql          MySQL (unauthorized)
+4224/tcp filtered xtell
+4444/tcp filtered krb524
+5100/tcp filtered admd
+
+Nmap scan report for 175.45.178.66
+Host is up (0.37s latency).
+Not shown: 992 closed ports
+PORT     STATE    SERVICE        VERSION
+80/tcp   open     http           Apache httpd 2.2.4 ((Win32) DAV/2 mod_ssl/2.2.4 OpenSSL/0.9.8e mod_autoindex_color PHP/5.2.1)
+|_http-methods: No Allow or Public header in OPTIONS response (status code 302)
+| http-title: XAMPP Version 1.6.1
+|_Requested resource was http://175.45.178.66/xampp/
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+443/tcp  open     ssl/http       Apache httpd 2.2.4 ((Win32) DAV/2 mod_ssl/2.2.4 OpenSSL/0.9.8e mod_autoindex_color PHP/5.2.1)
+|_http-methods: No Allow or Public header in OPTIONS response (status code 302)
+| http-title: XAMPP Version 1.6.1
+|_Requested resource was https://175.45.178.66/xampp/
+| ssl-cert: Subject: commonName=localhost/organizationName=Apache Friends
+| Not valid before: 2005-12-04T15:11:04+00:00
+|_Not valid after:  2006-12-04T15:11:04+00:00
+|_ssl-date: 2016-04-05T22:21:16+00:00; -33m59s from local time.
+| sslv2: 
+|   SSLv2 supported
+|   ciphers: 
+|     SSL2_DES_192_EDE3_CBC_WITH_MD5
+|     SSL2_IDEA_128_CBC_WITH_MD5
+|     SSL2_RC2_CBC_128_CBC_WITH_MD5
+|     SSL2_RC4_128_WITH_MD5
+|     SSL2_DES_64_CBC_WITH_MD5
+|     SSL2_RC2_CBC_128_CBC_WITH_MD5
+|_    SSL2_RC4_128_EXPORT40_WITH_MD5
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+3306/tcp open     mysql          MySQL (unauthorized)
+4444/tcp filtered krb524
+
+Nmap scan report for 175.45.178.67
+Host is up (0.37s latency).
+Not shown: 983 closed ports
+PORT     STATE    SERVICE      VERSION
+13/tcp   filtered daytime
+80/tcp   open     http         Apache httpd 2.2.4 ((Win32) DAV/2 mod_ssl/2.2.4 OpenSSL/0.9.8e mod_autoindex_color PHP/5.2.1)
+|_http-methods: No Allow or Public header in OPTIONS response (status code 302)
+| http-title: XAMPP Version 1.6.1
+|_Requested resource was http://175.45.178.67/xampp/
+135/tcp  open     msrpc?
+139/tcp  open     netbios-ssn
+443/tcp  open     ssl/http     Apache httpd 2.2.4 ((Win32) DAV/2 mod_ssl/2.2.4 OpenSSL/0.9.8e mod_autoindex_color PHP/5.2.1)
+|_http-methods: No Allow or Public header in OPTIONS response (status code 302)
+| http-title: XAMPP Version 1.6.1
+|_Requested resource was https://175.45.178.67/xampp/
+| ssl-cert: Subject: commonName=localhost/organizationName=Apache Friends
+| Not valid before: 2005-12-04T15:11:04+00:00
+|_Not valid after:  2006-12-04T15:11:04+00:00
+|_ssl-date: 2016-04-05T22:21:45+00:00; -33m58s from local time.
+| sslv2: 
+|   SSLv2 supported
+|   ciphers: 
+|     SSL2_DES_192_EDE3_CBC_WITH_MD5
+|     SSL2_IDEA_128_CBC_WITH_MD5
+|     SSL2_RC2_CBC_128_CBC_WITH_MD5
+|     SSL2_RC4_128_WITH_MD5
+|     SSL2_DES_64_CBC_WITH_MD5
+|     SSL2_RC2_CBC_128_CBC_WITH_MD5
+|_    SSL2_RC4_128_EXPORT40_WITH_MD5
+445/tcp  open     microsoft-ds Microsoft Windows XP microsoft-ds
+1055/tcp filtered ansyslmd
+1062/tcp filtered veracity
+1112/tcp filtered msql
+1201/tcp filtered nucleus-sand
+2065/tcp filtered dlsrpn
+2381/tcp filtered compaq-https
+2967/tcp filtered symantec-av
+3306/tcp open     mysql        MySQL (unauthorized)
+3826/tcp filtered wormux
+6007/tcp filtered X11:7
+6565/tcp filtered unknown
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_nbstat: NetBIOS name: 265F-00001440, NetBIOS user: <unknown>, NetBIOS MAC: 00:e0:4c:00:14:40 (Realtek Semiconductor)
+| smb-security-mode: 
+|   Account that was used for smb scripts: guest
+|   User-level authentication
+|   SMB Security: Challenge/response passwords supported
+|_  Message signing disabled (dangerous, but default)
+|_smbv2-enabled: Server doesn't support SMBv2 protocol
+
+Nmap scan report for 175.45.178.68
+Host is up (0.38s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE    VERSION
+22/tcp   filtered ssh
+80/tcp   open     http-proxy Squid http proxy 3.3.8
+|_http-methods: No Allow or Public header in OPTIONS response (status code 403)
+|_http-title: ERROR: The requested URL could not be retrieved
+3128/tcp open     http-proxy Squid http proxy 3.3.8
+|_http-methods: No Allow or Public header in OPTIONS response (status code 403)
+|_http-title: ERROR: The requested URL could not be retrieved
+
+Nmap scan report for 175.45.178.69
+Host is up (0.38s latency).
+Not shown: 998 closed ports
+PORT     STATE    SERVICE    VERSION
+80/tcp   open     tcpwrapped
+2200/tcp filtered ici
+
+Nmap scan report for 175.45.178.70
+Host is up (0.38s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE  VERSION
+80/tcp   filtered http
+443/tcp  open     ssl/http Apache httpd
+|_http-methods: No Allow or Public header in OPTIONS response (status code 200)
+|_http-title: Site doesn't have a title (text/html; charset=UTF-8).
+| ssl-cert: Subject: commonName=NetRadar/organizationName=NeoTech/stateOrProvinceName=XX/countryName=XX
+| Not valid before: 2014-09-04T15:54:32+00:00
+|_Not valid after:  2044-08-27T15:54:32+00:00
+|_ssl-date: 2016-04-05T22:21:47+00:00; -33m58s from local time.
+3306/tcp filtered mysql
+
+Nmap scan report for 175.45.178.71
+Host is up (0.37s latency).
+Not shown: 988 closed ports
+PORT     STATE    SERVICE        VERSION
+22/tcp   filtered ssh
+25/tcp   open     tcpwrapped
+|_smtp-commands: Couldn't establish connection on port 25
+110/tcp  open     tcpwrapped
+143/tcp  open     tcpwrapped
+| imap-capabilities: 
+|_  ERROR: Failed to connect to server
+465/tcp  open     ssl/tcpwrapped
+|_smtp-commands: Couldn't establish connection on port 465
+| ssl-cert: Subject: commonName=cbsg Email proxy CA/organizationName=kcc/countryName=KP
+| Not valid before: 2013-07-19T06:45:07+00:00
+|_Not valid after:  2023-07-17T06:45:07+00:00
+|_ssl-date: 2028-08-26T00:08:52+00:00; +12y142d1h13m38s from local time.
+587/tcp  open     tcpwrapped
+|_smtp-commands: Couldn't establish connection on port 587
+993/tcp  open     ssl/tcpwrapped
+| ssl-cert: Subject: commonName=cbsg Email proxy CA/organizationName=kcc/countryName=KP
+| Not valid before: 2013-07-19T06:45:07+00:00
+|_Not valid after:  2023-07-17T06:45:07+00:00
+|_ssl-date: 2021-01-09T01:52:39+00:00; +4y278d2h56m45s from local time.
+995/tcp  open     ssl/tcpwrapped
+| ssl-cert: Subject: commonName=cbsg Email proxy CA/organizationName=kcc/countryName=KP
+| Not valid before: 2013-07-19T06:45:07+00:00
+|_Not valid after:  2023-07-17T06:45:07+00:00
+|_ssl-date: 2005-04-03T16:40:48+00:00; -11y2d6h14m35s from local time.
+1863/tcp open     tcpwrapped
+5050/tcp open     tcpwrapped
+5190/tcp open     tcpwrapped
+5222/tcp open     tcpwrapped
+| xmpp-info: 
+|   STARTTLS Failed
+|   info: 
+|     xmpp: 
+| 
+|     compression_methods: 
+| 
+|     features: 
+| 
+|     errors: 
+|       (timeout)
+|     unknown: 
+| 
+|     auth_mechanisms: 
+| 
+|_    capabilities: 
+
+Nmap scan report for 175.45.178.75
+Host is up (0.37s latency).
+Not shown: 978 closed ports
+PORT      STATE    SERVICE        VERSION
+80/tcp    open     http           Apache httpd 2.2.4 ((Win32) DAV/2 mod_ssl/2.2.4 OpenSSL/0.9.8e mod_autoindex_color PHP/5.2.1)
+|_http-methods: No Allow or Public header in OPTIONS response (status code 302)
+| http-title: XAMPP Version 1.6.1
+|_Requested resource was http://175.45.178.75/xampp/
+135/tcp   filtered msrpc
+139/tcp   filtered netbios-ssn
+416/tcp   filtered silverplatter
+443/tcp   open     ssl/http       Apache httpd 2.2.4 ((Win32) DAV/2 mod_ssl/2.2.4 OpenSSL/0.9.8e mod_autoindex_color PHP/5.2.1)
+|_http-methods: No Allow or Public header in OPTIONS response (status code 302)
+| http-title: XAMPP Version 1.6.1
+|_Requested resource was https://175.45.178.75/xampp/
+| ssl-cert: Subject: commonName=localhost/organizationName=Apache Friends
+| Not valid before: 2005-12-04T15:11:04+00:00
+|_Not valid after:  2006-12-04T15:11:04+00:00
+|_ssl-date: 2016-04-05T22:21:27+00:00; -33m58s from local time.
+| sslv2: 
+|   SSLv2 supported
+|   ciphers: 
+|     SSL2_DES_192_EDE3_CBC_WITH_MD5
+|     SSL2_IDEA_128_CBC_WITH_MD5
+|     SSL2_RC2_CBC_128_CBC_WITH_MD5
+|     SSL2_RC4_128_WITH_MD5
+|     SSL2_DES_64_CBC_WITH_MD5
+|     SSL2_RC2_CBC_128_CBC_WITH_MD5
+|_    SSL2_RC4_128_EXPORT40_WITH_MD5
+445/tcp   filtered microsoft-ds
+545/tcp   filtered ekshell
+593/tcp   filtered http-rpc-epmap
+1126/tcp  filtered hpvmmdata
+2099/tcp  filtered h2250-annex-g
+2121/tcp  filtered ccproxy-ftp
+2260/tcp  filtered apc-2260
+2725/tcp  filtered msolap-ptp2
+3306/tcp  open     mysql          MySQL (unauthorized)
+3998/tcp  filtered dnx
+4444/tcp  filtered krb524
+5907/tcp  filtered unknown
+6566/tcp  filtered sane-port
+8042/tcp  filtered fs-agent
+15004/tcp filtered unknown
+20000/tcp filtered dnp
+32769/tcp filtered filenet-rpc
+
+Nmap scan report for 175.45.178.76
+Host is up (0.38s latency).
+Not shown: 989 closed ports
+PORT      STATE    SERVICE          VERSION
+80/tcp    open     http             Apache httpd 2.2.4 ((Win32) DAV/2 mod_ssl/2.2.4 OpenSSL/0.9.8e mod_autoindex_color PHP/5.2.1)
+|_http-methods: No Allow or Public header in OPTIONS response (status code 302)
+| http-title: XAMPP Version 1.6.1
+|_Requested resource was http://175.45.178.76/xampp/
+135/tcp   open     msrpc?
+139/tcp   open     netbios-ssn?
+443/tcp   open     ssl/http         Apache httpd 2.2.4 ((Win32) DAV/2 mod_ssl/2.2.4 OpenSSL/0.9.8e mod_autoindex_color PHP/5.2.1)
+|_http-methods: No Allow or Public header in OPTIONS response (status code 302)
+| http-title: XAMPP Version 1.6.1
+|_Requested resource was https://175.45.178.76/xampp/
+| ssl-cert: Subject: commonName=localhost/organizationName=Apache Friends
+| Not valid before: 2005-12-04T15:11:04+00:00
+|_Not valid after:  2006-12-04T15:11:04+00:00
+|_ssl-date: 2016-04-05T22:21:44+00:00; -33m59s from local time.
+| sslv2: 
+|   SSLv2 supported
+|   ciphers: 
+|     SSL2_DES_192_EDE3_CBC_WITH_MD5
+|     SSL2_IDEA_128_CBC_WITH_MD5
+|     SSL2_RC2_CBC_128_CBC_WITH_MD5
+|     SSL2_RC4_128_WITH_MD5
+|     SSL2_DES_64_CBC_WITH_MD5
+|     SSL2_RC2_CBC_128_CBC_WITH_MD5
+|_    SSL2_RC4_128_EXPORT40_WITH_MD5
+445/tcp   open     microsoft-ds?
+1721/tcp  filtered caicci
+3306/tcp  open     mysql            MySQL (unauthorized)
+3580/tcp  filtered nati-svrloc
+5000/tcp  filtered upnp
+10000/tcp filtered snet-sensor-mgmt
+19101/tcp filtered unknown
+
+Host script results:
+|_nbstat: NetBIOS name: 0975-00000BFF, NetBIOS user: <unknown>, NetBIOS MAC: 00:e0:4c:00:0c:03 (Realtek Semiconductor)
+|_smbv2-enabled: Server doesn't support SMBv2 protocol
+
+Nmap scan report for 175.45.178.77
+Host is up (0.38s latency).
+Not shown: 996 closed ports
+PORT     STATE    SERVICE    VERSION
+22/tcp   filtered ssh
+25/tcp   open     smtp       Postfix smtpd
+|_smtp-commands: ubuntu.localdomain, PIPELINING, SIZE 10240000, VRFY, ETRN, ENHANCEDSTATUSCODES, 8BITMIME, DSN, 
+80/tcp   open     http       Apache httpd 2.4.7 ((Ubuntu))
+|_http-title: ERROR: The requested URL could not be retrieved
+3128/tcp open     http-proxy Squid http proxy 3.3.8
+|_http-methods: No Allow or Public header in OPTIONS response (status code 403)
+|_http-title: ERROR: The requested URL could not be retrieved
+Service Info: Host:  ubuntu.localdomain
+
+Nmap scan report for 175.45.178.127
+Host is up (0.37s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE VERSION
+21/tcp open  ftp     vsftpd 2.0.5
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+| -rw-------    1 ftp      ftp         10898 Apr 05 15:28 HK.cfg_err
+| -rw-------    1 ftp      ftp         22008 Apr 05 14:26 core-7609-02.cfg_err
+| -rw-------    1 ftp      ftp          9843 Apr 05 15:27 dmz.cfg_err
+| -rw-------    1 ftp      ftp         15003 Apr 05 01:07 ldp-7606.cfg_err
+|_-rw-------    1 ftp      ftp             0 Apr 05 20:04 titten
+Service Info: OS: Unix
+
+Nmap scan report for 175.45.178.129
+Host is up (0.38s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     Cisco SSH 1.25 (protocol 1.99)
+|_ssh-hostkey: ERROR: Script execution failed (use -d to debug)
+|_sshv1: Server supports SSHv1
+23/tcp open  telnet  Cisco router telnetd
+Service Info: OS: IOS; Device: router; CPE: cpe:/o:cisco:ios
+
+Nmap scan report for 175.45.178.202
+Host is up (0.38s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.17 ((Unix) OpenSSL/1.0.1q PHP/5.6.15 mod_perl/2.0.8-dev Perl/v5.16.3)
+|_http-methods: No Allow or Public header in OPTIONS response (status code 200)
+|_http-title: Site doesn't have a title (text/html; charset=UTF-8).
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+# Nmap done at Tue Apr  5 22:58:02 2016 -- 1024 IP addresses (16 hosts up) scanned in 7080.37 seconds

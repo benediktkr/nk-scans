@@ -1,0 +1,26 @@
+# Nmap 6.47 scan initiated Sun Mar 20 21:00:02 2016 as: /usr/bin/nmap -A -oN /home/benedikt/projects/nk-scans/nmap/nk-Star-KP.%d-%m-%Y.txt -oG /home/benedikt/projects/nk-scans/nmap/nk-Star-KP.%d-%m-%Y.grep 175.45.176.0/22
+Host: 175.45.176.71 ()	Status: Up
+Host: 175.45.176.71 ()	Ports: 80/open/tcp//http?///	Ignored State: filtered (999)
+Host: 175.45.178.5 ()	Status: Up
+Host: 175.45.178.5 ()	Ports: 22/filtered/tcp//ssh///, 79/open/tcp//finger?///, 80/open/tcp//http?///, 81/open/tcp//hosts2-ns?///, 82/open/tcp//xfer?///, 83/open/tcp//mit-ml-dev?///, 84/open/tcp//ctf?///, 85/open/tcp//mit-ml-dev?///, 88/open/tcp//tcpwrapped///, 179/open/tcp//bgp?///	Ignored State: closed (990)
+Host: 175.45.178.6 ()	Status: Up
+Host: 175.45.178.6 ()	Ports: 22/open/tcp//ssh//OpenSSH 4.3 (protocol 2.0)/, 79/open/tcp//finger?///, 80/open/tcp//http?///, 81/open/tcp//hosts2-ns?///, 82/open/tcp//xfer?///, 83/open/tcp//mit-ml-dev?///, 84/open/tcp//ctf?///, 85/open/tcp//mit-ml-dev?///, 88/open/tcp//tcpwrapped///, 135/filtered/tcp//msrpc///, 179/open/tcp//bgp?///	Ignored State: closed (989)
+Host: 175.45.178.66 ()	Status: Up
+Host: 175.45.178.66 ()	Ports: 22/filtered/tcp//ssh///, 25/open/tcp//tcpwrapped///, 53/open/tcp//domain///, 80/filtered/tcp//http///, 110/open/tcp//tcpwrapped///, 135/filtered/tcp//msrpc///, 139/filtered/tcp//netbios-ssn///, 143/open/tcp//tcpwrapped///, 445/filtered/tcp//microsoft-ds///, 465/open/tcp//smtps?///, 587/open/tcp//tcpwrapped///, 593/filtered/tcp//http-rpc-epmap///, 993/open/tcp//ssl|tcpwrapped///, 995/open/tcp//pop3s?///, 1863/open/tcp//tcpwrapped///, 3128/open/tcp//squid-http?///, 3306/filtered/tcp//mysql///, 4444/filtered/tcp//krb524///, 5050/open/tcp//mmcc?///, 5190/open/tcp//aol?///, 5222/open/tcp//xmpp-client?///	Ignored State: closed (979)
+Host: 175.45.178.68 ()	Status: Up
+Host: 175.45.178.68 ()	Ports: 80/open/tcp//http//Apache httpd 2.2.4 ((Win32) DAV|2 mod_ssl|2.2.4 OpenSSL|0.9.8e mod_autoindex_color PHP|5.2.1)/, 135/open/tcp//msrpc?///, 139/open/tcp//netbios-ssn///, 443/open/tcp//ssl|http//Apache httpd 2.2.4 ((Win32) DAV|2 mod_ssl|2.2.4 OpenSSL|0.9.8e mod_autoindex_color PHP|5.2.1)/, 3306/open/tcp//mysql//MySQL (unauthorized)/	Ignored State: closed (995)
+Host: 175.45.178.70 ()	Status: Up
+Host: 175.45.178.70 ()	Status: Up
+Host: 175.45.178.73 ()	Status: Up
+Host: 175.45.178.73 ()	Ports: 22/filtered/tcp//ssh///, 80/open/tcp//http-proxy//Squid http proxy 3.3.8/, 3128/open/tcp//http-proxy//Squid http proxy 3.3.8/	Ignored State: closed (997)
+Host: 175.45.178.75 ()	Status: Up
+Host: 175.45.178.75 ()	Ports: 22/filtered/tcp//ssh///, 25/open/tcp//smtp?///, 80/open/tcp//http?///, 135/filtered/tcp//msrpc///, 139/filtered/tcp//netbios-ssn///, 445/filtered/tcp//microsoft-ds///, 593/filtered/tcp//http-rpc-epmap///, 3128/open/tcp//squid-http?///, 4444/filtered/tcp//krb524///	Ignored State: closed (991)
+Host: 175.45.178.76 ()	Status: Up
+Host: 175.45.178.76 ()	Ports: 22/filtered/tcp//ssh///, 25/open/tcp//tcpwrapped///, 80/open/tcp//http//Apache httpd 2.4.7 ((Ubuntu))/, 110/open/tcp//tcpwrapped///, 143/open/tcp//tcpwrapped///, 465/open/tcp//ssl|tcpwrapped///, 587/open/tcp//tcpwrapped///, 993/open/tcp//ssl|tcpwrapped///, 995/open/tcp//ssl|tcpwrapped///, 1863/open/tcp//tcpwrapped///, 3128/open/tcp//http-proxy//Squid http proxy 3.3.9/, 5050/open/tcp//tcpwrapped///, 5190/open/tcp//tcpwrapped///, 5222/open/tcp//tcpwrapped///	Ignored State: closed (986)
+Host: 175.45.178.77 ()	Status: Up
+Host: 175.45.178.77 ()	Ports: 80/open/tcp//http//Apache httpd 2.2.4 ((Win32) DAV|2 mod_ssl|2.2.4 OpenSSL|0.9.8e mod_autoindex_color PHP|5.2.1)/, 135/open/tcp//msrpc?///, 139/open/tcp//netbios-ssn///, 443/open/tcp//ssl|http//Apache httpd 2.2.4 ((Win32) DAV|2 mod_ssl|2.2.4 OpenSSL|0.9.8e mod_autoindex_color PHP|5.2.1)/, 445/open/tcp//microsoft-ds?///, 3306/open/tcp//mysql//MySQL (unauthorized)/	Ignored State: closed (994)
+Host: 175.45.178.127 ()	Status: Up
+Host: 175.45.178.127 ()	Status: Up
+Host: 175.45.178.173 ()	Status: Up
+Host: 175.45.178.173 ()	Ports: 135/filtered/tcp//msrpc///, 139/filtered/tcp//netbios-ssn///, 445/filtered/tcp//microsoft-ds///, 593/filtered/tcp//http-rpc-epmap///, 4444/filtered/tcp//krb524///	Ignored State: closed (995)
+# Nmap done at Sun Mar 20 21:15:36 2016 -- 1024 IP addresses (12 hosts up) scanned in 934.54 seconds

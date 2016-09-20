@@ -1,0 +1,10 @@
+# Nmap 6.47 scan initiated Mon Apr 18 21:00:02 2016 as: /usr/bin/nmap -A -oN /home/benedikt/projects/nk-scans/nmap/nk-Star-KP.%d-%m-%Y.txt -oG /home/benedikt/projects/nk-scans/nmap/nk-Star-KP.%d-%m-%Y.grep 175.45.176.0/22
+Host: 175.45.176.19 ()	Status: Up
+Host: 175.45.176.19 ()	Ports: 80/open/tcp//http//Apache httpd 2.4.7 ((Ubuntu))/, 443/closed/tcp//https///	Ignored State: filtered (998)
+Host: 175.45.176.71 ()	Status: Up
+Host: 175.45.176.71 ()	Ports: 80/open/tcp//http?///	Ignored State: filtered (999)
+Host: 175.45.178.129 ()	Status: Up
+Host: 175.45.178.129 ()	Ports: 22/open/tcp//ssh//Cisco SSH 1.25 (protocol 1.99)/, 23/open/tcp//telnet//Cisco IOS telnetd/
+Host: 175.45.178.170 ()	Status: Up
+Host: 175.45.178.170 ()	Ports: 22/open/tcp//ssh//OpenSSH 5.3 (protocol 2.0)/, 80/open/tcp//http?///, 111/open/tcp//rpcbind///, 5800/open/tcp//vnc-http//RealVNC E4/, 5900/open/tcp//vnc//RealVNC Enterprise (protocol 4.1)/, 5989/open/tcp//wbem-https?///
+# Nmap done at Mon Apr 18 22:05:22 2016 -- 1024 IP addresses (4 hosts up) scanned in 3920.43 seconds

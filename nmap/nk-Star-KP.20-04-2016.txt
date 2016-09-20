@@ -1,0 +1,154 @@
+# Nmap 6.47 scan initiated Wed Apr 20 21:00:01 2016 as: /usr/bin/nmap -A -oN /home/benedikt/projects/nk-scans/nmap/nk-Star-KP.%d-%m-%Y.txt -oG /home/benedikt/projects/nk-scans/nmap/nk-Star-KP.%d-%m-%Y.grep 175.45.176.0/22
+Nmap scan report for 175.45.176.19
+Host is up (0.38s latency).
+Not shown: 998 filtered ports
+PORT    STATE  SERVICE VERSION
+80/tcp  open   http    Apache httpd 2.4.7 ((Ubuntu))
+|_http-generator: ERROR: Script execution failed (use -d to debug)
+|_http-methods: No Allow or Public header in OPTIONS response (status code 200)
+| http-robots.txt: 1 disallowed entry 
+|_/wp-admin/
+|_http-title: Did not follow redirect to http://starcon.net.kp/
+443/tcp closed https
+
+Nmap scan report for naenara.com.kp (175.45.176.67)
+Host is up (0.33s latency).
+All 1000 scanned ports on naenara.com.kp (175.45.176.67) are filtered
+
+Nmap scan report for 175.45.176.71
+Host is up (0.35s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http?
+
+Nmap scan report for 175.45.178.129
+Host is up (0.38s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     Cisco SSH 1.25 (protocol 1.99)
+|_ssh-hostkey: ERROR: Script execution failed (use -d to debug)
+|_sshv1: Server supports SSHv1
+23/tcp open  telnet  Cisco router telnetd
+Service Info: OS: IOS; Device: router; CPE: cpe:/o:cisco:ios
+
+Nmap scan report for 175.45.178.138
+Host is up (0.56s latency).
+Not shown: 982 closed ports
+PORT      STATE    SERVICE         VERSION
+100/tcp   filtered newacct
+1048/tcp  filtered neod2
+1086/tcp  filtered cplscrambler-lg
+1106/tcp  filtered isoipsigport-1
+1201/tcp  filtered nucleus-sand
+1805/tcp  filtered enl-name
+2046/tcp  filtered sdfunc
+2920/tcp  filtered roboeda
+4001/tcp  filtered newoak
+4006/tcp  filtered pxc-spvr
+5555/tcp  filtered freeciv
+5910/tcp  filtered cm
+7920/tcp  filtered unknown
+8000/tcp  filtered http-alt
+9593/tcp  filtered cba8
+10003/tcp filtered documentum_s
+11110/tcp filtered unknown
+32773/tcp filtered sometimes-rpc9
+
+Nmap scan report for 175.45.178.177
+Host is up (0.37s latency).
+All 1000 scanned ports on 175.45.178.177 are closed
+
+Nmap scan report for 175.45.178.178
+Host is up (0.38s latency).
+Not shown: 992 closed ports
+PORT     STATE    SERVICE        VERSION
+80/tcp   filtered http
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+443/tcp  open     https?
+|_http-title: Site doesn't have a title (text/html; charset=UTF-8).
+| ssl-cert: Subject: commonName=NetRadar/organizationName=NeoTech/stateOrProvinceName=XX/countryName=XX
+| Not valid before: 2014-09-04T15:54:32+00:00
+|_Not valid after:  2044-08-27T15:54:32+00:00
+|_ssl-date: 2016-04-20T20:54:54+00:00; -35m54s from local time.
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+3306/tcp filtered mysql
+4444/tcp filtered krb524
+
+Nmap scan report for 175.45.178.179
+Host is up (0.38s latency).
+Not shown: 994 closed ports
+PORT     STATE    SERVICE       VERSION
+80/tcp   open     http?
+| http-title: XAMPP Version 1.6.1
+|_Requested resource was http://175.45.178.179/xampp/
+135/tcp  filtered msrpc
+139/tcp  open     netbios-ssn?
+443/tcp  open     https?
+445/tcp  open     microsoft-ds?
+3306/tcp open     mysql?
+
+Nmap scan report for 175.45.178.180
+Host is up (0.38s latency).
+Not shown: 993 closed ports
+PORT      STATE    SERVICE       VERSION
+80/tcp    open     http?
+135/tcp   open     msrpc?
+139/tcp   open     netbios-ssn?
+443/tcp   open     https?
+445/tcp   open     microsoft-ds?
+3306/tcp  open     mysql?
+49999/tcp filtered unknown
+
+Host script results:
+|_nbstat: NetBIOS name: 6D8C-0000457A, NetBIOS user: <unknown>, NetBIOS MAC: 00:e0:4c:00:45:7a (Realtek Semiconductor)
+
+Nmap scan report for 175.45.178.181
+Host is up (0.37s latency).
+Not shown: 992 closed ports
+PORT     STATE    SERVICE        VERSION
+80/tcp   open     http?
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+443/tcp  open     https?
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+3306/tcp open     mysql          MySQL (unauthorized)
+4444/tcp filtered krb524
+
+Nmap scan report for 175.45.178.182
+Host is up (0.38s latency).
+Not shown: 992 closed ports
+PORT     STATE    SERVICE        VERSION
+80/tcp   open     http?
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+443/tcp  open     https?
+|_ssl-date: 2016-04-20T20:55:15+00:00; -35m54s from local time.
+| sslv2: 
+|   SSLv2 supported
+|   ciphers: 
+|     SSL2_DES_192_EDE3_CBC_WITH_MD5
+|     SSL2_IDEA_128_CBC_WITH_MD5
+|     SSL2_RC2_CBC_128_CBC_WITH_MD5
+|     SSL2_RC4_128_WITH_MD5
+|     SSL2_DES_64_CBC_WITH_MD5
+|     SSL2_RC2_CBC_128_CBC_WITH_MD5
+|_    SSL2_RC4_128_EXPORT40_WITH_MD5
+445/tcp  filtered microsoft-ds
+593/tcp  filtered http-rpc-epmap
+3306/tcp open     mysql          MySQL (unauthorized)
+4444/tcp filtered krb524
+
+Nmap scan report for 175.45.178.202
+Host is up (0.38s latency).
+Not shown: 998 filtered ports
+PORT    STATE  SERVICE VERSION
+80/tcp  open   http    Apache httpd 2.4.17 ((Unix) OpenSSL/1.0.1q PHP/5.6.15 mod_perl/2.0.8-dev Perl/v5.16.3)
+|_http-methods: No Allow or Public header in OPTIONS response (status code 200)
+|_http-title: Site doesn't have a title (text/html; charset=UTF-8).
+113/tcp closed ident
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+# Nmap done at Wed Apr 20 21:38:05 2016 -- 1024 IP addresses (12 hosts up) scanned in 2283.79 seconds

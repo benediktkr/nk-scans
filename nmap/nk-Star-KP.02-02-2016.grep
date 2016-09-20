@@ -1,0 +1,22 @@
+# Nmap 6.47 scan initiated Tue Feb  2 21:00:02 2016 as: /usr/bin/nmap -A -oN /home/benedikt/projects/nk-scans/nmap/nk-Star-KP.%d-%m-%Y.txt -oG /home/benedikt/projects/nk-scans/nmap/nk-Star-KP.%d-%m-%Y.grep 175.45.176.0/22
+Host: 175.45.178.102 ()	Status: Up
+Host: 175.45.178.102 ()	Ports: 80/open/tcp//http//Apache httpd 2.4.17 ((Unix) OpenSSL|1.0.1q PHP|5.6.15 mod_perl|2.0.8-dev Perl|v5.16.3)/	Ignored State: filtered (999)
+Host: 175.45.178.180 ()	Status: Up
+Host: 175.45.178.180 ()	Ports: 22/open/tcp//ssh//OpenSSH 5.3 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.2.15 ((Red Hat))/, 6000/open/tcp//X11//(access denied)/
+Host: 175.45.178.181 ()	Status: Up
+Host: 175.45.178.181 ()	Ports: 22/open/tcp//ssh//OpenSSH 5.3 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.2.15 ((Red Hat))/, 6000/open/tcp//X11//(access denied)/
+Host: 175.45.178.182 ()	Status: Up
+Host: 175.45.178.182 ()	Ports: 22/open/tcp//ssh//OpenSSH 5.3 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.2.15 ((Red Hat))/, 6000/open/tcp//X11//(access denied)/
+Host: 175.45.178.183 ()	Status: Up
+Host: 175.45.178.183 ()	Ports: 22/open/tcp//ssh//OpenSSH 5.3 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.2.15 ((Red Hat))/
+Host: 175.45.178.184 ()	Status: Up
+Host: 175.45.178.184 ()	Ports: 22/open/tcp//ssh//OpenSSH 5.3 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.2.15 ((Red Hat))/, 6000/open/tcp//X11//(access denied)/
+Host: 175.45.178.185 ()	Status: Up
+Host: 175.45.178.185 ()	Ports: 22/open/tcp//ssh//OpenSSH 5.3 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.2.15 ((Red Hat))/, 6000/open/tcp//X11//(access denied)/
+Host: 175.45.178.186 ()	Status: Up
+Host: 175.45.178.186 ()	Ports: 22/open/tcp//ssh//OpenSSH 5.3 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.2.15 ((Red Hat))/, 6000/open/tcp//X11//(access denied)/
+Host: 175.45.178.187 ()	Status: Up
+Host: 175.45.178.187 ()	Ports: 22/open/tcp//ssh//OpenSSH 5.3 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.2.15 ((Red Hat))/, 6000/open/tcp//X11//(access denied)/
+Host: 175.45.178.188 ()	Status: Up
+Host: 175.45.178.188 ()	Ports: 22/open/tcp//ssh//OpenSSH 5.3 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.2.15 ((Red Hat))/, 1056/filtered/tcp//vfo///, 1201/filtered/tcp//nucleus-sand///, 1812/filtered/tcp//radius///, 2001/filtered/tcp//dc///, 2042/filtered/tcp//isis///, 2046/filtered/tcp//sdfunc///, 4111/filtered/tcp//xgrid///, 4444/filtered/tcp//krb524///, 4567/filtered/tcp//tram///, 5004/filtered/tcp//avt-profile-1///, 5221/filtered/tcp//3exmp///, 5550/filtered/tcp//sdadmind///, 6000/open/tcp//X11//(access denied)/, 6001/filtered/tcp//X11:1///, 9011/filtered/tcp//unknown///, 9876/filtered/tcp//sd///, 9944/filtered/tcp//unknown///, 51493/filtered/tcp//unknown///, 55056/filtered/tcp//unknown///, 60020/filtered/tcp//unknown///	Ignored State: closed (978)
+# Nmap done at Tue Feb  2 21:46:09 2016 -- 1024 IP addresses (10 hosts up) scanned in 2767.09 seconds

@@ -1,0 +1,4 @@
+# Nmap 6.47 scan initiated Thu Mar  3 21:00:01 2016 as: /usr/bin/nmap -A -oN /home/benedikt/projects/nk-scans/nmap/nk-KTPC.%d-%m-%Y.txt -oG /home/benedikt/projects/nk-scans/nmap/nk-KTPC.%d-%m-%Y.grep 210.52.109.0/24
+Host: 210.52.109.1 ()	Status: Up
+Host: 210.52.109.1 ()	Status: Up
+# Nmap done at Thu Mar  3 21:00:58 2016 -- 256 IP addresses (1 host up) scanned in 56.33 seconds
