@@ -1,0 +1,96 @@
+[
+  {
+    "host": "175.45.176.71",
+    "ptr": "",
+    "date": "2015-10-08",
+    "status": [
+      "Up",
+      "Up"
+    ]
+  },
+  {
+    "host": "175.45.176.79",
+    "ptr": "",
+    "date": "2015-10-08",
+    "status": [
+      "Up",
+      "Up"
+    ]
+  },
+  {
+    "host": "175.45.177.74",
+    "ptr": "",
+    "date": "2015-10-08",
+    "status": [
+      "Up",
+      "Up"
+    ]
+  },
+  {
+    "host": "175.45.178.142",
+    "ptr": "",
+    "date": "2015-10-08",
+    "status": [
+      "Up"
+    ],
+    "ports": [
+      {
+        "ipv4": 22,
+        "fingerprint": "22/open/tcp//ssh//Cisco SSH 1.25 (protocol 1.99)/"
+      },
+      {
+        "ipv4": 23,
+        "fingerprint": "23/open/tcp//telnet//Cisco router telnetd/"
+      }
+    ],
+    "ignored state": [
+      "closed (998)"
+    ]
+  },
+  {
+    "host": "175.45.178.179",
+    "ptr": "",
+    "date": "2015-10-08",
+    "status": [
+      "Up"
+    ],
+    "ports": [
+      {
+        "ipv4": 22,
+        "fingerprint": "22/open/tcp//ssh//OpenSSH 5.3 (protocol 2.0)/"
+      },
+      {
+        "ipv4": 80,
+        "fingerprint": "80/open/tcp//http//Apache httpd 2.2.15 ((Red Hat))/"
+      },
+      {
+        "ipv4": 6000,
+        "fingerprint": "6000/open/tcp//X11//(access denied)/"
+      }
+    ],
+    "ignored state": [
+      "closed (997)"
+    ]
+  },
+  {
+    "host": "175.45.178.198",
+    "ptr": "",
+    "date": "2015-10-08",
+    "status": [
+      "Up"
+    ],
+    "ports": [
+      {
+        "ipv4": 80,
+        "fingerprint": "80/closed/tcp//http///"
+      },
+      {
+        "ipv4": 443,
+        "fingerprint": "443/closed/tcp//https///"
+      }
+    ],
+    "ignored state": [
+      "filtered (998)"
+    ]
+  }
+]

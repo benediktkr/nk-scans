@@ -1,0 +1,58 @@
+[
+  {
+    "host": "175.45.176.79",
+    "ptr": "",
+    "date": "2015-10-03",
+    "status": [
+      "Up",
+      "Up"
+    ]
+  },
+  {
+    "host": "175.45.177.74",
+    "ptr": "",
+    "date": "2015-10-03",
+    "status": [
+      "Up",
+      "Up"
+    ]
+  },
+  {
+    "host": "175.45.178.137",
+    "ptr": "",
+    "date": "2015-10-03",
+    "status": [
+      "Up"
+    ],
+    "ports": [
+      {
+        "ipv4": 3128,
+        "fingerprint": "3128/open/tcp//http-proxy//Squid http proxy 3.3.8/"
+      }
+    ],
+    "ignored state": [
+      "closed (999)"
+    ]
+  },
+  {
+    "host": "175.45.178.142",
+    "ptr": "",
+    "date": "2015-10-03",
+    "status": [
+      "Up"
+    ],
+    "ports": [
+      {
+        "ipv4": 22,
+        "fingerprint": "22/open/tcp//ssh//Cisco SSH 1.25 (protocol 1.99)/"
+      },
+      {
+        "ipv4": 23,
+        "fingerprint": "23/open/tcp//telnet//Cisco router telnetd/"
+      }
+    ],
+    "ignored state": [
+      "closed (998)"
+    ]
+  }
+]
